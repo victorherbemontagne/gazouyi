@@ -1,0 +1,98 @@
+<nav class="navbar navbar-expand-lg navbar-light theme-nav fixed-top"
+     [class.darkHeader]="darkHeader">
+  <div class="nav-background" [ngClass]="{show: shouldShow, hide: !shouldShow}"></div>
+  <div class="container">
+    <a class="navbar-brand order-2 order-lg-1"
+       [routerLink]="'/home'"
+       href="#intro"
+       [pageScrollOffset]="80"
+       pageScroll><img src="assets/images/logos/logo_nav.png"
+           alt="logo"></a>
+    <!-- <button mat-flat-button color="accent" class="feedback-btn" (click)="goForm()">We need your feedback</button> -->
+    <button (click)="shouldShow = !shouldShow"
+            class="navbar-toggler order-1 order-lg-2"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="selectLanguage order-3 order-lg-3">
+      <mat-form-field class="ml-lg-3" floatLabel="never">
+        <mat-select [(value)]="defaultValue">
+          <mat-option *ngFor="let language of languages" [value]="language.value" (click)="setLang(language.value)">
+            {{language.viewValue}}
+          </mat-option>
+
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="collapse navbar-collapse default-nav order-4 order-lg-2"
+         id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto"
+          id="mymenu">
+        <!-- <li class="nav-item">
+          <a class="nav-link"
+             [routerLink]="'/home'"
+             href="#intro"
+             [pageScrollOffset]="80"
+             pageScroll>Home</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link"
+             [routerLink]="'/home'"
+             href="#benefits"
+             [pageScrollOffset]="80"
+             pageScroll>About</a>
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link"
+               [routerLink]="'/home'"
+               href="#feature"
+               [pageScrollOffset]="0"
+               pageScroll>Features</a>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link"
+             [routerLink]="'/home'"
+             href="#team"
+             [pageScrollOffset]="0"
+             pageScroll>Team</a>
+        </li> -->
+        <!-- <li class="nav-item">
+            <a class="nav-link"
+               [routerLink]="'/home'"
+               href="#research"
+               [pageScrollOffset]="80"
+               pageScroll>Research</a>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link"
+          [routerLink]="'/home'"
+          href="#home-news"
+          [pageScrollOffset]="10"
+          pageScroll>News</a>
+          </li> -->
+        <li class="nav-item">
+          <a class="nav-link"
+             [routerLink]="'/home'"
+             href="#newsletter"
+             [pageScrollOffset]="40"
+             pageScroll>Contact</a>
+        <li class="nav-item">
+          <!-- <a class="nav-link"
+             [routerLink]="'/blog'"
+             href="https://www.wordpress.com/gazouyi"
+             [pageScrollOffset]="40"
+             pageScroll>Blog</a> -->
+             <a class="nav-link"
+             href="https://www.wordpress.com/gazouyi"
+             [pageScrollOffset]="40"
+             pageScroll>Blog</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

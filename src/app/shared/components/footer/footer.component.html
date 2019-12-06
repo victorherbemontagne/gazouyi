@@ -1,0 +1,85 @@
+<div class="container-fluid footer" *ngIf="!bMobile; else mobile">
+  <div class="row"><div class="col-9 mx-auto">
+    <div class="row pt-5 pb-5">
+      <div class="col-6 pt-5">
+          <h3><span>The values we hold close to our heartzz</span></h3>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-between">
+      <div class="col-4">
+        <div class="w-100 mr-2">
+          <h4><span>[x]  Title 1</span></h4>
+        </div>
+        <div class="w-100 mr-2">
+          <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas erat tortor, auctor vel luctus sit amet, placerat eu sapien. Nunc vel sodales dolor.</span></p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="w-100 mr-1 ml-1">
+          <h4><span>[x]  Title 2</span></h4>
+        </div>
+        <div class="w-100 mr-1 ml-1">
+          <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
+        </div>
+      </div>
+      <div class="col-4">
+          <div class="w-100 ml-2">
+            <h4><span>[x]  Title 3</span></h4>
+          </div>
+          <div class="w-100 ml-2">
+            <p><span>Praesent faucibus lacus vel finibus cursus. Nullam porttitor metus tellus, sit amet imperdiet magna tempor in. Nam. </span></p>
+          </div>
+        </div>
+    </div>
+    <div class="horizontal-divider pt-5 pb-5">
+      <hr>
+    </div>
+    <div class="row d-flex justify-content-between pb-5">
+      <div class="col-12 d-flex justify-content-between">
+        <div>
+          <div class="logo mb-1">
+            <img src="{{ 'SHARED.FOOTER.CONTACT.IMG.SRC' | translate }}" alt="{{ 'SHARED.FOOTER.CONTACT.IMG.ALT' | translate }}">
+          </div>
+          <div class="copyright">
+            <p><span><small>{{ 'SHARED.FOOTER.FOOTNOTE' | translate }}</small></span></p>
+          </div>
+        </div>
+        <div>
+          <h6><span>Investors</span></h6>
+          <p><span>Lorem Ipsum</span></p>
+          <p><span>Lorem Ipsum</span></p>
+        </div>
+        <div>
+          <h6><span>Company</span></h6>
+          <p><span>About us</span></p>
+          <p><span>Careers</span></p>
+          <p><span>Contact us</span></p>
+        </div>
+        <div>
+          <h6><span>Further info</span></h6>
+          <p><span>Terms & Conditions</span></p>
+          <p><span>Privacy Policy</span></p>
+        </div>
+        <div>
+          <h6><span>Follow us</span></h6>
+          <div class="social-icons d-flex mt-2">
+            <div class="social-icon mr-3"><img src="assets/images/icon/facebook.svg"></div>
+            <div class="social-icon mr-3"><img src="assets/images/icon/instagram.svg"></div>
+            <div class="social-icon mr-3"><img src="assets/images/icon/twitter.svg"></div>
+            <div class="social-icon"><img src="assets/images/icon/linkedin.svg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div></div>
+  </div>
+
+<ng-template #mobile>
+  <div class="jumbotron d-flex flex-column align-items-center footer">
+    <div class="logo">
+      <img src="{{ 'SHARED.FOOTER.CONTACT.IMG.SRC' | translate }}" alt="{{ 'SHARED.FOOTER.CONTACT.IMG.ALT' | translate }}">
+    </div>
+    <p><small>{{ 'SHARED.FOOTER.CONTACT.TEL' | translate }}</small></p>
+    <p><small>{{ 'SHARED.FOOTER.CONTACT.MAIL' | translate }}</small></p>
+  </div>
+</ng-template>
