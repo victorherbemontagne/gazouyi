@@ -27,12 +27,12 @@
 
   </div>
   <form [formGroup]="contactForm" class="row d-flex justify-content-center input-buttons" *ngIf="!userSubscribed">
-    <mat-form-field appearance="fill" class="m-4">
+    <!-- <mat-form-field appearance="fill" class="m-4">
       <mat-select placeholder="{{ 'HOME.NEWSLETTER.BTN-PROFILE' | translate}}" formControlName="profile">
         <mat-option *ngFor="let profile of profileTypes" value="{{ profile.VALUE }}">{{ profile.NAME }}</mat-option>
         <mat-option *ngIf="bError" value="unavailable">Default</mat-option>
       </mat-select>
-    </mat-form-field>
+    </mat-form-field> -->
 
     <mat-form-field appearance="fill" class="m-4">
       <input matInput type="email" placeholder="Email" formControlName="email">

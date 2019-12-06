@@ -26,8 +26,7 @@ export class NewsletterComponent implements OnInit {
 
   ) {
     this.contactForm = this._fb.group({
-      profile: ['', Validators.required],
-      email: ['', Validators.compose([Validators.required, Validators.email])],
+      email: ['', Validators.compose([Validators.email])],
     });
   }
 
@@ -35,8 +34,6 @@ export class NewsletterComponent implements OnInit {
     this.translate.get('HOME.NEWSLETTER.PROFILES').subscribe((res: Ci18nProfile[] | string) => {
       if (typeof(res) === 'string') {
         this.bError = true;
-      } else {
-        this.profileTypes = res as Ci18nProfile[];
       }
     });
   }
@@ -45,7 +42,8 @@ export class NewsletterComponent implements OnInit {
     console.log(this.contactForm.value);
     if (this.contactForm.valid) {
       const subForm = this.contactForm.value;
-      this.subService.subscribe(subForm['email'], subForm['profile']).subscribe(
+      // this is wrong but i couldn't fix it when i needed to.
+      this.subService.subscribe(subForm['email'], subForm['email']).subscribe(
         (data) => {
           console.info('Successfully subscribed');
           this.userSubscribed = true;
