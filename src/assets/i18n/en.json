@@ -1,79 +1,89 @@
 {
     "SHARED": {
         "HEADER": {
-            "LINKS": [
-                {
-                    "NAME": "Home"
-                },
-                {
-                    "NAME": "About"
-                },
-                {
-                    "NAME": "Research"
-                },
-                {
-                    "NAME": "Team",
-                    "LINKS": [
-                        {
-                            "NAME": "Experts"
-                        },
-                        {
-                            "NAME": "Members"
-                        }
-                    ]
-                },
-                {
-                    "NAME": "Features"
-                },
-                {
-                    "NAME": "Contact us"
-                },
-                {
-                  "NAME":"Blog"
-                }
-            ]
+            "LOGO": {
+              "IMG": {
+                "SRC": "assets/images/logos/logo_nav.png",
+                "ALT": "Blue Gazouyi logo with bird on letter i"
+              }
+            },
+            "HOME-LINK": "Home",
+            "ABOUT-LINK": "About",
+            "SIGNUP-LINK": "Sign up",
+            "BLOG-LINK": "Blog"
         },
         "FOOTER": {
             "CONTACT": {
                 "IMG": {
-                    "SRC": "assets/images/logos/logo_footer.png",
-                    "ALT": ""
-                },
-                "TEL": "+33-6-52-20-64-18",
-                "MAIL": "info@gazouyi.com"
-            },
-            "FOOTNOTE": "© 2019",
-            "COLUMNS": [
-                {
-                    "TITLE": "Legal",
-                    "LINKS": [
-                        {
-                            "NAME": "Terms of Use",
-                            "HREF": "../pages/terms-of-use"
-                        }
-                    ]
+                    "SRC": "/assets/images/logos/logo_footer.png",
+                    "ALT": "White G with yellow bird Gazouyi logo"
                 }
-            ]
+            },
+            "MEDIA-TITLE": "Follow us",
+            "SOCIALS": [
+              {
+                  "IMG": {
+                      "SRC": "/assets/images/icon/facebook.svg",
+                      "ALT": "button to Gazyoui's facebook page"
+                  },
+                  "HREF": "https://www.facebook.com/gazouyi"
+              },
+              {
+                  "IMG": {
+                      "SRC": "/assets/images/icon/instagram.svg",
+                      "ALT": "button to Gazyoui's instagram page"
+                  },
+                  "HREF": "https://www.instagram.com/gazouyi"
+              },
+              {
+                  "IMG": {
+                      "SRC": "/assets/images/icon/twitter.svg",
+                      "ALT": "button to Gazyoui's twitter page"
+                  },
+                  "HREF": "https://www.twitter.com/gazouyi"
+              },
+              {
+                  "IMG": {
+                      "SRC": "/assets/images/icon/linkedin.svg",
+                      "ALT": "button to Gazyoui's linkedin page"
+                  },
+                  "HREF": "https://www.linkedin.com/gazouyi"
+              }
+          ],
+            "FOOTNOTE": "© 2019",
+            "VALUES":{
+              "TITLE": "The values we hold close to our heartzz",
+              "VALUE1": {
+                "IMG": {
+                  "SRC": "assets/images/logos/logo_footer.png",
+                  "ALT": ""
+                },
+                "TITLE": "Title 1",
+                "TEXT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas erat tortor, auctor vel luctus sit amet, placerat eu sapien. Nunc vel sodales dolor."
+              },
+              "VALUE2": {
+                "IMG": {
+                  "SRC": "assets/images/logos/logo_footer.png",
+                  "ALT": ""
+                },
+                "TITLE": "Title 2",
+                "TEXT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              },
+              "VALUE3": {
+                "IMG": {
+                  "SRC": "assets/images/logos/logo_footer.png",
+                  "ALT": ""
+                },
+                "TITLE": "Title 3",
+                "TEXT": "Praesent faucibus lacus vel finibus cursus. Nullam porttitor metus tellus, sit amet imperdiet magna tempor in. Nam."
+              }
+            }
         }
     },
     "HOME" : {
         "INTRO": {
             "CATCHPHRASE": "Support in your child's journey from egg to first flight",
-            "BTN-START": "Subscribe"
-        },
-        "ABOUT-INTRO": {
-          "CATCHPHRASE": "REACH YOUR CHILD'S POTENTIAL",
-          "DESCRIPTION": [
-            {
-                "PARAGRAPH": "During their first years of life, infants develop physically, emotionally and cognitively at an amazing speed."
-            },
-            {
-                "PARAGRAPH": "These early acquisitions lay the foundation for later academic, personal and professional achievements."
-            },
-            {
-                "PARAGRAPH": "BabyCloud helps your family and your child, to make the most of this critical developmental period."
-            }
-          ]
+            "BTN": "Subscribe"
         },
         "ABOUT-REVERSE": {
             "TITLE": "Simple and intuitive",
@@ -81,22 +91,87 @@
               {
                   "PARAGRAPH": "Gazouyi encourages meaningful interactions between you and your child. We empower you to gather, interact and connect with your child's unique developmental journey, while reassuring you every step of the way."
               }
-            ]
-        },
-        "PRIVACY": {
-          "CATCHPHRASE": "Your family's privacy is paramount",
-          "VIDEO-BTN": "More Infomation",
-          "DESCRIPTION": [
-            {
-                "PARAGRAPH": "We have designed BabyCloud to use the highest cyber security standards available proposed by the biggest institutions in the world (CNIL, MIT, American army) to protect your privacy."
-            },
-            {
-                "PARAGRAPH": "Our security system is regularly tested by third parties to insure and protect your privacy."
+            ],
+            "IMG": {
+              "SRC": "/assets/images/illus/bird_family.png",
+              "ALT": "Three yellow Gazouyi birds. One large parent and two small children."
             }
+        },
+        "BENEFITS": {
+          "TITLE": "",
+          "BENEFIT": [
+              {
+                  "IMG": {
+                      "SRC": "assets/images/illus/gather.png",
+                      "ALT": "Illustration for Gather and Share"
+                  },
+                  "DESCRIPTION": "Gather & Share"
+              },
+              {
+                  "IMG": {
+                      "SRC": "assets/images/illus/understand.png",
+                      "ALT": "Illustration for Understand"
+                  },
+                  "DESCRIPTION": "Understand"
+              },
+              {
+                  "IMG": {
+                      "SRC": "assets/images/illus/bond.png",
+                      "ALT": "Illustration for Bond"
+                  },
+                  "DESCRIPTION": "Bond"
+              }
           ]
+      },
+        "ABOUT-INTRO": {
+          "ABOUT1":{
+            "IMG": {
+              "SRC": "/assets/images/illus/no_image3.png",
+              "ALT": "phone with yellow Gazouyi bird on the screen"
+            },
+            "TITLE": "Gather & Share",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Designed after the idea of a baby book, the nest is your go-to space to gather, safeguard, and share these special memories (of your little one) with your loved ones."
+              },
+              {
+                "PARAGRAPH": ""
+            }
+            ]
+          },
+          "ABOUT2":{
+            "IMG": {
+              "SRC": "/assets/images/illus/no_image2.png",
+              "ALT": "phone laying down with yellow Gazouyi bird on the screen"
+            },
+            "TITLE": "Understand",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "We're here to make things easier for you. Give meaning to the science behind your child's development. Chat with our on-call speech therapist, Chloe, or consult our blog for the answers to all of your questions."
+              }
+            ]
+          },
+          "ABOUT3":{
+            "IMG": {
+              "SRC": "/assets/images/illus/no_image4.png",
+              "ALT": "two floating phones with yellow Gazouyi bird on the screens"
+            },
+            "TITLE": "Connect",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Connect with your child using games and activity suggestions, personally selected for your child."
+              }
+            ]
+          }
         },
         "PARTNERS": {
-            "DESCRIPTION": "Affiliated with",
+            "TITLE": "Our team is pretty great!",
+            "DESCRIPTION": "Gazyoui is made up of a team of educators, linguists, AI engineers, and scientists from the best universities in France. Our project is supported by major scientific institutions in France.",
+            "BTN": "More about us",
+            "IMG":{
+              "SRC": "assets/images/illus/best.png",
+              "ALT": "red prize ribbon"
+            },
             "SUPPORTS": [
                 {
                     "IMG": {
@@ -130,161 +205,9 @@
                 }
             ]
         },
-        "RESEARCH": {
-            "TITLE": "Support the research",
-            "DESCRIPTION": [
-              {
-                  "PARAGRAPH": "Parents, you have the opportunity to take part in our scientific research to establish pioneering quantitative standards and predictive models!"
-              },
-              {
-                  "PARAGRAPH": "Your contribution helps BabyCloud develop tools for early diagnosis of speech delays as well as more efficient intervention programs. These programs will help many children impacted by language or cognitive disorders worldwide."
-              }
-            ]
-        },
-        "TEAM": {
-            "TITLE": "Meet our experts",
-            "MEMBERS": [
-                {
-                    "IMG": {
-                        "SRC": "assets/images/avtar/eDupoux.jpg",
-                        "ALT": "Photograph of Emmanuel Dupoux"
-                    },
-                    "NAME": "Dr. Emmanuel Dupoux",
-                    "DESCRIPTION": "Creator of Babycloud & Speech Technology specialist "
-                },
-                {
-                    "IMG": {
-                        "SRC": "assets/images/avtar/aCristia.jpg",
-                        "ALT": "Photograph of Alejandrina Cristia"
-                    },
-                    "NAME": "Dr. Alejandrina Cristia",
-                    "DESCRIPTION": "CNRS researcher & Child Language Development specialist"
-                },
-                {
-                    "IMG": {
-                        "SRC": "assets/images/avtar/aBillot.jpg",
-                        "ALT": "Photograph of Anne Billot"
-                    },
-                    "NAME": "Anne Billot",
-                    "DESCRIPTION": "Speech Therapist with expertise in cognitive and linguistic remediation."
-                }
-            ],
-            "EVERYONE": {
-              "TITLE": "The whole BabyCloud gang",
-              "BTN-TEAM": "Meet the team",
-              "IMG": {
-                "SRC": "assets/images/avtar/team.jpg",
-                "ALT": "Photograph of the BabyCloud team"
-              }
-            }
-
-        },
-        "BENEFITS": {
-          "TITLE": "",
-          "BENEFIT": [
-              {
-                  "IMG": {
-                      "SRC": "assets/images/illus/gather.png",
-                      "ALT": "Illustration for Gather and Share"
-                  },
-                  "DESCRIPTION": "Gather & Share"
-              },
-              {
-                  "IMG": {
-                      "SRC": "assets/images/illus/understand.png",
-                      "ALT": "Illustration for Understand"
-                  },
-                  "DESCRIPTION": "Understand"
-              },
-              {
-                  "IMG": {
-                      "SRC": "assets/images/illus/bond.png",
-                      "ALT": "Illustration for Bond"
-                  },
-                  "DESCRIPTION": "Bond"
-              }
-          ]
-      },
-        "FEATURE": {
-            "TITLE": "The first steps with Babycloud",
-            "STEPS": [
-                {
-                    "IMG": {
-                        "SRC": "assets/images/illus/testFunction1.png",
-                        "ALT": ""
-                    },
-                    "NAME":"Start with the Logger",
-                    "DESCRIPTION": "Capture your family’s interactions throughout the day and to document the input your child is receiving during their language acquisition stage."
-                },
-                {
-                    "IMG": {
-                        "SRC": "assets/images/illus/testFunction2.png",
-                        "ALT": ""
-                    },
-                    "NAME":"Recharge with the Dock",
-                    "DESCRIPTION": "While the logger charges, the dock transfers the recordings to the secure cloud for analysis. Don’t worry, the process is totally secure and encrypted."
-                },
-                {
-                    "IMG": {
-                        "SRC": "assets/images/illus/testFunction3.png",
-                        "ALT": ""
-                    },
-                    "NAME":"Analyze with the Baby SmartBox",
-                    "DESCRIPTION": "Our existing pipeline (source separation, voice activity detection, speaker diarization) will extract, segment and label stretches of data with communicative activity."
-                },
-                {
-                    "IMG": {
-                        "SRC": "assets/images/illus/testFunction4.png",
-                        "ALT": ""
-                    },
-                    "NAME":"Get informed with the Explorer",
-                    "DESCRIPTION": "Parents have access to metadata and developmental analytics (child’s first words, language milestones, linguistic and social interactions clips and analyses)."
-                },
-                {
-                    "IMG": {
-                        "SRC": "assets/images/illus/testFunction5.png",
-                        "ALT": ""
-                    },
-                    "NAME":"Get involved in “Citizen Science”",
-                    "DESCRIPTION": "Ultimately, your contribution will help many children impacted by language or cognitive disorders worldwide."
-                }
-            ]
-        },
-        "TESTIMONIAL": {
-            "TITLE": "PRAISES FROM FAMILIES",
-            "TESTIMONIES": [
-                {
-                    "IMG": {
-                        "SRC": "assets/images/avtar/parents01.jpg",
-                        "ALT": ""
-                    },
-                    "CITATION": "The app is cute and super easy to use.",
-                    "NAME": "Noah's parents",
-                    "LOCATION": "Clichy - France"
-                },
-                {
-                    "IMG": {
-                        "SRC": "assets/images/avtar/parents02.jpg",
-                        "ALT": ""
-                    },
-                    "CITATION": "We love all of BabyCloud’s functionalities developed so far and are really interested in advancing  research.",
-                    "NAME": "Margaux’s parents",
-                    "LOCATION": "Paris - France"
-                },
-                {
-                    "IMG": {
-                        "SRC": "assets/images/avtar/parents03.jpg",
-                        "ALT": ""
-                    },
-                    "CITATION": "We are particularly interested in the chart and milestones features. We are definitely interested in being a beta-tester as we just had a new addition the family.",
-                    "NAME": "Elliott’s parents",
-                    "LOCATION": "Paris - France"
-                }
-            ]
-        },
         "NEWSLETTER": {
             "CATCHPHRASE": "Want to get involved?",
-            "DESCRIPTION": "If you want try the BabyCloud app, register for beta test via this link. If you have any questions, recommandations or just want to chat, please send us an email at info@babycloudlab.com",
+            "DESCRIPTION": "If you want try the BabyCloud app, register for beta test via this link. If you have any questions, recommendations or just want to chat, please send us an email at info@babycloudlab.com",
             "BTN-PROFILE": "Profile",
             "MSG-INVALID-MAIL": "Please enter a valid email address",
             "PROFILES": [
@@ -302,234 +225,12 @@
                 }
             ],
             "BTN-SEND": "Subscribe",
-            "DISCLAIMER": "If you want try the BabyCloud app, register for beta test via this link. If you have any questions, recommandations or just want to chat, please send us an email at info[at]babycloudlab[dot]com"
+            "DISCLAIMER": "Your email address is only used to keep you informed on the progress of the Gazouyi project. We invite you to consult the site's terms of use for more information on the user’s rights."
         }
     },
     "PAGES" : {
-      "CAREERS": {
-        "TITLE": "Careers",
-        "SECTION-TITLE": "Join Our Team!",
-        "DESCRIPTION": [
-          {
-              "PARAGRAPH": "Be part of a human-sized [agency] filled with passionate and friendly people, collaborate with appealing international clients that have similar values to our own and be in a team that has a thirst for new technologies."
-          },
-          {
-              "PARAGRAPH": "More than just a place to work, [company] is a place where your happiness matters and your talents are valued."
-          }
-        ],
-        "MESSAGE": "Available Positions",
-        "POSITIONS": [
-          {
-            "POSITION": "IT Manager",
-            "LOCATION": "Paris, France"
-          },
-          {
-            "POSITION": "CEO",
-            "LOCATION": "Marseille, France"
-          }
-        ],
-        "CALLTOACTION": "Don't see what you are looking for?",
-        "INFORMATION1": "If the position you are searching for is not in the list, or you are freelancer and interested in collaborating with us, feel free to get in touch at",
-        "EMAIL": "contact@babylabcloud.com",
-        "INFORMATION2": "."
-      },
-      "NEWS":{
-        "TITLE": "News",
-        "SUBTITLE": "Check out current news stories that feature information similar to what we are doing.",
-        "BTN-MORE": "See more",
-        "FILTERS": [
-          {
-            "FILTER": "All"
-          },
-          {
-            "FILTER": "newspaper"
-          },
-          {
-            "FILTER": "blog"
-          },
-          {
-            "FILTER": "other"
-          }
-        ],
-        "ARTICLES": [
-          {
-            "IMG": {
-              "SRC": "assets/images/news/baby-2709666__340.jpg",
-              "ALT": ""
-            },
-            "HEADLINE": "Why are the first years of our children’s lives so important for learning?",
-            "PUBLISHER": "Cogtales",
-            "HREF": "https://cogtales.wordpress.com/2018/10/15/screen-baby-lets-look-at-evidence-not-trends/",
-            "FILTER": "",
-            "LANGUAGE": "🇬🇧"
-          },
-          {
-            "IMG": {
-              "SRC": "assets/images/news/childlanguage.jpg",
-              "ALT": ""
-            },
-            "HEADLINE": "Why are children so good at learning languages?",
-            "PUBLISHER": "Horizon: the EU Research & Innovation magazine",
-            "HREF": "https://article.risinguparis.com/s80xW7/?fbclid=IwAR2sRo2NdmDVVpsFN3jiweg6zdleeivYJkkhclfyfo54rsT4_4vUb0zsL7w",
-            "FILTER": "",
-            "LANGUAGE": "🇬🇧"
-          },
-          {
-            "IMG": {
-              "SRC": "assets/images/news/jelleke-vanooteghem-386022-unsplash-min-e1545042013182.jpg",
-              "ALT": ""
-            },
-            "HEADLINE": "Les bébés et les écrans ? Des recommandations basées sur la science et non sur la tendance.",
-            "PUBLISHER": "Rising Up",
-            "HREF": "https://blog.risinguparis.com/les-bebes-et-les-ecrans-des-recommandations-basees-sur-la-science-et-non-sur-la-tendance/",
-            "FILTER": "",
-            "LANGUAGE": "🇫🇷"
-          },
-          {
-            "IMG": {
-              "SRC": "assets/images/news/science-668353-unsplash-e1545041937564.jpg",
-              "ALT": ""
-            },
-            "HEADLINE": "Comment et pourquoi améliorer ses outils pédagogiques à l’aide de la Science?",
-            "PUBLISHER": "Rising Up",
-            "HREF": "https://blog.risinguparis.com/comment-et-pourquoi-ameliorer-ses-outils-pedagogiques-a-laide-de-la-science/",
-            "FILTER": "",
-            "LANGUAGE": "🇫🇷"
-          },
-          {
-            "IMG": {
-              "SRC": "assets/images/news/photo-1481627834876-b7833e8f5570-ConvertImage.jpg",
-              "ALT": ""
-            },
-            "HEADLINE": "Les sciences cognitives: pour qui? pour quoi?",
-            "PUBLISHER": "Rising Up",
-            "HREF": "https://blog.risinguparis.com/les-sciences-cognitives-pour-qui-pour-quoi/",
-            "FILTER": "",
-            "LANGUAGE": "🇫🇷"
-          },
-          {
-            "IMG": {
-              "SRC": "assets/images/news/picoti-magazine.jpg",
-              "ALT": ""
-            },
-            "HEADLINE": "Acquisition du langage : le cerveau à la loupe",
-            "PUBLISHER": "Picoti",
-            "HREF": "https://www.picoti-magazine.com/blog/acquisition-du-langage-le-cerveau-a-la-loupe",
-            "FILTER": "",
-            "LANGUAGE": "🇫🇷"
-          },
-          {
-            "IMG": {
-              "SRC": "assets/images/news/nouvelobs.jpg",
-              "ALT": ""
-            },
-            "HEADLINE": "Les smartphones nous rendent-ils bêtes?",
-            "PUBLISHER": "L'Obs",
-            "HREF": "https://www.nouvelobs.com/2049/20190405.OBS11156/les-smartphones-nous-rendent-ils-betes.html",
-            "FILTER": "",
-            "LANGUAGE": "🇫🇷"
-          }
-        ]
-      },
-      "TEAM":{
-        "TITLE": "Meet our team",
-        "SUBTITLE": "Our team brings a wealth of experience in cognitive science, technology, digital security, and design.",
-        "MEMBERS": [
-          {
-              "IMG": {
-                  "SRC": "assets/images/avtar/eDupoux2.jpg",
-                  "ALT": "Image of Emmanuel Dupoux"
-              },
-              "NAME": "Emmanuel Dupoux",
-              "DESCRIPTION": "Project Leader"
-          },
-          {
-            "IMG": {
-                "SRC": "assets/images/avtar/xCao.jpg",
-                "ALT": "Image of Xuan-Nga Cao"
-            },
-            "NAME": "Xuan-Nga Cao",
-            "DESCRIPTION": "Project Manager"
-          },
-          {
-            "IMG": {
-                "SRC": "assets/images/avtar/mKhentout.jpg",
-                "ALT": "Image of Manel Khentout"
-            },
-            "NAME": "Manel Khentout",
-            "DESCRIPTION": "Engineer"
-          },
-          {
-            "IMG": {
-                "SRC": "assets/images/avtar/nHamilakis.jpg",
-                "ALT": "Image of Nick Hamilakis"
-            },
-            "NAME": "Nick Hamilakis",
-            "DESCRIPTION": "Engineer"
-          },
-          {
-            "IMG": {
-                "SRC": "assets/images/avtar/vFranzi.jpg",
-                "ALT": "Image of Victor Franzi"
-            },
-            "NAME": "Victor Franzi",
-            "DESCRIPTION": "Engineer"
-          },
-          {
-            "IMG": {
-                "SRC": "assets/images/avtar/mLavechin.jpg",
-                "ALT": "Image of Marvin Lavechin"
-            },
-            "NAME": "Marvin Lavechin",
-            "DESCRIPTION": "Engineer"
-          },
-          {
-            "IMG": {
-                "SRC": "assets/images/avtar/mOuldArbi.jpg",
-                "ALT": "Image of Malik Ould Arbi"
-            },
-            "NAME": "Malik Ould Arbi",
-            "DESCRIPTION": "Engineer"
-          },
-          {
-            "IMG": {
-                "SRC": "assets/images/avtar/mAyachi.jpg",
-                "ALT": "Image of Meriem Ayachi"
-            },
-            "NAME": "Meriem Ayachi",
-            "DESCRIPTION": "Engineer"
-          },
-          {
-            "IMG": {
-                "SRC": "assets/images/avtar/kMadden.jpg",
-                "ALT": "Image of Kris Madden"
-            },
-            "NAME": "Kris Madden",
-            "DESCRIPTION": "Web Designer"
-          },
-          {
-            "IMG": {
-                "SRC": "assets/images/avtar/aAbdulCarim.jpg",
-                "ALT": "Image of Amreen Abdul Carim"
-            },
-            "NAME": "Amreen Abdul Carim",
-            "DESCRIPTION": "Legal Expert"
-          },
-          {
-            "IMG": {
-                "SRC": "assets/images/avtar/rCavan.jpg",
-                "ALT": "Image of Raphaël Cavan"
-            },
-            "NAME": "Raphaël Cavan",
-            "DESCRIPTION": "Legal Expert"
-          }
-        ]
-      },
-      "CONSTRUCTION": {
-        "TITLE": "Under Construction",
-        "INSTRUCTIONS": "Access Code",
-        "PASSWORD": "Code",
-        "BTN": "Enter"
+      "MORE-ABOUT-US": {
+        "TITLE": "More About Us"
       },
       "PRIVACY-POLICY": {
         "TITLE": "Privacy Policy",

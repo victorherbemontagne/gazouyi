@@ -60,7 +60,7 @@ export class TeamComponent implements OnInit {
                     NAME: 'An error occured',
                     DESCRIPTION: 'Cannot get translation',
                     IMG: {
-                        ALT: '',
+                        ALT: 'ERROR',
                         SRC: ''
                     }
                 }];

@@ -14,9 +14,15 @@ export class AboutIntroComponent implements OnInit {
   public bError = false;
   public bMedium = false;
 
-    public paragraphs: Ci18nParagraph[] = [{
+    public paragraphs1: Ci18nParagraph[] = [{
       PARAGRAPH: 'Loading...',
   }];
+  public paragraphs2: Ci18nParagraph[] = [{
+    PARAGRAPH: 'Loading...',
+}];
+public paragraphs3: Ci18nParagraph[] = [{
+  PARAGRAPH: 'Loading...',
+}];
 
 
   constructor(breakpointObserver: BreakpointObserver, public translate: TranslateService) {
@@ -31,14 +37,36 @@ export class AboutIntroComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.translate.get('HOME.ABOUT-INTRO.DESCRIPTION').subscribe((res: Ci18nParagraph[] | string) => {
+    this.translate.get('HOME.ABOUT-INTRO.ABOUT1.DESCRIPTION').subscribe((res: Ci18nParagraph[] | string) => {
       if (typeof(res) === 'string') {
         this.bError = true;
-        this.paragraphs = [{
+        this.paragraphs1 = [{
           PARAGRAPH: 'Cannot get translation!'
       }];
       } else {
-        this.paragraphs = res as Ci18nParagraph[];
+        this.paragraphs1 = res as Ci18nParagraph[];
+      }
+    });
+
+    this.translate.get('HOME.ABOUT-INTRO.ABOUT2.DESCRIPTION').subscribe((res: Ci18nParagraph[] | string) => {
+      if (typeof(res) === 'string') {
+        this.bError = true;
+        this.paragraphs2 = [{
+          PARAGRAPH: 'Cannot get translation!'
+      }];
+      } else {
+        this.paragraphs2 = res as Ci18nParagraph[];
+      }
+    });
+
+    this.translate.get('HOME.ABOUT-INTRO.ABOUT3.DESCRIPTION').subscribe((res: Ci18nParagraph[] | string) => {
+      if (typeof(res) === 'string') {
+        this.bError = true;
+        this.paragraphs3 = [{
+          PARAGRAPH: 'Cannot get translation!'
+      }];
+      } else {
+        this.paragraphs3 = res as Ci18nParagraph[];
       }
     });
   }

@@ -6,8 +6,7 @@
        [routerLink]="'/home'"
        href="#intro"
        [pageScrollOffset]="80"
-       pageScroll><img src="assets/images/logos/logo_nav.png"
-           alt="logo"></a>
+       pageScroll><img src="{{ 'SHARED.HEADER.LOGO.IMG.SRC' | translate }}" alt="{{ 'SHARED.HEADER.LOGO.IMG.ALT' | translate }}"></a>
     <!-- <button mat-flat-button color="accent" class="feedback-btn" (click)="goForm()">We need your feedback</button> -->
     <button (click)="shouldShow = !shouldShow"
             class="navbar-toggler order-1 order-lg-2"
@@ -33,64 +32,31 @@
          id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto"
           id="mymenu">
-        <!-- <li class="nav-item">
-          <a class="nav-link"
-             [routerLink]="'/home'"
-             href="#intro"
-             [pageScrollOffset]="80"
-             pageScroll>Home</a>
-        </li> -->
+        <li class="nav-item">
+            <a class="nav-link"
+                [routerLink]="'/home'"
+                href="#intro"
+                [pageScrollOffset]="80"
+                pageScroll>{{ 'SHARED.HEADER.HOME-LINK' | translate }}</a>
+          </li>
         <li class="nav-item">
           <a class="nav-link"
              [routerLink]="'/home'"
              href="#benefits"
              [pageScrollOffset]="80"
-             pageScroll>About</a>
+             pageScroll>{{ 'SHARED.HEADER.ABOUT-LINK' | translate }}</a>
         </li>
-        <!-- <li class="nav-item">
-            <a class="nav-link"
-               [routerLink]="'/home'"
-               href="#feature"
-               [pageScrollOffset]="0"
-               pageScroll>Features</a>
-        </li> -->
-        <!-- <li class="nav-item">
-          <a class="nav-link"
-             [routerLink]="'/home'"
-             href="#team"
-             [pageScrollOffset]="0"
-             pageScroll>Team</a>
-        </li> -->
-        <!-- <li class="nav-item">
-            <a class="nav-link"
-               [routerLink]="'/home'"
-               href="#research"
-               [pageScrollOffset]="80"
-               pageScroll>Research</a>
-        </li> -->
-        <!-- <li class="nav-item">
-          <a class="nav-link"
-          [routerLink]="'/home'"
-          href="#home-news"
-          [pageScrollOffset]="10"
-          pageScroll>News</a>
-          </li> -->
         <li class="nav-item">
           <a class="nav-link"
              [routerLink]="'/home'"
              href="#newsletter"
              [pageScrollOffset]="40"
-             pageScroll>Contact</a>
+             pageScroll>{{ 'SHARED.HEADER.SIGNUP-LINK' | translate }}</a>
         <li class="nav-item">
-          <!-- <a class="nav-link"
-             [routerLink]="'/blog'"
-             href="https://www.wordpress.com/gazouyi"
-             [pageScrollOffset]="40"
-             pageScroll>Blog</a> -->
              <a class="nav-link"
              href="https://www.wordpress.com/gazouyi"
              [pageScrollOffset]="40"
-             pageScroll>Blog</a>
+             pageScroll>{{ 'SHARED.HEADER.BLOG-LINK' | translate }}</a>
         </li>
       </ul>
     </div>

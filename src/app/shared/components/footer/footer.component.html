@@ -2,32 +2,41 @@
   <div class="row"><div class="col-9 mx-auto">
     <div class="row pt-5 pb-5">
       <div class="col-6 pt-5">
-          <h3><span>The values we hold close to our heartzz</span></h3>
+          <h3><span>{{ 'SHARED.FOOTER.VALUES.TITLE' | translate }}</span></h3>
       </div>
     </div>
     <div class="row d-flex justify-content-between">
-      <div class="col-4">
+      <div class="col-4 our-values">
         <div class="w-100 mr-2">
-          <h4><span>[x]  Title 1</span></h4>
-        </div>
-        <div class="w-100 mr-2">
-          <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas erat tortor, auctor vel luctus sit amet, placerat eu sapien. Nunc vel sodales dolor.</span></p>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="w-100 mr-1 ml-1">
-          <h4><span>[x]  Title 2</span></h4>
-        </div>
-        <div class="w-100 mr-1 ml-1">
-          <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
-        </div>
-      </div>
-      <div class="col-4">
-          <div class="w-100 ml-2">
-            <h4><span>[x]  Title 3</span></h4>
+          <div class="d-flex align-items-center mb-2">
+            <img src="{{ 'SHARED.FOOTER.VALUES.VALUE1.IMG.SRC' | translate }}" alt="{{ 'SHARED.FOOTER.VALUES.VALUE1.IMG.ALT' | translate }}">
+            <h4 class="mb-0 d-inline ml-2"><span>{{ 'SHARED.FOOTER.VALUES.VALUE1.TITLE' | translate }}</span></h4>
           </div>
+        </div>
+        <div class="w-100 mr-2">
+          <p><span>{{ 'SHARED.FOOTER.VALUES.VALUE1.TEXT' | translate }}</span></p>
+        </div>
+      </div>
+      <div class="col-4 our-values">
+          <div class="w-100 mr-2">
+              <div class="d-flex align-items-center mb-2">
+                <img src="{{ 'SHARED.FOOTER.VALUES.VALUE2.IMG.SRC' | translate }}" alt="{{ 'SHARED.FOOTER.VALUES.VALUE2.IMG.ALT' | translate }}">
+                <h4 class="mb-0 d-inline ml-2"><span>{{ 'SHARED.FOOTER.VALUES.VALUE2.TITLE' | translate }}</span></h4>
+              </div>
+            </div>
+        <div class="w-100 mr-1 ml-1">
+          <p><span>{{ 'SHARED.FOOTER.VALUES.VALUE2.TEXT' | translate }}</span></p>
+        </div>
+      </div>
+      <div class="col-4 our-values">
+          <div class="w-100 mr-2">
+              <div class="d-flex align-items-center mb-2">
+                <img src="{{ 'SHARED.FOOTER.VALUES.VALUE3.IMG.SRC' | translate }}" alt="{{ 'SHARED.FOOTER.VALUES.VALUE3.IMG.ALT' | translate }}">
+                <h4 class="mb-0 d-inline ml-2"><span>{{ 'SHARED.FOOTER.VALUES.VALUE3.TITLE' | translate }}</span></h4>
+              </div>
+            </div>
           <div class="w-100 ml-2">
-            <p><span>Praesent faucibus lacus vel finibus cursus. Nullam porttitor metus tellus, sit amet imperdiet magna tempor in. Nam. </span></p>
+            <p><span>{{ 'SHARED.FOOTER.VALUES.VALUE3.TEXT' | translate }}</span></p>
           </div>
         </div>
     </div>
@@ -61,12 +70,9 @@
           <p><span>Privacy Policy</span></p>
         </div> -->
         <div>
-          <h6><span>Follow us</span></h6>
+          <h6><span>{{ 'SHARED.FOOTER.MEDIA-TITLE' | translate }}</span></h6>
           <div class="social-icons d-flex mt-2">
-            <div class="social-icon mr-3"><img src="assets/images/icon/facebook.svg"></div>
-            <div class="social-icon mr-3"><img src="assets/images/icon/instagram.svg"></div>
-            <div class="social-icon mr-3"><img src="assets/images/icon/twitter.svg"></div>
-            <div class="social-icon"><img src="assets/images/icon/linkedin.svg"></div>
+            <div class="social-icon mr-3" *ngFor="let social of socials"><a href="{{ social.HREF }}"><img src="{{ social.IMG.SRC }}" alt="{{ social.IMG.ALT }}"></a></div>
           </div>
         </div>
       </div>

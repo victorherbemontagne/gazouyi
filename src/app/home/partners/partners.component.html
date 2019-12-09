@@ -4,16 +4,16 @@
       <div class="row align-items-center">
 
         <div class="col-6 col-md-4 mx-auto best-ribbon">
-          <img src="assets/images/illus/best.png" alt="team ribbon">
+          <img src="{{ 'HOME.PARTNERS.IMG.SRC' | translate }}" alt="{{ 'HOME.PARTNERS.IMG.ALT' | translate }}">
         </div>
 
         <div class="col-12 col-md-8 mx-auto">
-          <h2 class="title text-center text-md-left md-margin-top">Our team is pretty great!</h2>
-          <p class="text-center text-md-left newsletter-description">Gazyoui is made up of a team of educators, linguists, AI engineers, and scientists from the best universities in France. Our project is supported by major scientific institutions in France.</p>
+          <h2 class="title text-center text-md-left md-margin-top">{{ 'HOME.PARTNERS.TITLE' | translate }}</h2>
+          <p class="text-center text-md-left newsletter-description">{{ 'HOME.PARTNERS.DESCRIPTION' | translate }}</p>
 
           <div class="text-center text-md-left">
             <a [routerLink]="'/pages/team'">
-              <button mat-flat-button color="accent" class="m2">More About Us</button>
+              <button mat-flat-button color="accent" class="m2">{{ 'HOME.PARTNERS.BTN' | translate }}</button>
             </a>
           </div>
       </div>
