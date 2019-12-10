@@ -1,0 +1,393 @@
+{
+    "SHARED": {
+        "HEADER": {
+            "LOGO": {
+              "IMG": {
+                "SRC": "assets/images/logos/logo_nav.png",
+                "ALT": "Blue Gazouyi logo with bird on letter i"
+              }
+            },
+            "HOME-LINK": "Home",
+            "ABOUT-LINK": "About",
+            "SIGNUP-LINK": "Sign up",
+            "BLOG-LINK": "Blog"
+        },
+        "FOOTER": {
+            "CONTACT": {
+                "IMG": {
+                    "SRC": "/assets/images/logos/logo_footer.png",
+                    "ALT": "White G with yellow bird Gazouyi logo"
+                }
+            },
+            "MEDIA-TITLE": "Follow us",
+            "SOCIALS": [
+              {
+                  "IMG": {
+                      "SRC": "/assets/images/icon/facebook.svg",
+                      "ALT": "button to Gazyoui's facebook page"
+                  },
+                  "HREF": "https://www.facebook.com/gazouyi"
+              },
+              {
+                  "IMG": {
+                      "SRC": "/assets/images/icon/instagram.svg",
+                      "ALT": "button to Gazyoui's instagram page"
+                  },
+                  "HREF": "https://www.instagram.com/gazouyi"
+              },
+              {
+                  "IMG": {
+                      "SRC": "/assets/images/icon/twitter.svg",
+                      "ALT": "button to Gazyoui's twitter page"
+                  },
+                  "HREF": "https://www.twitter.com/gazouyi"
+              },
+              {
+                  "IMG": {
+                      "SRC": "/assets/images/icon/linkedin.svg",
+                      "ALT": "button to Gazyoui's linkedin page"
+                  },
+                  "HREF": "https://www.linkedin.com/gazouyi"
+              }
+          ],
+            "FOOTNOTE": "© 2019",
+            "VALUES":{
+              "TITLE": "The values we hold close to our heartzz",
+              "VALUE1": {
+                "IMG": {
+                  "SRC": "assets/images/logos/logo_footer.png",
+                  "ALT": ""
+                },
+                "TITLE": "Title 1",
+                "TEXT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas erat tortor, auctor vel luctus sit amet, placerat eu sapien. Nunc vel sodales dolor."
+              },
+              "VALUE2": {
+                "IMG": {
+                  "SRC": "assets/images/logos/logo_footer.png",
+                  "ALT": ""
+                },
+                "TITLE": "Title 2",
+                "TEXT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              },
+              "VALUE3": {
+                "IMG": {
+                  "SRC": "assets/images/logos/logo_footer.png",
+                  "ALT": ""
+                },
+                "TITLE": "Title 3",
+                "TEXT": "Praesent faucibus lacus vel finibus cursus. Nullam porttitor metus tellus, sit amet imperdiet magna tempor in. Nam."
+              }
+            }
+        }
+    },
+    "HOME" : {
+        "INTRO": {
+            "CATCHPHRASE": "Support in your child's journey from egg to first flight",
+            "BTN": "Subscribe"
+        },
+        "ABOUT-REVERSE": {
+            "TITLE": "Simple and intuitive",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Gazouyi encourages meaningful interactions between you and your child. We empower you to gather, interact and connect with your child's unique developmental journey, while reassuring you every step of the way."
+              }
+            ],
+            "IMG": {
+              "SRC": "/assets/images/illus/bird_family.png",
+              "ALT": "Three yellow Gazouyi birds. One large parent and two small children."
+            }
+        },
+        "BENEFITS": {
+          "TITLE": "",
+          "BENEFIT": [
+              {
+                  "IMG": {
+                      "SRC": "assets/images/illus/gather.png",
+                      "ALT": "Illustration for Gather and Share"
+                  },
+                  "DESCRIPTION": "Gather & Share"
+              },
+              {
+                  "IMG": {
+                      "SRC": "assets/images/illus/understand.png",
+                      "ALT": "Illustration for Understand"
+                  },
+                  "DESCRIPTION": "Understand"
+              },
+              {
+                  "IMG": {
+                      "SRC": "assets/images/illus/bond.png",
+                      "ALT": "Illustration for Bond"
+                  },
+                  "DESCRIPTION": "Bond"
+              }
+          ]
+      },
+        "ABOUT-INTRO": {
+          "ABOUT1":{
+            "IMG": {
+              "SRC": "/assets/images/illus/no_image3.png",
+              "ALT": "phone with yellow Gazouyi bird on the screen"
+            },
+            "TITLE": "Gather & Share",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Designed after the idea of a baby book, the nest is your go-to space to gather, safeguard, and share these special memories (of your little one) with your loved ones."
+              },
+              {
+                "PARAGRAPH": ""
+            }
+            ]
+          },
+          "ABOUT2":{
+            "IMG": {
+              "SRC": "/assets/images/illus/no_image2.png",
+              "ALT": "phone laying down with yellow Gazouyi bird on the screen"
+            },
+            "TITLE": "Understand",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "We're here to make things easier for you. Give meaning to the science behind your child's development. Chat with our on-call speech therapist, Chloe, or consult our blog for the answers to all of your questions."
+              }
+            ]
+          },
+          "ABOUT3":{
+            "IMG": {
+              "SRC": "/assets/images/illus/no_image4.png",
+              "ALT": "two floating phones with yellow Gazouyi bird on the screens"
+            },
+            "TITLE": "Connect",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Connect with your child using games and activity suggestions, personally selected for your child."
+              }
+            ]
+          }
+        },
+        "PARTNERS": {
+            "TITLE": "Our team is pretty great!",
+            "DESCRIPTION": "Gazyoui is made up of a team of educators, linguists, AI engineers, and scientists from the best universities in France. Our project is supported by major scientific institutions in France.",
+            "BTN": "More about us",
+            "IMG":{
+              "SRC": "assets/images/illus/best.png",
+              "ALT": "red prize ribbon"
+            },
+            "SUPPORTS": [
+                {
+                    "IMG": {
+                        "SRC": "/assets/images/logos/cnrs_color.png",
+                        "ALT": "logo centre national de la recherche scientifique"
+                    }
+                },
+                {
+                    "IMG": {
+                        "SRC": "/assets/images/logos/ehess_color.png",
+                        "ALT": "logo école des hautes études en sciences sociales"
+                    }
+                },
+                {
+                    "IMG": {
+                        "SRC": "/assets/images/logos/inria_color.png",
+                        "ALT": "logo Institut national de recherche en informatique et en automatique"
+                    }
+                },
+                {
+                    "IMG": {
+                        "SRC": "/assets/images/logos/psl_color.png",
+                        "ALT": "logo université de recherche Paris-Sciences-et-Lettres"
+                    }
+                },
+                {
+                    "IMG": {
+                        "SRC": "/assets/images/logos/ens_color.png",
+                        "ALT": "logo école normale supérieure"
+                    }
+                }
+            ]
+        },
+        "NEWSLETTER": {
+            "CATCHPHRASE": "Want to get involved?",
+            "DESCRIPTION": "If you want try the BabyCloud app, register for beta test via this link. If you have any questions, recommendations or just want to chat, please send us an email at info@babycloudlab.com",
+            "BTN-PROFILE": "Profile",
+            "MSG-INVALID-MAIL": "Please enter a valid email address",
+            "PROFILES": [
+                {
+                    "NAME": "Parent",
+                    "VALUE": "parent"
+                },
+                {
+                    "NAME": "Researcher",
+                    "VALUE": "researcher"
+                },
+                {
+                    "NAME": "Investor",
+                    "VALUE": "investor"
+                }
+            ],
+            "BTN-SEND": "Subscribe",
+            "DISCLAIMER": "Your email address is only used to keep you informed on the progress of the Gazouyi project. We invite you to consult the site's terms of use for more information on the user’s rights."
+        }
+    },
+    "PAGES" : {
+      "MORE-ABOUT-US": {
+        "TITLE": "More About Us"
+      },
+      "PRIVACY-POLICY": {
+        "TITLE": "Privacy Policy",
+        "OUTLINE": [
+          {
+            "MAIN_POINT": "Point One",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam, nibh vitae feugiat condimentum, nunc ligula convallis odio, ut rutrum orci mi in quam. Nunc ornare rutrum elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur sed dolor euismod, condimentum odio ut, gravida leo. Proin eu aliquet."
+              },
+              {
+                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet sollicitudin lorem, non consectetur nulla. Praesent sit amet orci."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Point Two",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac enim nec ligula commodo pellentesque vitae id risus. Fusce consequat turpis ut erat mattis, at luctus lorem viverra."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Point Three",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere ex libero, quis congue diam consequat in. Aliquam elementum ante vitae felis egestas, sed ullamcorper mauris elementum. Pellentesque."
+              },
+              {
+                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna velit, luctus quis laoreet a, bibendum vitae est. Mauris neque erat, ultrices in facilisis id, ornare iaculis nunc. Morbi fermentum cursus justo, at rutrum ipsum. Nulla facilisi. Nulla tempus commodo dolor, quis varius purus pellentesque nec. Ut pellentesque euismod dolor vitae malesuada."
+              },
+              {
+                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc massa urna, sollicitudin sed felis nec, aliquet."
+              }
+            ]
+          }
+        ]
+      },
+      "TERMS-OF-USE": {
+        "TITLE": "Terms of Use",
+        "OUTLINE": [
+          {
+            "MAIN_POINT": "Legal Notice",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "In accordance with the provisions of article 6 III 1 ° of law No. 2004-575 of the 21st June 2004, we inform you that: the babycloudlab.com website is published by BabyCloud and is located at 29 rue ULM, 75005 Paris - FRANCE"
+              },
+              {
+                  "PARAGRAPH": "Telephone: 01 44 32 26 80\nDirector of publication: Xuan Nga Cao\nContact details : xuan-nga.cao@babycloudlab.com"
+              },
+              {
+                  "PARAGRAPH": "Data Protection Officer ( DPO ) : dpo@babycloudlab.com"
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Purpose of the terms of use",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "The terms of use are intended to govern the use of the site by any user. By browsing the website you acknowledge to having fully read and understood the terms of use."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Definitions",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "<b>Site:</b> refers to the website www.babycloudlab.com"
+              },
+              {
+                  "PARAGRAPH": "<b>Babycloud project:</b> refers to the scientific project carried out by the Cognitive Science and Psycholinguistics Laboratory (LSCP) of the Ecole Normale Supérieure (ENS)."
+              },
+              {
+                  "PARAGRAPH": "<b>General Regulation on the Protection of Personal Data (GDPR):</b> refers to the European legislation in effect since May 25th,  2018 regarding the protection of personal data."
+              },
+              {
+                  "PARAGRAPH": "<b>Internet user:</b> refers to any user who visits the site."
+              },
+              {
+                  "PARAGRAPH": "<b>Subscriber:</b> refers to a user who registers his or her email address on the site and receives the BabyCloud’s newsletter."
+              },
+              {
+                  "PARAGRAPH": "<b>Processing:</b> refers to any operation or set of operations performed on personal data or on sets of personal data, whether or not by automated means, such as the collection, recording, storage, use, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Access to the site",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Access to the website babycloudlab.com is available to any user who has an internet connection."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Data protection",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "<b>Purpose of information processing:</b>\nInformation processing involves the subscription to the BabyCloud’s newsletter. The newsletter will inform subscribers on the progress of the project."
+              },
+              {
+                  "PARAGRAPH": "<b>Data processed:</b>\nThe processed data is solely the email addresses of the users who subscribed to the BabyCloud email list.\nNo IP address will be saved.\nNo commercial cookies are used on this website."
+              },
+              {
+                  "PARAGRAPH": "<b>Persons concerned:</b>\nThe data collection only applies to users who wish to subscribe to the BabyCloud email list."
+              },
+              {
+                  "PARAGRAPH": "<b>Destination of the processed data:</b>\nThe processed data will be used by the Babycloud team solely to send the newsletter. None of the user’s data will be transferred outside the European Union."
+              },
+              {
+                  "PARAGRAPH": "<b>Data retention period:</b>\nBabyCloud keeps the email addresses of its subscribers for a period of 3 years. At the end of this period, they will be asked whether they wish to remain subscribed to the site. They can unsubscribe at any time via the “unsubscribe” link embedded in each email they receive."
+              },
+              {
+                  "PARAGRAPH": "<b>User’s rights:</b>\nUsers may access, obtain a copy, object to the processing, and/or request change or removal of their data. They also have the right to restrict their data collection."
+              },
+              {
+                  "PARAGRAPH": "You can exercise your rights by contacting the DPO at dpo@babycloudlab.com."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Intellectual property",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "www.babycloudlab.com is a reserved domain name. Any unauthorized use of the copyrighted material is punishable by criminal and civil penalties."
+              },
+              {
+                  "PARAGRAPH": "No provision of the terms of use may be interpreted as an assignment of intellectual property rights."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Liability Disclaimer",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "BabyCloud ensures the proper functioning of the site. However, we will not be liable for any loss resulting the user’s browsing activity including service disruption, hacking issues or computer viruses."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Governing law and jurisdiction",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "These terms of use are governed by French law and the parties agree to submit to the exclusive jurisdiction of the French courts."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Changes to the terms of use",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "BabyCloud reserves the right to update the terms of use in order to take into account, any legal and/or technical changes without the user’s consent. Any revised terms of use will be applicable at the time of its posting on the BabyCloud website."
+              }
+            ]
+          }
+        ]
+      }
+    }
+}
