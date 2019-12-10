@@ -1,0 +1,692 @@
+{
+    "SHARED": {
+        "HEADER": {
+            "LINKS": [
+                {
+                    "NAME": "Home"
+                },
+                {
+                    "NAME": "About"
+                },
+                {
+                    "NAME": "Research"
+                },
+                {
+                    "NAME": "Team",
+                    "LINKS": [
+                        {
+                            "NAME": "Experts"
+                        },
+                        {
+                            "NAME": "Members"
+                        }
+                    ]
+                },
+                {
+                    "NAME": "Features"
+                },
+                {
+                    "NAME": "Contact us"
+                },
+                {
+                  "NAME":"Blog"
+                }
+            ]
+        },
+        "FOOTER": {
+            "CONTACT": {
+                "IMG": {
+                    "SRC": "assets/images/logos/logo_footer.png",
+                    "ALT": ""
+                },
+                "TEL": "+33-6-52-20-64-18",
+                "MAIL": "info@gazouyi.com"
+            },
+            "FOOTNOTE": "© 2019",
+            "COLUMNS": [
+                {
+                    "TITLE": "Legal",
+                    "LINKS": [
+                        {
+                            "NAME": "Terms of Use",
+                            "HREF": "../pages/terms-of-use"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "HOME" : {
+        "INTRO": {
+            "CATCHPHRASE": "Accompagnement dans le voyage de votre enfant de l'oeuf au premier vol",
+            "BTN-START": "Subscribe"
+        },
+        "ABOUT-INTRO": {
+          "CATCHPHRASE": "REACH YOUR CHILD'S POTENTIAL",
+          "DESCRIPTION": [
+            {
+                "PARAGRAPH": "During their first years of life, infants develop physically, emotionally and cognitively at an amazing speed."
+            },
+            {
+                "PARAGRAPH": "These early acquisitions lay the foundation for later academic, personal and professional achievements."
+            },
+            {
+                "PARAGRAPH": "BabyCloud helps your family and your child, to make the most of this critical developmental period."
+            }
+          ]
+        },
+        "ABOUT-REVERSE": {
+            "TITLE": "Simple and intuitive",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Gazouyi encourages meaningful interactions between you and your child. We empower you to gather, interact and connect with your child's unique developmental journey, while reassuring you every step of the way."
+              }
+            ]
+        },
+        "PRIVACY": {
+          "CATCHPHRASE": "Your family's privacy is paramount",
+          "VIDEO-BTN": "More Infomation",
+          "DESCRIPTION": [
+            {
+                "PARAGRAPH": "We have designed BabyCloud to use the highest cyber security standards available proposed by the biggest institutions in the world (CNIL, MIT, American army) to protect your privacy."
+            },
+            {
+                "PARAGRAPH": "Our security system is regularly tested by third parties to insure and protect your privacy."
+            }
+          ]
+        },
+        "PARTNERS": {
+            "DESCRIPTION": "Affiliated with",
+            "SUPPORTS": [
+                {
+                    "IMG": {
+                        "SRC": "/assets/images/logos/cnrs_color.png",
+                        "ALT": "logo centre national de la recherche scientifique"
+                    }
+                },
+                {
+                    "IMG": {
+                        "SRC": "/assets/images/logos/ehess_color.png",
+                        "ALT": "logo école des hautes études en sciences sociales"
+                    }
+                },
+                {
+                    "IMG": {
+                        "SRC": "/assets/images/logos/inria_color.png",
+                        "ALT": "logo Institut national de recherche en informatique et en automatique"
+                    }
+                },
+                {
+                    "IMG": {
+                        "SRC": "/assets/images/logos/psl_color.png",
+                        "ALT": "logo université de recherche Paris-Sciences-et-Lettres"
+                    }
+                },
+                {
+                    "IMG": {
+                        "SRC": "/assets/images/logos/ens_color.png",
+                        "ALT": "logo école normale supérieure"
+                    }
+                }
+            ]
+        },
+        "RESEARCH": {
+            "TITLE": "Support the research",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Parents, you have the opportunity to take part in our scientific research to establish pioneering quantitative standards and predictive models!"
+              },
+              {
+                  "PARAGRAPH": "Your contribution helps BabyCloud develop tools for early diagnosis of speech delays as well as more efficient intervention programs. These programs will help many children impacted by language or cognitive disorders worldwide."
+              }
+            ]
+        },
+        "TEAM": {
+            "TITLE": "Meet our experts",
+            "MEMBERS": [
+                {
+                    "IMG": {
+                        "SRC": "assets/images/avtar/eDupoux.jpg",
+                        "ALT": "Photograph of Emmanuel Dupoux"
+                    },
+                    "NAME": "Dr. Emmanuel Dupoux",
+                    "DESCRIPTION": "Creator of Babycloud & Speech Technology specialist "
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/avtar/aCristia.jpg",
+                        "ALT": "Photograph of Alejandrina Cristia"
+                    },
+                    "NAME": "Dr. Alejandrina Cristia",
+                    "DESCRIPTION": "CNRS researcher & Child Language Development specialist"
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/avtar/aBillot.jpg",
+                        "ALT": "Photograph of Anne Billot"
+                    },
+                    "NAME": "Anne Billot",
+                    "DESCRIPTION": "Speech Therapist with expertise in cognitive and linguistic remediation."
+                }
+            ],
+            "EVERYONE": {
+              "TITLE": "The whole BabyCloud gang",
+              "BTN-TEAM": "Meet the team",
+              "IMG": {
+                "SRC": "assets/images/avtar/team.jpg",
+                "ALT": "Photograph of the BabyCloud team"
+              }
+            }
+
+        },
+        "BENEFITS": {
+          "TITLE": "",
+          "BENEFIT": [
+              {
+                  "IMG": {
+                      "SRC": "assets/images/illus/gather.png",
+                      "ALT": "Illustration for Gather and Share"
+                  },
+                  "DESCRIPTION": "Gather & Share"
+              },
+              {
+                  "IMG": {
+                      "SRC": "assets/images/illus/understand.png",
+                      "ALT": "Illustration for Understand"
+                  },
+                  "DESCRIPTION": "Understand"
+              },
+              {
+                  "IMG": {
+                      "SRC": "assets/images/illus/bond.png",
+                      "ALT": "Illustration for Bond"
+                  },
+                  "DESCRIPTION": "Bond"
+              }
+          ]
+      },
+        "FEATURE": {
+            "TITLE": "The first steps with Babycloud",
+            "STEPS": [
+                {
+                    "IMG": {
+                        "SRC": "assets/images/illus/testFunction1.png",
+                        "ALT": ""
+                    },
+                    "NAME":"Start with the Logger",
+                    "DESCRIPTION": "Capture your family’s interactions throughout the day and to document the input your child is receiving during their language acquisition stage."
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/illus/testFunction2.png",
+                        "ALT": ""
+                    },
+                    "NAME":"Recharge with the Dock",
+                    "DESCRIPTION": "While the logger charges, the dock transfers the recordings to the secure cloud for analysis. Don’t worry, the process is totally secure and encrypted."
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/illus/testFunction3.png",
+                        "ALT": ""
+                    },
+                    "NAME":"Analyze with the Baby SmartBox",
+                    "DESCRIPTION": "Our existing pipeline (source separation, voice activity detection, speaker diarization) will extract, segment and label stretches of data with communicative activity."
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/illus/testFunction4.png",
+                        "ALT": ""
+                    },
+                    "NAME":"Get informed with the Explorer",
+                    "DESCRIPTION": "Parents have access to metadata and developmental analytics (child’s first words, language milestones, linguistic and social interactions clips and analyses)."
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/illus/testFunction5.png",
+                        "ALT": ""
+                    },
+                    "NAME":"Get involved in “Citizen Science”",
+                    "DESCRIPTION": "Ultimately, your contribution will help many children impacted by language or cognitive disorders worldwide."
+                }
+            ]
+        },
+        "TESTIMONIAL": {
+            "TITLE": "PRAISES FROM FAMILIES",
+            "TESTIMONIES": [
+                {
+                    "IMG": {
+                        "SRC": "assets/images/avtar/parents01.jpg",
+                        "ALT": ""
+                    },
+                    "CITATION": "The app is cute and super easy to use.",
+                    "NAME": "Noah's parents",
+                    "LOCATION": "Clichy - France"
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/avtar/parents02.jpg",
+                        "ALT": ""
+                    },
+                    "CITATION": "We love all of BabyCloud’s functionalities developed so far and are really interested in advancing  research.",
+                    "NAME": "Margaux’s parents",
+                    "LOCATION": "Paris - France"
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/avtar/parents03.jpg",
+                        "ALT": ""
+                    },
+                    "CITATION": "We are particularly interested in the chart and milestones features. We are definitely interested in being a beta-tester as we just had a new addition the family.",
+                    "NAME": "Elliott’s parents",
+                    "LOCATION": "Paris - France"
+                }
+            ]
+        },
+        "NEWSLETTER": {
+            "CATCHPHRASE": "Want to get involved?",
+            "DESCRIPTION": "If you want try the BabyCloud app, register for beta test via this link. If you have any questions, recommandations or just want to chat, please send us an email at info@babycloudlab.com",
+            "BTN-PROFILE": "Profile",
+            "MSG-INVALID-MAIL": "Please enter a valid email address",
+            "PROFILES": [
+                {
+                    "NAME": "Parent",
+                    "VALUE": "parent"
+                },
+                {
+                    "NAME": "Researcher",
+                    "VALUE": "researcher"
+                },
+                {
+                    "NAME": "Investor",
+                    "VALUE": "investor"
+                }
+            ],
+            "BTN-SEND": "Subscribe",
+            "DISCLAIMER": "If you want try the BabyCloud app, register for beta test via this link. If you have any questions, recommandations or just want to chat, please send us an email at info[at]babycloudlab[dot]com"
+        }
+    },
+    "PAGES" : {
+      "CAREERS": {
+        "TITLE": "Careers",
+        "SECTION-TITLE": "Join Our Team!",
+        "DESCRIPTION": [
+          {
+              "PARAGRAPH": "Be part of a human-sized [agency] filled with passionate and friendly people, collaborate with appealing international clients that have similar values to our own and be in a team that has a thirst for new technologies."
+          },
+          {
+              "PARAGRAPH": "More than just a place to work, [company] is a place where your happiness matters and your talents are valued."
+          }
+        ],
+        "MESSAGE": "Available Positions",
+        "POSITIONS": [
+          {
+            "POSITION": "IT Manager",
+            "LOCATION": "Paris, France"
+          },
+          {
+            "POSITION": "CEO",
+            "LOCATION": "Marseille, France"
+          }
+        ],
+        "CALLTOACTION": "Don't see what you are looking for?",
+        "INFORMATION1": "If the position you are searching for is not in the list, or you are freelancer and interested in collaborating with us, feel free to get in touch at",
+        "EMAIL": "contact@babylabcloud.com",
+        "INFORMATION2": "."
+      },
+      "NEWS":{
+        "TITLE": "News",
+        "SUBTITLE": "Check out current news stories that feature information similar to what we are doing.",
+        "BTN-MORE": "See more",
+        "FILTERS": [
+          {
+            "FILTER": "All"
+          },
+          {
+            "FILTER": "newspaper"
+          },
+          {
+            "FILTER": "blog"
+          },
+          {
+            "FILTER": "other"
+          }
+        ],
+        "ARTICLES": [
+          {
+            "IMG": {
+              "SRC": "assets/images/news/baby-2709666__340.jpg",
+              "ALT": ""
+            },
+            "HEADLINE": "Why are the first years of our children’s lives so important for learning?",
+            "PUBLISHER": "Cogtales",
+            "HREF": "https://cogtales.wordpress.com/2018/10/15/screen-baby-lets-look-at-evidence-not-trends/",
+            "FILTER": "",
+            "LANGUAGE": "🇬🇧"
+          },
+          {
+            "IMG": {
+              "SRC": "assets/images/news/childlanguage.jpg",
+              "ALT": ""
+            },
+            "HEADLINE": "Why are children so good at learning languages?",
+            "PUBLISHER": "Horizon: the EU Research & Innovation magazine",
+            "HREF": "https://article.risinguparis.com/s80xW7/?fbclid=IwAR2sRo2NdmDVVpsFN3jiweg6zdleeivYJkkhclfyfo54rsT4_4vUb0zsL7w",
+            "FILTER": "",
+            "LANGUAGE": "🇬🇧"
+          },
+          {
+            "IMG": {
+              "SRC": "assets/images/news/jelleke-vanooteghem-386022-unsplash-min-e1545042013182.jpg",
+              "ALT": ""
+            },
+            "HEADLINE": "Les bébés et les écrans ? Des recommandations basées sur la science et non sur la tendance.",
+            "PUBLISHER": "Rising Up",
+            "HREF": "https://blog.risinguparis.com/les-bebes-et-les-ecrans-des-recommandations-basees-sur-la-science-et-non-sur-la-tendance/",
+            "FILTER": "",
+            "LANGUAGE": "🇫🇷"
+          },
+          {
+            "IMG": {
+              "SRC": "assets/images/news/science-668353-unsplash-e1545041937564.jpg",
+              "ALT": ""
+            },
+            "HEADLINE": "Comment et pourquoi améliorer ses outils pédagogiques à l’aide de la Science?",
+            "PUBLISHER": "Rising Up",
+            "HREF": "https://blog.risinguparis.com/comment-et-pourquoi-ameliorer-ses-outils-pedagogiques-a-laide-de-la-science/",
+            "FILTER": "",
+            "LANGUAGE": "🇫🇷"
+          },
+          {
+            "IMG": {
+              "SRC": "assets/images/news/photo-1481627834876-b7833e8f5570-ConvertImage.jpg",
+              "ALT": ""
+            },
+            "HEADLINE": "Les sciences cognitives: pour qui? pour quoi?",
+            "PUBLISHER": "Rising Up",
+            "HREF": "https://blog.risinguparis.com/les-sciences-cognitives-pour-qui-pour-quoi/",
+            "FILTER": "",
+            "LANGUAGE": "🇫🇷"
+          },
+          {
+            "IMG": {
+              "SRC": "assets/images/news/picoti-magazine.jpg",
+              "ALT": ""
+            },
+            "HEADLINE": "Acquisition du langage : le cerveau à la loupe",
+            "PUBLISHER": "Picoti",
+            "HREF": "https://www.picoti-magazine.com/blog/acquisition-du-langage-le-cerveau-a-la-loupe",
+            "FILTER": "",
+            "LANGUAGE": "🇫🇷"
+          },
+          {
+            "IMG": {
+              "SRC": "assets/images/news/nouvelobs.jpg",
+              "ALT": ""
+            },
+            "HEADLINE": "Les smartphones nous rendent-ils bêtes?",
+            "PUBLISHER": "L'Obs",
+            "HREF": "https://www.nouvelobs.com/2049/20190405.OBS11156/les-smartphones-nous-rendent-ils-betes.html",
+            "FILTER": "",
+            "LANGUAGE": "🇫🇷"
+          }
+        ]
+      },
+      "TEAM":{
+        "TITLE": "Meet our team",
+        "SUBTITLE": "Our team brings a wealth of experience in cognitive science, technology, digital security, and design.",
+        "MEMBERS": [
+          {
+              "IMG": {
+                  "SRC": "assets/images/avtar/eDupoux2.jpg",
+                  "ALT": "Image of Emmanuel Dupoux"
+              },
+              "NAME": "Emmanuel Dupoux",
+              "DESCRIPTION": "Project Leader"
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/avtar/xCao.jpg",
+                "ALT": "Image of Xuan-Nga Cao"
+            },
+            "NAME": "Xuan-Nga Cao",
+            "DESCRIPTION": "Project Manager"
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/avtar/mKhentout.jpg",
+                "ALT": "Image of Manel Khentout"
+            },
+            "NAME": "Manel Khentout",
+            "DESCRIPTION": "Engineer"
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/avtar/nHamilakis.jpg",
+                "ALT": "Image of Nick Hamilakis"
+            },
+            "NAME": "Nick Hamilakis",
+            "DESCRIPTION": "Engineer"
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/avtar/vFranzi.jpg",
+                "ALT": "Image of Victor Franzi"
+            },
+            "NAME": "Victor Franzi",
+            "DESCRIPTION": "Engineer"
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/avtar/mLavechin.jpg",
+                "ALT": "Image of Marvin Lavechin"
+            },
+            "NAME": "Marvin Lavechin",
+            "DESCRIPTION": "Engineer"
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/avtar/mOuldArbi.jpg",
+                "ALT": "Image of Malik Ould Arbi"
+            },
+            "NAME": "Malik Ould Arbi",
+            "DESCRIPTION": "Engineer"
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/avtar/mAyachi.jpg",
+                "ALT": "Image of Meriem Ayachi"
+            },
+            "NAME": "Meriem Ayachi",
+            "DESCRIPTION": "Engineer"
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/avtar/kMadden.jpg",
+                "ALT": "Image of Kris Madden"
+            },
+            "NAME": "Kris Madden",
+            "DESCRIPTION": "Web Designer"
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/avtar/aAbdulCarim.jpg",
+                "ALT": "Image of Amreen Abdul Carim"
+            },
+            "NAME": "Amreen Abdul Carim",
+            "DESCRIPTION": "Legal Expert"
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/avtar/rCavan.jpg",
+                "ALT": "Image of Raphaël Cavan"
+            },
+            "NAME": "Raphaël Cavan",
+            "DESCRIPTION": "Legal Expert"
+          }
+        ]
+      },
+      "CONSTRUCTION": {
+        "TITLE": "Under Construction",
+        "INSTRUCTIONS": "Access Code",
+        "PASSWORD": "Code",
+        "BTN": "Enter"
+      },
+      "PRIVACY-POLICY": {
+        "TITLE": "Privacy Policy",
+        "OUTLINE": [
+          {
+            "MAIN_POINT": "Point One",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam, nibh vitae feugiat condimentum, nunc ligula convallis odio, ut rutrum orci mi in quam. Nunc ornare rutrum elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur sed dolor euismod, condimentum odio ut, gravida leo. Proin eu aliquet."
+              },
+              {
+                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet sollicitudin lorem, non consectetur nulla. Praesent sit amet orci."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Point Two",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac enim nec ligula commodo pellentesque vitae id risus. Fusce consequat turpis ut erat mattis, at luctus lorem viverra."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Point Three",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere ex libero, quis congue diam consequat in. Aliquam elementum ante vitae felis egestas, sed ullamcorper mauris elementum. Pellentesque."
+              },
+              {
+                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna velit, luctus quis laoreet a, bibendum vitae est. Mauris neque erat, ultrices in facilisis id, ornare iaculis nunc. Morbi fermentum cursus justo, at rutrum ipsum. Nulla facilisi. Nulla tempus commodo dolor, quis varius purus pellentesque nec. Ut pellentesque euismod dolor vitae malesuada."
+              },
+              {
+                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc massa urna, sollicitudin sed felis nec, aliquet."
+              }
+            ]
+          }
+        ]
+      },
+      "TERMS-OF-USE": {
+        "TITLE": "Terms of Use",
+        "OUTLINE": [
+          {
+            "MAIN_POINT": "Legal Notice",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "In accordance with the provisions of article 6 III 1 ° of law No. 2004-575 of the 21st June 2004, we inform you that: the babycloudlab.com website is published by BabyCloud and is located at 29 rue ULM, 75005 Paris - FRANCE"
+              },
+              {
+                  "PARAGRAPH": "Telephone: 01 44 32 26 80\nDirector of publication: Xuan Nga Cao\nContact details : xuan-nga.cao@babycloudlab.com"
+              },
+              {
+                  "PARAGRAPH": "Data Protection Officer ( DPO ) : dpo@babycloudlab.com"
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Purpose of the terms of use",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "The terms of use are intended to govern the use of the site by any user. By browsing the website you acknowledge to having fully read and understood the terms of use."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Definitions",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "<b>Site:</b> refers to the website www.babycloudlab.com"
+              },
+              {
+                  "PARAGRAPH": "<b>Babycloud project:</b> refers to the scientific project carried out by the Cognitive Science and Psycholinguistics Laboratory (LSCP) of the Ecole Normale Supérieure (ENS)."
+              },
+              {
+                  "PARAGRAPH": "<b>General Regulation on the Protection of Personal Data (GDPR):</b> refers to the European legislation in effect since May 25th,  2018 regarding the protection of personal data."
+              },
+              {
+                  "PARAGRAPH": "<b>Internet user:</b> refers to any user who visits the site."
+              },
+              {
+                  "PARAGRAPH": "<b>Subscriber:</b> refers to a user who registers his or her email address on the site and receives the BabyCloud’s newsletter."
+              },
+              {
+                  "PARAGRAPH": "<b>Processing:</b> refers to any operation or set of operations performed on personal data or on sets of personal data, whether or not by automated means, such as the collection, recording, storage, use, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Access to the site",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Access to the website babycloudlab.com is available to any user who has an internet connection."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Data protection",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "<b>Purpose of information processing:</b>\nInformation processing involves the subscription to the BabyCloud’s newsletter. The newsletter will inform subscribers on the progress of the project."
+              },
+              {
+                  "PARAGRAPH": "<b>Data processed:</b>\nThe processed data is solely the email addresses of the users who subscribed to the BabyCloud email list.\nNo IP address will be saved.\nNo commercial cookies are used on this website."
+              },
+              {
+                  "PARAGRAPH": "<b>Persons concerned:</b>\nThe data collection only applies to users who wish to subscribe to the BabyCloud email list."
+              },
+              {
+                  "PARAGRAPH": "<b>Destination of the processed data:</b>\nThe processed data will be used by the Babycloud team solely to send the newsletter. None of the user’s data will be transferred outside the European Union."
+              },
+              {
+                  "PARAGRAPH": "<b>Data retention period:</b>\nBabyCloud keeps the email addresses of its subscribers for a period of 3 years. At the end of this period, they will be asked whether they wish to remain subscribed to the site. They can unsubscribe at any time via the “unsubscribe” link embedded in each email they receive."
+              },
+              {
+                  "PARAGRAPH": "<b>User’s rights:</b>\nUsers may access, obtain a copy, object to the processing, and/or request change or removal of their data. They also have the right to restrict their data collection."
+              },
+              {
+                  "PARAGRAPH": "You can exercise your rights by contacting the DPO at dpo@babycloudlab.com."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Intellectual property",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "www.babycloudlab.com is a reserved domain name. Any unauthorized use of the copyrighted material is punishable by criminal and civil penalties."
+              },
+              {
+                  "PARAGRAPH": "No provision of the terms of use may be interpreted as an assignment of intellectual property rights."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Liability Disclaimer",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "BabyCloud ensures the proper functioning of the site. However, we will not be liable for any loss resulting the user’s browsing activity including service disruption, hacking issues or computer viruses."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Governing law and jurisdiction",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "These terms of use are governed by French law and the parties agree to submit to the exclusive jurisdiction of the French courts."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Changes to the terms of use",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "BabyCloud reserves the right to update the terms of use in order to take into account, any legal and/or technical changes without the user’s consent. Any revised terms of use will be applicable at the time of its posting on the BabyCloud website."
+              }
+            ]
+          }
+        ]
+      }
+    }
+}

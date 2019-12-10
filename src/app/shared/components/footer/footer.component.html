@@ -57,18 +57,18 @@
           <h6><span>Investors</span></h6>
           <p><span>Lorem Ipsum</span></p>
           <p><span>Lorem Ipsum</span></p>
-        </div>
-        <div>
-          <h6><span>Company</span></h6>
-          <p><span>About us</span></p>
-          <p><span>Careers</span></p>
-          <p><span>Contact us</span></p>
-        </div>
-        <div>
-          <h6><span>Further info</span></h6>
-          <p><span>Terms & Conditions</span></p>
-          <p><span>Privacy Policy</span></p>
         </div> -->
+         <div> 
+          <h6><span>{{ 'SHARED.FOOTER.COLUMN1.TITLE' | translate }}</span></h6>
+          <p><span><a [routerLink]="'/pages/about-us'">{{ 'SHARED.FOOTER.COLUMN1.ITEM1.NAME' | translate }}</a></span></p>
+          <!-- <p><span>Careers</span></p> -->
+          <p><span><a [routerLink]="'/pages/contact-us'">{{ 'SHARED.FOOTER.COLUMN1.ITEM2.NAME' | translate }}</a></span></p>
+        </div>
+        <div>
+          <h6><span>{{ 'SHARED.FOOTER.COLUMN2.TITLE' | translate }}</span></h6>
+          <p><span><a [routerLink]="'/pages/terms-of-use'">{{ 'SHARED.FOOTER.COLUMN2.ITEM1.NAME' | translate }}</a></span></p>
+          <p><span><a [routerLink]="'/pages/privacy-policy'">{{ 'SHARED.FOOTER.COLUMN2.ITEM2.NAME' | translate }}</a></span></p>
+        </div>
         <div>
           <h6><span>{{ 'SHARED.FOOTER.MEDIA-TITLE' | translate }}</span></h6>
           <div class="social-icons d-flex mt-2">
@@ -81,11 +81,17 @@
   </div>
 
 <ng-template #mobile>
-  <div class="jumbotron d-flex flex-column align-items-center footer">
-    <div class="logo">
+  <div class="pt-4 row footer">
+    <div class="col-11 mx-auto d-flex align-items-center justify-content-between">
+    <div class="logo float-left">
       <img src="{{ 'SHARED.FOOTER.CONTACT.IMG.SRC' | translate }}" alt="{{ 'SHARED.FOOTER.CONTACT.IMG.ALT' | translate }}">
+      <div class="copyright">
+          <p><span><small>{{ 'SHARED.FOOTER.FOOTNOTE' | translate }}</small></span></p>
+        </div>
     </div>
-    <p><small>{{ 'SHARED.FOOTER.CONTACT.TEL' | translate }}</small></p>
-    <p><small>{{ 'SHARED.FOOTER.CONTACT.MAIL' | translate }}</small></p>
+    <div class="social-icons d-flex float-right">
+      <div class="social-icon mr-3" *ngFor="let social of socials"><a href="{{ social.HREF }}"><img src="{{ social.IMG.SRC }}" alt="{{ social.IMG.ALT }}"></a></div>
+    </div>
+  </div>
   </div>
 </ng-template>

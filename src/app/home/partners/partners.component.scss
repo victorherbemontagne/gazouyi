@@ -9,6 +9,7 @@
         img {
             width: 6vw;
             height: auto;
+            min-width: 40px;
             // max-width: 50px;
         }
     }
@@ -18,8 +19,11 @@
         padding: 10px 30px;
     }
 
-    button{
+    button {
+      padding: 5px 40px;
+      // max-width: 70%;
       background-color: var(--color-ocean);
+      text-transform: uppercase;
     }
 
     .best-ribbon{
@@ -27,4 +31,13 @@
         width: 100%;
       }
     }
+}
+
+@media screen and (max-width: 575px) {
+  .partners {
+
+    .partner-item {
+      margin: 10px;
+    }
+  }
 }

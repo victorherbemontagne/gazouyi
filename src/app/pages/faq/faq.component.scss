@@ -1,0 +1,23 @@
+.contact-us{
+    padding-top: 80px;
+    min-height: 100vh;
+
+    .contact-image{
+        img{
+            width: 70%;
+            margin: auto;
+        }
+    }
+
+    .contact-icon{
+        img{
+            height: 1.25rem;
+        }
+    }
+
+    .contact-info{
+        h2,h4{
+            width: auto !important;
+        }
+    }
+}

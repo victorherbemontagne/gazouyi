@@ -4,6 +4,9 @@
     .row {
         min-height: 50vh;
     }
+    .phonetics{
+      font-size: 4em;
+    }
 }
 
 .about-img {
@@ -13,7 +16,7 @@
 
 @media(min-width: 992px){
   .about-reverse {
-  padding-top: 100px;
+  padding-top: 20vh;
   }
 }
 

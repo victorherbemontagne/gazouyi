@@ -15,6 +15,19 @@
     }
   }
 
+  .bird{
+    img{
+      width: 45px;
+    }
+  }
+
+  .about-divider{
+    width: 35px;
+    background-color: var(--color-ocean);
+    height: 10px;
+    border-radius: 5px;
+  }
+
   .title{
     padding-top: 50px;
   }

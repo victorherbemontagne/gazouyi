@@ -4,7 +4,8 @@
       <div class="col-md-8 col-lg-8 mx-auto align-self-center text-center">
         <div class="intro-contain">
           <div>
-            <h1>{{ 'HOME.INTRO.CATCHPHRASE' | translate }}</h1>
+            <h1 [innerHTML]="'HOME.INTRO.CATCHPHRASE' | translate"></h1>
+            
             <div class="home-buttons">
                 <button mat-flat-button color="accent" class="m2" [routerLink]="'/home'" href="#newsletter"
                 [pageScrollOffset]="80" pageScroll *ngIf="!bMobile">{{ 'HOME.INTRO.BTN' | translate }}</button>

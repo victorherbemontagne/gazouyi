@@ -20,10 +20,10 @@
 <section id="about" class="about-reverse">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-9 mx-auto p-0">
-          <div class="row align-items-center">
+        <div class="col-12 col-md-9 mx-auto p-0">
+          <div class="row align-items-end">
           <div class="col-11 col-md-12 col-lg-7 mx-auto" >
-            <h2>{{ 'HOME.ABOUT-REVERSE.TITLE' | translate }}</h2>
+            <h2 class="phonetics mb-5">{{ 'HOME.ABOUT-REVERSE.TITLE' | translate }}</h2>
             <p class="caption-about text-left text-sm-justify" *ngFor="let paragraph of paragraphs">{{ paragraph.PARAGRAPH }}</p>
           </div>
 

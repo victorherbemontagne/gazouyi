@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 // 3rd party
 import { TranslateService } from '@ngx-translate/core';
@@ -11,6 +12,7 @@ import { Ci18nBenefit } from 'src/app/shared/models/ci18n-benefit';
 })
 export class BenefitsComponent {
   public bError = false;
+  public bMedium = false;
 
   // Benefits Carousel
   public benefits: Ci18nBenefit[] = [{
@@ -23,7 +25,11 @@ export class BenefitsComponent {
 
 
 
-constructor(public translate: TranslateService) { }
+constructor(breakpointObserver: BreakpointObserver, public translate: TranslateService) {
+    breakpointObserver.observe('(max-width: 768px)').subscribe(result => {
+        this.bMedium = result.matches;
+      });
+ }
 
 ngOnInit() {
   this.translate.get('HOME.BENEFITS.BENEFIT').subscribe((res: Ci18nBenefit[] | string) => {

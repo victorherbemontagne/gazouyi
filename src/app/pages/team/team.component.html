@@ -30,30 +30,40 @@
 <section id="whole-team" class="whole-team">
     <div class="container-fluid">
       <div class="row mt-5 pb-5">
-        <div class="col-9 mx-auto">
-          <div class="row text-center mb-5">
+        <div class="col-12 col-md-9 mx-auto">
+          <div class="row text-center mb-3">
             <div class="col-12">
             <h2>{{ 'PAGES.MORE-ABOUT-US.TITLE' | translate }}</h2>
             </div>
           </div>
+          <div class="row mb-5">
+            <div class="col-12">
+            <p>{{ 'PAGES.MORE-ABOUT-US.INTRODUCTION' | translate }}</p>
+            </div>
+          </div>
+          <div class="row mb-5 bird d-flex justify-content-center align-items-center">
+            <div class="mr-4 about-divider"></div>
+              <img src="assets/images/illus/bird.png" alt="yellow Gazouyi bird">
+              <div class="ml-4 about-divider"></div>
+          </div>
           <div class="row VDH">
             <div class="col-8 col-md-3 mx-auto profile-image p-3">
-                <img src="assets/images/profiles/victor_Dherbemont.png" alt="victor d'herbemont, ceo of Gazouyi">
+                <img src="{{ 'PAGES.MORE-ABOUT-US.PERSON1.IMG.SRC' | translate }}" alt="{{ 'PAGES.MORE-ABOUT-US.PERSON1.IMG.ALT' | translate }}">
             </div>
             <div class="col-12 col-md-9 mx-auto p-3">
-              <h3>Victor D'herbemont</h3>
-              <h5>CEO and Co-founder of  Gazouyi</h5>
-              <p>Victor graduated from Centrale-Supélec, one of the top French engineering schools. He was a co-founder of <a href="https://www.deepnews.ai">DeepNews</a> a start-up specialized in the use IA to score news stories. The project was funded by the Google DNI Fund and Stanford University. During his time at deepnews, Victor implemented the algorithms and set up the product technology.</p>
+              <h3>{{ 'PAGES.MORE-ABOUT-US.PERSON1.NAME' | translate }}</h3>
+              <h5>{{ 'PAGES.MORE-ABOUT-US.PERSON1.POSITION' | translate }}</h5>
+              <p [innerHTML]="'PAGES.MORE-ABOUT-US.PERSON1.DESCRIPTION' | translate"></p>
             </div>
           </div>
           <div class="row XN pt-5">
               <div class="col-8 col-md-3 mx-auto profile-image p-3">
-                  <img src="assets/images/profiles/xuan-nga_cao.png" alt="Xuan Nga, coo of Gazouyi">
+                  <img src="{{ 'PAGES.MORE-ABOUT-US.PERSON2.IMG.SRC' | translate }}" alt="{{ 'PAGES.MORE-ABOUT-US.PERSON2.IMG.ALT' | translate }}">
               </div>
               <div class="col-12 col-md-9 mx-auto p-3">
-                <h3>Xuan-Nga Cao</h3>
-                <h5>COO and Co-founder of Gazouyi</h5>
-                <p>Xuan-Nga received her pHD in linguistics at City University of New York and worked as a research engineer in the <a href="http://www.syntheticlearner.net">CoML</a> team. She is a co-founder of <a href="http://www.langinnov.com">LangInnov</a>, a company whose mission is to develop assessment materials for the bilingual population in the US. She has an extensive experience in project management and product development working in various start-ups.</p>
+                <h3>{{ 'PAGES.MORE-ABOUT-US.PERSON2.NAME' | translate }}</h3>
+                <h5>{{ 'PAGES.MORE-ABOUT-US.PERSON2.POSITION' | translate }}</h5>
+                <p [innerHTML]="'PAGES.MORE-ABOUT-US.PERSON2.DESCRIPTION' | translate"></p>
               </div>
             </div>
 

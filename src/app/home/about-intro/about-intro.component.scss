@@ -6,6 +6,11 @@
     min-height: 50vh;
     margin-bottom: -5vh;
   }
+  .intro-img{
+    img{
+      width: 100%;
+    }
+  }
 }
 
 @media (max-width: 991px) {

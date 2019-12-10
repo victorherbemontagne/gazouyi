@@ -4,8 +4,8 @@
 
 .benefits {
   // background-color: var(--color-primary);
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 
 }
 
@@ -32,7 +32,18 @@
   }
 }
 
-@media(max-width: 767px){
+@media(max-width: 1199px){
+  .benefits{
+    .benefit-avtar {
+      img{
+        height: 125px;
+      width: 125px;
+      }
+    }
+  }
+}
+
+@media(max-width: 991px){
   .benefits{
     .benefit-avtar {
       img{

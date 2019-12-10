@@ -13,26 +13,10 @@ export const rootRouterConfig: Routes = [
   {
     path: 'home',
     loadChildren: './home/home.module#HomeModule',
-    /*canActivate: [AuthGuard]*/
   },
   {
     path: 'pages',
     loadChildren: './pages/pages.module#PagesModule',
-    /*canActivate: [AuthGuard]*/
-  },
-  {
-    path: 'construction',
-    component: UnderConstructionComponent,
-    canActivate: [AuthGuard]
-  },
-  /*{
-    path: 'demo',
-    component: DemoComponent
-  },*/
-  {
-    path: 'blog',
-    component: BlogComponent,
-    loadChildren: './blog/blog.module#BlogModule'
   },
   {
     path: '**',

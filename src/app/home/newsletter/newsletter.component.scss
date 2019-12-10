@@ -29,8 +29,7 @@
     .disclaimer{
       margin:0;
       margin-top: 15px;
-      width: auto;
-      max-width: 450px !important;
+      width: 300px;
       padding:0;
       p {
         font-size: 0.5em;
@@ -47,7 +46,7 @@
 
 button {
   padding: 5px 40px;
-  max-width: 70%;
+  // max-width: 70%;
   // background-color: var(--color-accent);
   text-transform: uppercase;
 }
@@ -61,14 +60,20 @@ button {
   }
 }
 
+.mail-image{
+  img{
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 575px) {
-    #newsletter{
-      background: var(--background-home-newsletter-clouds);
-      background-repeat: no-repeat;
-      background-size: 100% auto;
-      background-position: center top;
-      background-color: var(--color-primary);
-    }
+    // #newsletter{
+    //   background: var(--background-home-newsletter-clouds);
+    //   background-repeat: no-repeat;
+    //   background-size: 100% auto;
+    //   background-position: center top;
+    //   background-color: var(--color-primary);
+    // }
 
     .mat-form-field{
       margin-top: 0px !important;
@@ -77,5 +82,10 @@ button {
 
     .input-buttons{
       margin: 20px 0px;
+    }
+
+    #newsletter{
+      padding-top: 3rem;
+      padding-bottom: 3rem;
     }
 }
