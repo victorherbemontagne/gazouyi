@@ -14,6 +14,9 @@ import { AppComponent } from './app.component';
 import { BlogComponent } from './blog/blog.component';
 import { UnderConstructionComponent } from './pages/under-construction/under-construction.component';
 
+//attempt to fix home reload
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/');
@@ -43,6 +46,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
 }),
   ],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   exports: [RouterModule],
   bootstrap: [AppComponent]
 })
