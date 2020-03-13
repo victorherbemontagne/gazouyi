@@ -38,7 +38,7 @@ export class NewsComponent implements OnInit {
    }
 
   ngOnInit() {
-    this.translate.get('PAGES.NEWS.ARTICLES').subscribe((res: Ci18nArticle[] | string) => {
+    this.translate.get('HOME.NEWS.ARTICLES').subscribe((res: Ci18nArticle[] | string) => {
       if (typeof(res) === 'string') {
           this.bError = true;
           this.articles = [{

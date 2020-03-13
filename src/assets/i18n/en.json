@@ -65,7 +65,7 @@
                       "SRC": "assets/images/icon/linkedin.svg",
                       "ALT": "button to Gazyoui's linkedin page. icon by freepik"
                   },
-                  "HREF": "https://www.linkedin.com"
+                  "HREF": "https://www.linkedin.com/company/gazouyi/"
               },
               {
                   "IMG": {
@@ -111,13 +111,10 @@
             "BTN": "Subscribe"
         },
         "ABOUT-REVERSE": {
-            "TITLE": "[gəˈzuji:]",
+            "TITLE": "[gæzuˈji:]",
             "DESCRIPTION": [
               {
                   "PARAGRAPH": "Gazouillis is a french word that means babbling or chirping. These are the baby's first attempts at communicating with their environment."
-              },
-              {
-                "PARAGRAPH": "During their first years of life, infants develop physically, emotionally and cognitively at an amazing speed. We created the Gazouyi application to support you during these remarkable developmental years and to encourage meaningful interactions between you and your child. Inspired by the idea of a babybook, the application is simple, intuitive, and your soon-to-be companion in all things child development."
               }
             ],
             "IMG": {
@@ -152,52 +149,52 @@
           ]
       },
         "ABOUT-INTRO": {
-          "ABOUT1":{
+          "ABOUT3":{
             "IMG": {
-              "SRC": "assets/images/illus/no_image3.png",
-              "ALT": "phone with yellow Gazouyi bird on the screen"
+              "SRC": "assets/images/illus/phone-gather-and-share.png",
+              "ALT": "Gazouyi App Screenshot of Baby Book timeline"
             },
             "TITLE": "Gather & Share",
             "DESCRIPTION": [
               {
-                  "PARAGRAPH": "Document your little one's developmental milestones with the help of our AI technology. Upload pictures, recordings, and videos to safeguard and share these special memories with loved ones on our secure app."
+                  "PARAGRAPH": "You loved ones can also be involved in the success of your child! The steps are simple:<ol><li>Create an account</li><li>Add loved ones</li><li>Do activities</li><li>Add them to the babybook to keep for the long term!</li></ol>"
               },
               {
                 "PARAGRAPH": ""
-            }
-            ]
-          },
-          "ABOUT3":{
-            "IMG": {
-              "SRC": "assets/images/illus/no_image2.png",
-              "ALT": "phone laying down with yellow Gazouyi bird on the screen"
-            },
-            "TITLE": "Understand",
-            "DESCRIPTION": [
-              {
-                  "PARAGRAPH": "Strengthen the bond between you and your little one with personally selected games and activites. Redefine the dynamic between your child and the screen with our online games designed specifically to support bonding between you and your little one. Follow up with offline activity suggestions to further strengthen these meaningful interactions."
               }
             ]
           },
           "ABOUT2":{
             "IMG": {
-              "SRC": "assets/images/illus/no_image4.png",
-              "ALT": "two floating phones with yellow Gazouyi bird on the screens"
+              "SRC": "assets/images/illus/phone-understand.png",
+              "ALT": "Gazouyi App Screenshot of Playground"
+            },
+            "TITLE": "Understand",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Most parents are aware that there are a few big milestones in a child's development, for example, learning how to walk or talk, but we'll show how you that there are many more incredible moments of celebration to come."
+              }
+            ]
+          },
+          "ABOUT1":{
+            "IMG": {
+              "SRC": "assets/images/illus/phone-bond.png",
+              "ALT": "Gazouyi App Screenshot of an exercise to see if your child can achieve a development milestones"
             },
             "TITLE": "Bond",
             "DESCRIPTION": [
               {
-                  "PARAGRAPH": "Strengthen the bond between you and your little one with personally selected games and activites. Redefine the dynamic between your child and the screen with our online games designed specifically to support bonding between you and your little one. Follow up with offline activity suggestions to further strengthen these meaningful interactions."
+                  "PARAGRAPH": "The most important influence on positive development is a positive relationship between a child and their caregiver. Gazouyi helps you bond with your child with developmentally appropriate games and activities. There's nothing better than watching your little grow and achieve !?"
               }
             ]
           }
         },
         "PARTNERS": {
             "TITLE": "We ♥ our team!",
-            "DESCRIPTION": "Gazouyi is made up of an incredible team of scientists, linguists, AI specialists, engineers, and educators from some of the most prestigious higher education institutions in France. The project is supported by major scientific institutions, CNRS and INRIA.",
+            "DESCRIPTION": "Gazouyi is made up of an incredible team of scientists, linguists, AI specialists, engineers, and educators from some of the most prestigious higher education institutions in France. The project is supported by major scientific institutions, CNRS and INRIA. Check out our scientific committee for more specific information about who we are.",
             "BTN": "More about us",
             "IMG":{
-              "SRC": "assets/images/illus/best.png",
+              "SRC": "assets/images/profiles/team.png",
               "ALT": "red prize ribbon"
             },
             "SUPPORTS": [
@@ -233,6 +230,47 @@
                 }
             ]
         },
+        "NEWS": {
+          "TITLE": "Blog",
+          "SUBTITLE": "Check out the latest posts from our blog!",
+          "BTN-MORE": "View Blog",
+          "BTN-LINK": "https://gazouyi.home.blog/",
+          "ARTICLES": [
+            {
+              "IMG": {
+                "SRC": "assets/images/news/article-1.jpg",
+                "ALT": ""
+              },
+              "HEADLINE": "Minimal Spending, Maximum Fun: Mothering with Intent, Adventure and Love",
+              "PUBLISHER": "by Michaelagh Broadbent",
+              "HREF": "https://gazouyi.home.blog/2020/02/28/minimal-spend-maximum-fun-mothering-with-intent-adventure-and-love-2/",
+              "FILTER": "",
+              "LANGUAGE": ""
+            },
+            {
+              "IMG": {
+                "SRC": "assets/images/news/article-2.jpg",
+                "ALT": ""
+              },
+              "HEADLINE": "Maybe there is nothing to fear but fear itself",
+              "PUBLISHER": "by The Gazouyi Team",
+              "HREF": "https://gazouyi.home.blog/2020/02/26/minimal-spend-maximum-fun-mothering-with-intent-adventure-and-love/",
+              "FILTER": "",
+              "LANGUAGE": ""
+            },
+            {
+              "IMG": {
+                "SRC": "assets/images/news/article-3.jpg",
+                "ALT": ""
+              },
+              "HEADLINE": "How does bilingualism affect your baby?",
+              "PUBLISHER": "by The Gazouyi Team",
+              "HREF": "https://gazouyi.home.blog/2020/01/31/how-does-bilingualism-affect-your-baby/",
+              "FILTER": "",
+              "LANGUAGE": ""
+            }
+          ]
+        },
         "NEWSLETTER": {
             "CATCHPHRASE": "Join us!",
             "DESCRIPTION": "If you'd like to get involved or try Gazouyi out, register for our newsletter and keep an eye out for our beta test via this link. If you have any questions, recommendations or just want to chat feel free to send us an email at <a href=\"mailto:contact@gazouyi.com\">contact@gazouyi.com</a>",
@@ -266,6 +304,43 @@
           "NAME": "Xuan-Nga Cao",
           "POSITION": "COO and Co-founder of Gazouyi",
           "DESCRIPTION": "Xuan-Nga received her pHD in linguistics at City University of New York and worked as a research engineer in the <a href=\"http://www.syntheticlearner.net\">CoML</a> team. She is a co-founder of <a href=\"http://www.langinnov.com\">LangInnov</a>, a company whose mission is to develop assessment materials for the bilingual population in the US. She has an extensive experience in project management and product development working in various start-ups."
+        },
+        "TEAM" : "Scientific Advisors",
+        "ADVISOR1":{
+          "IMG":{
+            "SRC": "assets/images/profiles/jaqueline_wendland.png",
+            "ALT": "Jaqueline Wendland"
+          },
+          "NAME": "Jaqueline Wendland",
+          "POSITION": "Professor, Université Paris Descartes",
+          "DESCRIPTION": "Infant Development, Perinatal Care"
+        },
+        "ADVISOR2":{
+          "IMG":{
+            "SRC": "assets/images/profiles/jaques-moreau.jpg",
+            "ALT": "Jacques Moreau"
+          },
+          "NAME": "Jacques Moreau",
+          "POSITION": "Professor, Université de Montréal",
+          "DESCRIPTION": "Infant Development, Intervention"
+        },
+        "ADVISOR3":{
+          "IMG":{
+            "SRC": "assets/images/profiles/christina-bergmann.jpg",
+            "ALT": "Christina Bergmann"
+          },
+          "NAME": "Christina Bergmann",
+          "POSITION": "Postdoctoral Researcher, Max Planck Institute",
+          "DESCRIPTION": "Language Development, Neuroscience"
+        },
+        "ADVISOR4":{
+          "IMG":{
+            "SRC": "assets/images/profiles/abdellah-fourtassi.jpg",
+            "ALT": "Abdellah Fourtassi"
+          },
+          "NAME": "Abdellah Fourtassi",
+          "POSITION": "Assistant Professor, Aix-Marseille Université",
+          "DESCRIPTION": "Early Childhood Development, NLP, Speech Processing"
         }
       },
       "CONTACT": {

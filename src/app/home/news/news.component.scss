@@ -22,6 +22,10 @@
   }
 }
 
+a{
+  text-decoration: none;
+}
+
 .gallery-item
 {
     margin-bottom: 30px;
@@ -41,6 +45,7 @@
       background-color: var(--color-primary);
       background-size: cover;
       background-position: center;
+      border-radius: 8px 8px 0 0;
     }
 
     .gallery-card{
@@ -55,4 +60,11 @@
 
 .mat-card{
   font-family: 'Open sans', Arial, Helvetica, sans-serif;
+}
+
+
+.blog-btn{
+  padding: 5px 40px 5px 40px;
+  background-color: var(--color-bayside) !important;
+  text-transform: uppercase;
 }

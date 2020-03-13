@@ -5,7 +5,10 @@
 .whole-team {
   padding-top: 80px;
   // background-color: var(--color-blossom);
-
+  
+  h6,p{
+    margin-bottom: 0 !important;
+  }
   .profile-image{
     // border-radius: 50%;
     img{
