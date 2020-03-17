@@ -1,0 +1,19 @@
+#parents{
+    .parent-image{
+        height: 100%;
+        max-width: 50%;
+        // max-height: 40vh;
+        overflow: hidden;
+        img{
+            height: 100%;
+            width: auto;
+        }
+    }
+    .speech-image{
+        width: 100%;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}

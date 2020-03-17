@@ -2,11 +2,17 @@
 @import 'variables';
 
 .home-news {
-  background-image: var(--background-home-testimonial);
-  background-size: cover;
-  position: relative;
-  width: 100vw;
-  padding-top: 10vh;
+    background: #ffffff var(--background-blog);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center bottom;
+    box-shadow: 0 0 0px rgba(0,0,0,0) !important;
+    min-height: 100vh;
+  // background-image: var(--background-home-testimonial);
+  // background-size: cover;
+  // position: relative;
+  // width: 100vw;
+  // padding-top: 10vh;
 
   .title-area{
     padding-bottom: 30px;
@@ -67,4 +73,17 @@ a{
   padding: 5px 40px 5px 40px;
   background-color: var(--color-bayside) !important;
   text-transform: uppercase;
+}
+
+
+@media (max-width: 991px){
+  .home-news {
+    background: #ffffff var(--background-blog-small);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center bottom;
+    box-shadow: 0 0 0px rgba(0,0,0,0) !important;
+    min-height: 100vh;
+  }
+
 }

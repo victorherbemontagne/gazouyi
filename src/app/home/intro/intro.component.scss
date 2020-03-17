@@ -1,7 +1,7 @@
 @import 'variables';
 
 .intro {
-  background: #faf8f7 var(--background-home-intro);
+  background: #ffffff var(--background-home-intro);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center bottom;
@@ -12,9 +12,9 @@
     min-height: 100vh;
   }
 
-.home-buttons{
-  margin-top: 40px;
-}
+  .home-buttons{
+    margin-top: 40px;
+  }
 
   button {
     margin-top: 10px;
@@ -31,6 +31,12 @@
       width: 150%;
     }
   }
+
+  .home-image{
+    img{
+      width: 100%;
+    }
+  }
 }
 
 
@@ -45,3 +51,15 @@
 //     min-height: 100vh;
 //   }
 // }
+
+@media (max-width: 991px){
+  .intro {
+    background: #ffffff var(--background-home-intro-small);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center bottom;
+    box-shadow: 0 0 0px rgba(0,0,0,0) !important;
+    min-height: 100vh;
+  }
+
+}

@@ -108,7 +108,11 @@
     "HOME" : {
         "INTRO": {
             "CATCHPHRASE": "Your <i>smart</i> companion in supporting your child from first chirp to first flight",
-            "BTN": "Subscribe"
+            "BTN": "Subscribe",
+            "IMG": {
+              "SRC": "assets/images/illus/home01.png",
+              "ALT": "two babies sitting on circles."
+            }
         },
         "ABOUT-REVERSE": {
             "TITLE": "[gæzuˈji:]",
@@ -229,6 +233,32 @@
                     }
                 }
             ]
+        },
+        "PARENTS": {
+          "PARENT1": {
+            "IMG":{
+              "SRC": "assets/images/illus/parent-papa-maddie.png",
+              "ALT": "adult male in blue shirt and gray pants"
+            }
+          },
+          "SPEECH-LEFT":{
+            "IMG":{
+              "SRC": "assets/images/illus/parents-speech-left.png",
+              "ALT": "I'm tired of sifting through all the information on the Internet trying to find something legitimate. I know I'm supposed to bond with my kid but I don't understand how when she can't communicate back with me."
+            }
+          },
+          "PARENT2": {
+            "IMG":{
+              "SRC": "assets/images/illus/parent-maman-julian.png",
+              "ALT": "adult female in gray shirt and light blue pants"
+            }
+          },
+          "SPEECH-RIGHT":{
+            "IMG":{
+              "SRC": "assets/images/illus/parents-speech-right.png",
+              "ALT": " I bought the supplies to make a babybook but I just never have the time to put it together! It's frustrating for my son when we work on activities that are age appropriate but not developmentally appropriate."
+            }
+          }
         },
         "NEWS": {
           "TITLE": "Blog",

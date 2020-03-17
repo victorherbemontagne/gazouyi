@@ -29,6 +29,7 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { VideoComponent } from './privacy/video/video.component';
 import { IntroVideoComponent } from './intro/intro-video/intro-video.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ParentsComponent } from './parents/parents.component';
 
 @NgModule({
   imports: [
@@ -62,7 +63,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     PrivacyComponent,
     NewsComponent,
     VideoComponent,
-    IntroVideoComponent
+    IntroVideoComponent,
+    ParentsComponent
   ],
   providers: [],
   entryComponents: [VideoComponent, IntroVideoComponent]

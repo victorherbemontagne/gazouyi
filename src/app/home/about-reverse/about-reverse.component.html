@@ -21,13 +21,13 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 col-md-9 mx-auto p-0">
-          <div class="row align-items-end">
+          <div class="row align-items-center">
           <div class="col-11 col-md-12 col-lg-7 mx-auto" >
             <h2 class="phonetics mb-5 text-center text-lg-left">{{ 'HOME.ABOUT-REVERSE.TITLE' | translate }}</h2>
             <p class="caption-about text-left text-sm-justify" *ngFor="let paragraph of paragraphs">{{ paragraph.PARAGRAPH }}</p>
           </div>
 
-          <div class="col-md-9 col-lg-5 order-first order-md-first order-lg-last mx-auto">
+          <div class="col-7 col-md-9 col-lg-5 order-first order-md-first order-lg-last mx-auto">
             <div class="about-img text-right">
               <img class="img-fluid" src="{{ 'HOME.ABOUT-REVERSE.IMG.SRC' | translate }}" alt="{{ 'HOME.ABOUT-REVERSE.IMG.ALT' | translate }}">
             </div>
