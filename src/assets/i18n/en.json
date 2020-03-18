@@ -116,11 +116,7 @@
         },
         "ABOUT-REVERSE": {
             "TITLE": "[gæzuˈji:]",
-            "DESCRIPTION": [
-              {
-                  "PARAGRAPH": "Gazouillis is a french word that means babbling or chirping. These are the baby's first attempts at communicating with their environment."
-              }
-            ],
+            "DESCRIPTION": "Gazouillis is a french word that means babbling or chirping. These are the baby's first attempts at communicating with their environment.",
             "IMG": {
               "SRC": "assets/images/illus/bird_family.png",
               "ALT": "Three yellow Gazouyi birds. One large parent and two small children."
@@ -159,14 +155,7 @@
               "ALT": "Gazouyi App Screenshot of Baby Book timeline"
             },
             "TITLE": "Gather & Share",
-            "DESCRIPTION": [
-              {
-                  "PARAGRAPH": "You loved ones can also be involved in the success of your child! The steps are simple:<ol><li>Create an account</li><li>Add loved ones</li><li>Do activities</li><li>Add them to the babybook to keep for the long term!</li></ol>"
-              },
-              {
-                "PARAGRAPH": ""
-              }
-            ]
+            "DESCRIPTION": "You loved ones can also be involved in the success of your child! The steps are simple:<ol><li>Create an account</li><li>Add loved ones</li><li>Do activities</li><li>Add them to the babybook to keep for the long term!</li></ol>"
           },
           "ABOUT2":{
             "IMG": {
@@ -174,11 +163,7 @@
               "ALT": "Gazouyi App Screenshot of Playground"
             },
             "TITLE": "Understand",
-            "DESCRIPTION": [
-              {
-                  "PARAGRAPH": "Most parents are aware that there are a few big milestones in a child's development, for example, learning how to walk or talk, but we'll show how you that there are many more incredible moments of celebration to come."
-              }
-            ]
+            "DESCRIPTION":  "Most parents are aware that there are a few big milestones in a child's development, for example, learning how to walk or talk, but we'll show how you that there are many more incredible moments of celebration to come." 
           },
           "ABOUT1":{
             "IMG": {
@@ -186,16 +171,12 @@
               "ALT": "Gazouyi App Screenshot of an exercise to see if your child can achieve a development milestones"
             },
             "TITLE": "Bond",
-            "DESCRIPTION": [
-              {
-                  "PARAGRAPH": "The most important influence on positive development is a positive relationship between a child and their caregiver. Gazouyi helps you bond with your child with developmentally appropriate games and activities. There's nothing better than watching your little grow and achieve !?"
-              }
-            ]
+            "DESCRIPTION": "The most important influence on positive development is a positive relationship between a child and their caregiver. Gazouyi helps you bond with your child with developmentally appropriate games and activities. There's nothing better than watching your little grow and achieve !?"
           }
         },
         "PARTNERS": {
             "TITLE": "We ♥ our team!",
-            "DESCRIPTION": "Gazouyi is made up of an incredible team of scientists, linguists, AI specialists, engineers, and educators from some of the most prestigious higher education institutions in France. The project is supported by major scientific institutions, CNRS and INRIA. Check out our scientific committee for more specific information about who we are.",
+            "DESCRIPTION": "Gazouyi is made up of an incredible team of scientists, linguists, AI specialists, engineers, and educators from some of the most prestigious higher education institutions in France. The project is supported by major scientific institutions, CNRS and INRIA. Check out our scientific advisory group and more specific information about who we are.",
             "BTN": "More about us",
             "IMG":{
               "SRC": "assets/images/profiles/team.png",
@@ -235,17 +216,20 @@
             ]
         },
         "PARENTS": {
+          "INTRODUCTION": "During their first years of life, infants develop physically, emotionally and cognitively at an amazing speed. Parents often wonder what they should do to establish the successful development of their child.",
+          "TITLE": "Our Mission",
+          "DESCRIPTION" : "Gazouyi is a mobile application for caregivers, designed to help you engage in positive interactions with your children. We help you achieve this by giving you a personalized bundle of activities and information, tailored to your child’s development.",
           "PARENT1": {
             "IMG":{
               "SRC": "assets/images/illus/parent-papa-maddie.png",
               "ALT": "adult male in blue shirt and gray pants"
             }
           },
-          "SPEECH-LEFT":{
-            "IMG":{
-              "SRC": "assets/images/illus/parents-speech-left.png",
-              "ALT": "I'm tired of sifting through all the information on the Internet trying to find something legitimate. I know I'm supposed to bond with my kid but I don't understand how when she can't communicate back with me."
-            }
+          "SPEECH-LEFT-TOP":{
+            "TEXT": "I'm tired of sifting through all the information on the Internet trying to find something legitimate."
+          },
+          "SPEECH-LEFT-BOTTOM":{
+            "TEXT" : "I know I'm supposed to bond with my kid but I don't understand how when she can't communicate back with me."
           },
           "PARENT2": {
             "IMG":{
@@ -253,11 +237,11 @@
               "ALT": "adult female in gray shirt and light blue pants"
             }
           },
-          "SPEECH-RIGHT":{
-            "IMG":{
-              "SRC": "assets/images/illus/parents-speech-right.png",
-              "ALT": " I bought the supplies to make a babybook but I just never have the time to put it together! It's frustrating for my son when we work on activities that are age appropriate but not developmentally appropriate."
-            }
+          "SPEECH-RIGHT-TOP":{
+            "TEXT" : "I bought the supplies to make a babybook but I just never have the time to put it together!"
+          },
+          "SPEECH-RIGHT-BOTTOM":{
+            "TEXT" : "It's frustrating for my son when we work on activities that are age appropriate but not developmentally appropriate."
           }
         },
         "NEWS": {

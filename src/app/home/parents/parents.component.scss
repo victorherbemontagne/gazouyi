@@ -1,19 +1,158 @@
 #parents{
+    background: #ffffff var(--background-parents);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
     .parent-image{
-        height: 100%;
-        max-width: 50%;
-        // max-height: 40vh;
-        overflow: hidden;
+        height: 80vh;
+        max-height: 50vw;
+        // overflow: hidden;
         img{
             height: 100%;
             width: auto;
         }
     }
     .speech-image{
-        width: 100%;
-        img{
+
+        .speech-text{
+            
+            p{
+                font-size: 0.9vw;
+            }
+        }
+        #speech-left-top{
+            background: var(--background-speech-bubble-left-top);
+            background-size: contain;
+            background-repeat: no-repeat;
             width: 100%;
-            height: auto;
+            img{
+                width: 100%;
+                height: auto;
+                visibility: hidden;
+            }
+            p{
+                position: absolute;
+                padding-left: 23%;
+                padding-right: 13%;
+                padding-bottom: 18%;
+            }
+        }
+        #speech-left-bottom{
+            background: var(--background-speech-bubble-left-bottom);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            img{
+                width: 100%;
+                height: auto;
+                visibility: hidden;
+            }
+            p{
+                position: absolute;
+                padding-left: 3%;
+                padding-right: 34%;
+                padding-top: 4%;
+            }
+        }
+        #speech-right-top{
+            background: var(--background-speech-bubble-right-top);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            img{
+                width: 100%;
+                height: auto;
+                visibility: hidden;
+            }
+            p{
+                position: absolute;
+                padding-left: 9%;
+                padding-right: 28%;
+                padding-bottom: 17%;
+            }
+
+        }
+        #speech-right-bottom{
+            background: var(--background-speech-bubble-right-bottom);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            img{
+                width: 100%;
+                height: auto;
+                visibility: hidden;
+            }
+            p{
+                position: absolute;
+                padding-left: 30%;
+                padding-right: 8%;
+                padding-top: 5%;
+            }
+        }
+    }
+
+}
+
+// @media (max-width: 991px){
+//     #parents {
+//     background: #ffffff var(--background-parents-small);
+//     background-repeat: no-repeat;
+//     background-size: 100%;
+//     background-position: center bottom;
+//   }
+
+// }
+
+@media(max-width: 761px){
+    #parents{
+        background: #ffffff;
+        // background: #ffffff var(--background-parents-small);
+        // background-repeat: no-repeat;
+        // background-size: 100%;
+        // background-position: center bottom;
+        .parent-image{
+            max-height: 100vw;
+        }
+        .speech-image{
+            .speech-text{
+                p{
+                    font-size: 1.8vw;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    #parents{
+        .speech-image{
+            .speech-text{
+                p{
+                    font-size: 2.5vw;
+                }
+            }
+            #speech-left-top{
+                p{
+                    padding-left: 22%;
+                    padding-right: 15%;
+                }
+            }
+            #speech-left-bottom{
+                p{
+                    padding-right: 35%;
+                }
+            }
+            #speech-right-top{
+                p{
+                    padding-right: 30%;
+                }
+            }
+            #speech-right-bottom{
+                p{
+                    padding-right: 10%;
+                    padding-top: 5%;
+                }
+            }
         }
     }
 }

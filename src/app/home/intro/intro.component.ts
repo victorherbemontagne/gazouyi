@@ -3,7 +3,6 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 // 3rd party
 import { TranslateService } from '@ngx-translate/core';
-import { Ci18nParagraph } from 'src/app/shared/models/ci18n-paragraph';
 import {MatDialog} from '@angular/material';
 import { IntroVideoComponent } from 'src/app/home/intro/intro-video/intro-video.component';
 
@@ -18,9 +17,7 @@ export class IntroComponent implements OnInit {
   public bError = false;
   public bMobile = false;
 
-  public paragraphs: Ci18nParagraph[] = [{
-        PARAGRAPH: 'Loading...',
-    }];
+
 
     constructor(breakpointObserver: BreakpointObserver, public translate: TranslateService, public dialog: MatDialog) {
       breakpointObserver.observe('(max-width: 767px)').subscribe(result => {

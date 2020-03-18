@@ -77,46 +77,46 @@
         ],
           "FOOTNOTE": "© 2019",
           "VALUES":{
-            "TITLE": "Our Core Values",
+            "TITLE": "Nos valeurs",
             "VALUE1": {
               "IMG": {
                 "SRC": "assets/images/icon/privacy.png",
                 "ALT": ""
               },
-              "TITLE": "Privacy",
-              "TEXT": "We use the highest and most trusted cyber security standards available. Your privacy is paramount. We protect your data and we would never sell it to any other application."
+              "TITLE": "Le respect de la vie privée",
+              "TEXT": "Nous utilisons les normes de cybersécurité maximales et les plus fiables à l'heure actuelle. La protection de vos données personnelles est notre priorité. Nous les protègerons et nous ne les vendrons jamais à aucune autre société."
             },
             "VALUE2": {
               "IMG": {
                 "SRC": "assets/images/icon/family.png",
                 "ALT": ""
               },
-              "TITLE": "Family",
-              "TEXT": "Family engagement is essential to the successful/positive development of a child. We encourage you and your whole family to take part during this exciting time."
+              "TITLE": "La famille",
+              "TEXT": "Des relations familiales fortes sont bénéfiques à l'épanouissement d'un enfant. Notre objectif est de pouvoir rassembler l'écosystème familial de l'enfant durant cette période enrichissantes."
             },
             "VALUE3": {
               "IMG": {
                 "SRC": "assets/images/icon/research.png",
                 "ALT": ""
               },
-              "TITLE": "Research",
-              "TEXT": "Our project was born out of the latest breakthroughs in the fields of child development and machine learning. Our priority is keeping you up-to-date with this research in a clear and understandable manner."
+              "TITLE": "La recherche scientifique",
+              "TEXT": "Notre projet allie les dernières avancées dans les domaines du développement de l'enfant et de l'apprentissage automatique. Notre priorité est de vous transmettre cette connaissance scientifique de manière claire et compréhensible."
             }
           }
       }
   },
   "HOME" : {
       "INTRO": {
-          "CATCHPHRASE": "Your <i>smart</i> companion in supporting your child from first chirp to first flight",
-          "BTN": "Subscribe"
+          "CATCHPHRASE": "Le compagnon <i>\"intelligent\"</i> pour vous accompagner dans les moments importants de votre bébé.",
+          "BTN": "Subscribe",
+          "IMG": {
+            "SRC": "assets/images/illus/home01.png",
+            "ALT": "two babies sitting on circles."
+          }
       },
       "ABOUT-REVERSE": {
           "TITLE": "[gæzuˈji:]",
-          "DESCRIPTION": [
-            {
-                "PARAGRAPH": "Gazouillis is a french word that means babbling or chirping. These are the baby's first attempts at communicating with their environment."
-            }
-          ],
+          "DESCRIPTION" : "\"Gazouillis\" désigne les vocalisations spontanées du nourrisson. Ce sont les premières tentatives de communication des bébés avec leur environnement.",
           "IMG": {
             "SRC": "assets/images/illus/bird_family.png",
             "ALT": "Three yellow Gazouyi birds. One large parent and two small children."
@@ -154,44 +154,29 @@
             "SRC": "assets/images/illus/phone-gather-and-share.png",
             "ALT": "Gazouyi App Screenshot of Baby Book timeline"
           },
-          "TITLE": "Gather & Share",
-          "DESCRIPTION": [
-            {
-                "PARAGRAPH": "You loved ones can also be involved in the success of your child! The steps are simple:<ol><li>Create an account</li><li>Add loved ones</li><li>Do activities</li><li>Add them to the babybook to keep for the long term!</li></ol>"
-            },
-            {
-              "PARAGRAPH": ""
-            }
-          ]
+          "TITLE": "Rasssembler et partager",
+          "DESCRIPTION": "Vos proches peuvent aussi voir et participer au développement de votre enfant! Pour cela, il vous suffira de:<ol><li>Créer un compte</li><li>Ajouter vos proches</li><li>Faire les activités</li><li>Les ajouter au babybook afin de les conserver à long terme!</li></ol>"
         },
         "ABOUT2":{
           "IMG": {
             "SRC": "assets/images/illus/phone-understand.png",
             "ALT": "Gazouyi App Screenshot of Playground"
           },
-          "TITLE": "Understand",
-          "DESCRIPTION": [
-            {
-                "PARAGRAPH": "Most parents are aware that there are a few big milestones in a child's development, for example, learning how to walk or talk, but we'll show how you that there are many more incredible moments of celebration to come."
-            }
-          ]
+          "TITLE": "Comprendre",
+          "DESCRIPTION": "La plupart des parents connaissent les quelques jalons essentiels pour le développement d'un enfant, comme apprendre à marcher ou parler, mais nous vous montrerons qu'il y a bien d'autres étapes toutes aussi intéressantes à observer et à célébrer!"
         },
         "ABOUT1":{
           "IMG": {
             "SRC": "assets/images/illus/phone-bond.png",
             "ALT": "Gazouyi App Screenshot of an exercise to see if your child can achieve a development milestones"
           },
-          "TITLE": "Bond",
-          "DESCRIPTION": [
-            {
-                "PARAGRAPH": "The most important influence on positive development is a positive relationship between a child and their caregiver. Gazouyi helps you bond with your child with developmentally appropriate games and activities. There's nothing better than watching your little grow and achieve !?"
-            }
-          ]
+          "TITLE": "Unir",
+          "DESCRIPTION": "Etablir une relation forte entre un parent et son enfant est bénéfique pour le développement de ce dernier. Gazouyi vous aide à créer des liens avec votre enfant par le biais de jeux et d'activités adaptés à son développement. Il n'y a rien de plus gratifiant que de regarder votre enfant s'épanouir!"
         }
       },
       "PARTNERS": {
           "TITLE": "We ♥ our team!",
-          "DESCRIPTION": "Gazouyi is made up of an incredible team of scientists, linguists, AI specialists, engineers, and educators from some of the most prestigious higher education institutions in France. The project is supported by major scientific institutions, CNRS and INRIA. Check out our scientific committee for more specific information about who we are.",
+          "DESCRIPTION": "Gazouyi puise son énergie et créativité dans une jeune équipe formée de linguistes, d'ingénieurs en intelligence artificielle, de programmeurs et d'orthophonistes. Le projet est soutenu par les institutions scientifiques renommées telles que le CNRS et l'INRIA. Pour plus d'informations sur qui nous sommes et les chercheurs qui nous guident dans ce projet inspirant.",
           "BTN": "More about us",
           "IMG":{
             "SRC": "assets/images/profiles/team.png",
@@ -230,9 +215,38 @@
               }
           ]
       },
+      "PARENTS": {
+        "INTRODUCTION": "Durant les premières années de leurs vies, les bébés se développent à un rythme accéléré au niveau moteur mais aussi bien aux niveaux cognitif et émotionnel. Faceà ces rapides changements, les parents sont parfois déconcertés et se demandent comment assurer l'épanouissement de leur enfant.",
+        "TITLE": "La vision de Gazouyi",
+        "DESCRIPTION" : "Gazouyi est une application mobile destinée aux parents. Elle est conçue pour vous aider à créer des liens positifs avec vos enfants. Pour atteindre cet objectif, Gazouyi a développé un ensemble d'activités et d'informations personnalisées pour le développement de votre enfant.",
+        "PARENT1": {
+          "IMG":{
+            "SRC": "assets/images/illus/parent-papa-maddie.png",
+            "ALT": "adult male in blue shirt and gray pants"
+          }
+        },
+        "SPEECH-LEFT-TOP":{
+          "TEXT": "I'm tired of sifting through all the information on the Internet trying to find something legitimate."
+        },
+        "SPEECH-LEFT-BOTTOM":{
+          "TEXT" : "I know I'm supposed to bond with my kid but I don't understand how when she can't communicate back with me."
+        },
+        "PARENT2": {
+          "IMG":{
+            "SRC": "assets/images/illus/parent-maman-julian.png",
+            "ALT": "adult female in gray shirt and light blue pants"
+          }
+        },
+        "SPEECH-RIGHT-TOP":{
+          "TEXT" : "I bought the supplies to make a babybook but I just never have the time to put it together!"
+        },
+        "SPEECH-RIGHT-BOTTOM":{
+          "TEXT" : "It's frustrating for my son when we work on activities that are age appropriate but not developmentally appropriate."
+        }
+      },
       "NEWS": {
         "TITLE": "Blog",
-        "SUBTITLE": "Check out the latest posts from our blog!",
+        "SUBTITLE": "Voici nos dernières publications",
         "BTN-MORE": "View Blog",
         "BTN-LINK": "https://gazouyi.home.blog/",
         "ARTICLES": [
@@ -273,14 +287,14 @@
       },
       "NEWSLETTER": {
           "CATCHPHRASE": "Join us!",
-          "DESCRIPTION": "If you'd like to get involved or try Gazouyi out, register for our newsletter and keep an eye out for our beta test via this link. If you have any questions, recommendations or just want to chat feel free to send us an email at <a href=\"mailto:contact@gazouyi.com\">contact@gazouyi.com</a>",
+          "DESCRIPTION": "Si vous voulez en savoir plus sur Gazouyi ou tester l'application, abonnez-vous à notre newsletter mensuelle. Vous recevrez ainsi les dernières nouvelles de notre aventure. N'hésitez pas à nous écrire si vous avez des questions, suggestions ou juste faire connaissance: <a href=\"mailto:contact@gazouyi.com\">contact@gazouyi.com</a>",
           "IMG": {
             "SRC": "assets/images/illus/mail.png",
             "ALT": "Girl in dress with letter jumping in the air"
           },
           "HREF": "https://mailchi.mp/dc7cbb1125dc/gazouyi",
           "BTN-SEND": "Subscribe",
-          "DISCLAIMER": "Your email address is only used to keep you informed on the progress of the Gazouyi project. We invite you to consult the site's terms of use for more information on the user’s rights."
+          "DISCLAIMER": "Votre adresse e-mail est uniquement utilisée pour vous tenir informé de l'avancement du projet Gazouyi. Nous vous invitons à consulter les conditions d'utilisation du site pour plus d'informations sur vos droits d'utilisateur."
       }
   },
   "PAGES" : {
@@ -312,8 +326,8 @@
           "ALT": "Jaqueline Wendland"
         },
         "NAME": "Jaqueline Wendland",
-        "POSITION": "Professor, Université Paris Descartes",
-        "DESCRIPTION": "Infant Development, Perinatal Care"
+        "POSITION": "Professeur, Université Paris Descartes",
+        "DESCRIPTION": "Développement de l'enfant, Soins périnataux"
       },
       "ADVISOR2":{
         "IMG":{
@@ -321,8 +335,8 @@
           "ALT": "Jacques Moreau"
         },
         "NAME": "Jacques Moreau",
-        "POSITION": "Professor, Université de Montréal",
-        "DESCRIPTION": "Infant Development, Intervention"
+        "POSITION": "Professeur, Université de Montréal",
+        "DESCRIPTION": "Développement de l'enfant, Intervention"
       },
       "ADVISOR3":{
         "IMG":{
@@ -330,8 +344,8 @@
           "ALT": "Christina Bergmann"
         },
         "NAME": "Christina Bergmann",
-        "POSITION": "Postdoctoral Researcher, Max Planck Institute",
-        "DESCRIPTION": "Language Development, Neuroscience"
+        "POSITION": "Chercheur Post Doctorat, Institut Max Planck",
+        "DESCRIPTION": "Développement du Langage, Neurosciences"
       },
       "ADVISOR4":{
         "IMG":{
@@ -339,8 +353,8 @@
           "ALT": "Abdellah Fourtassi"
         },
         "NAME": "Abdellah Fourtassi",
-        "POSITION": "Assistant Professor, Aix-Marseille Université",
-        "DESCRIPTION": "Early Childhood Development, NLP, Speech Processing"
+        "POSITION": "Maître de Conférences, Aix-Marseille Université",
+        "DESCRIPTION": "Développement de la petite enfance, NLP, Traitement de la parole"
       }
     },
     "CONTACT": {

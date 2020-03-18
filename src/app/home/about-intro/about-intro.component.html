@@ -14,7 +14,7 @@
               <div class="intro-contain">
                 <div>
                   <h2>{{ 'HOME.ABOUT-INTRO.ABOUT1.TITLE' | translate }}</h2>
-                  <p *ngFor="let paragraph of paragraphs1" class="text-left text-sm-justify">{{ paragraph.PARAGRAPH }}</p>
+                  <p class="text-left text-sm-justify">{{ 'HOME.ABOUT-INTRO.ABOUT1.DESCRIPTION' | translate }}</p>
                 </div>
               </div>
             </div>
@@ -36,7 +36,7 @@
               <div class="intro-contain">
                 <div>
                   <h2>{{ 'HOME.ABOUT-INTRO.ABOUT2.TITLE' | translate }}</h2>
-                  <p *ngFor="let paragraph of paragraphs2" class="text-left text-sm-justify">{{ paragraph.PARAGRAPH }}</p>
+                  <p class="text-left text-sm-justify">{{ 'HOME.ABOUT-INTRO.ABOUT2.DESCRIPTION' | translate }}</p>
                 </div>
               </div>
             </div>
@@ -58,8 +58,8 @@
               <div class="intro-contain">
                 <div>
                   <h2>{{ 'HOME.ABOUT-INTRO.ABOUT3.TITLE' | translate }}</h2>
-                  <p *ngFor="let paragraph of paragraphs3" class="text-left text-sm-justify"
-                    [innerHTML]="paragraph.PARAGRAPH "></p>
+                  <p class="text-left text-sm-justify"
+                    [innerHTML]="'HOME.ABOUT-INTRO.ABOUT3.DESCRIPTION' | translate"></p>
                 </div>
               </div>
             </div>
