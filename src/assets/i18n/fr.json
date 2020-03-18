@@ -9,7 +9,7 @@
           },
           "HOME-LINK": "Home",
           "ABOUT-LINK": "About",
-          "SIGNUP-LINK": "Subscribe",
+          "SIGNUP-LINK": "S'abonner",
           "BLOG-LINK": "Blog"
       },
       "FOOTER": {
@@ -108,7 +108,7 @@
   "HOME" : {
       "INTRO": {
           "CATCHPHRASE": "Le compagnon <i>\"intelligent\"</i> pour vous accompagner dans les moments importants de votre bébé.",
-          "BTN": "Subscribe",
+          "BTN": "S'abonner",
           "IMG": {
             "SRC": "assets/images/illus/home01.png",
             "ALT": "two babies sitting on circles."
@@ -175,9 +175,9 @@
         }
       },
       "PARTNERS": {
-          "TITLE": "We ♥ our team!",
+          "TITLE": "Beaucoup d'♥ pour cette équipe",
           "DESCRIPTION": "Gazouyi puise son énergie et créativité dans une jeune équipe formée de linguistes, d'ingénieurs en intelligence artificielle, de programmeurs et d'orthophonistes. Le projet est soutenu par les institutions scientifiques renommées telles que le CNRS et l'INRIA. Pour plus d'informations sur qui nous sommes et les chercheurs qui nous guident dans ce projet inspirant.",
-          "BTN": "More about us",
+          "BTN": "Qui sommes-nous",
           "IMG":{
             "SRC": "assets/images/profiles/team.png",
             "ALT": "red prize ribbon"
@@ -286,20 +286,20 @@
         ]
       },
       "NEWSLETTER": {
-          "CATCHPHRASE": "Join us!",
+          "CATCHPHRASE": "Abonnez-vous à notre newsletter!",
           "DESCRIPTION": "Si vous voulez en savoir plus sur Gazouyi ou tester l'application, abonnez-vous à notre newsletter mensuelle. Vous recevrez ainsi les dernières nouvelles de notre aventure. N'hésitez pas à nous écrire si vous avez des questions, suggestions ou juste faire connaissance: <a href=\"mailto:contact@gazouyi.com\">contact@gazouyi.com</a>",
           "IMG": {
             "SRC": "assets/images/illus/mail.png",
             "ALT": "Girl in dress with letter jumping in the air"
           },
           "HREF": "https://mailchi.mp/dc7cbb1125dc/gazouyi",
-          "BTN-SEND": "Subscribe",
+          "BTN-SEND": "S'abonner",
           "DISCLAIMER": "Votre adresse e-mail est uniquement utilisée pour vous tenir informé de l'avancement du projet Gazouyi. Nous vous invitons à consulter les conditions d'utilisation du site pour plus d'informations sur vos droits d'utilisateur."
       }
   },
   "PAGES" : {
     "MORE-ABOUT-US": {
-      "TITLE": "More About Us",
+      "TITLE": "Qui sommes-nous",
       "INTRODUCTION": "The idea for Gazouyi was born out of the research of the Laboratoire de Sciences Cognitives et Psycholinguistique at the Ecole Normale Superieure, with the intention to develop brain-inspired machine learning algorithms to understand how infants learn languages. Xuan Nga, a researcher at the lab and also a mother, foresaw the extraordinary educational potential of these language learning algorithms to help families with young children. Having experienced first-hand the overwhelming uncertainty but also the immense joys of parenthood, she wanted to provide new parents with a research-backed, professionally-guided tool that would help give them the means to create a brighter future for their children. The project evolved to include research from other areas of development but the goal remained the same. This is our humble attempt at making the research available to all families without being restricted by the expensive costs associated with similar services.",
       "PERSON1":{
         "IMG":{
@@ -307,8 +307,8 @@
           "ALT": "victor d'herbemont, ceo of Gazouyi"
         },
         "NAME": "Victor D'herbemont",
-        "POSITION": "CEO and Co-founder of  Gazouyi",
-        "DESCRIPTION": "Victor graduated from Centrale-Supélec, one of the top French engineering schools. He was a co-founder of <a href=\"https://www.deepnews.ai\">DeepNews</a> a start-up specialized in the use IA to score news stories. The project was funded by the Google DNI Fund and Stanford University. During his time at deepnews, Victor implemented the algorithms and set up the product technology."
+        "POSITION": "CEO and Co-fondateur de Gazouyi",
+        "DESCRIPTION": "Victor est diplômé de Centrale-Supélec. Il était co-fondateur de <a href=\"https://www.deepnews.ai\">DeepNews</a> une start-up utilisant du Machine Learning pour évaluer les articles de presse. Le projet était financé par le Google DNI Fund et Stanford University. A Deepnews, Victor était en charge de l'innovation et d'implémenter les algorithmes."
       },
       "PERSON2":{
         "IMG":{
@@ -316,10 +316,10 @@
           "ALT": "Xuan Nga, coo of Gazouyi"
         },
         "NAME": "Xuan-Nga Cao",
-        "POSITION": "COO and Co-founder of Gazouyi",
-        "DESCRIPTION": "Xuan-Nga received her pHD in linguistics at City University of New York and worked as a research engineer in the <a href=\"http://www.syntheticlearner.net\">CoML</a> team. She is a co-founder of <a href=\"http://www.langinnov.com\">LangInnov</a>, a company whose mission is to develop assessment materials for the bilingual population in the US. She has an extensive experience in project management and product development working in various start-ups."
+        "POSITION": "COO et Co-fondatrice de Gazouyi",
+        "DESCRIPTION": "Xuan-Nga est docteur en linguistique à City University of New York et est ingénieure de recherche dans l'équipe <a href=\"http://www.syntheticlearner.net\">CoML</a>. Elle est co-fondatrice de <a href=\"http://www.langinnov.com\">LangInnov</a>, a start-up basé à New York, qui développe des évaluations pour les étudiants bilingues."
       },
-      "TEAM" : "Scientific Advisors",
+      "TEAM" : "Nos conseillers scientifiques",
       "ADVISOR1":{
         "IMG":{
           "SRC": "assets/images/profiles/jaqueline_wendland.png",
@@ -358,8 +358,8 @@
       }
     },
     "CONTACT": {
-        "TITLE": "Get in touch",
-        "SUBTITLE": "We would love to hear from you!",
+        "TITLE": "Faisons connaissance!",
+        "SUBTITLE": "N'hésitez pas à nous écrire!",
         "IMG": {
           "SRC": "assets/images/illus/contact.png",
           "ALT": "Yellow bird flying amongst clouds carrying a letter"

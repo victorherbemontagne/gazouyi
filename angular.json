@@ -24,7 +24,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options":
           {
-            "outputPath": "dist/gazouyi-site-v2.1",
+            "outputPath": "dist/gazouyi-site-v2-1",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
