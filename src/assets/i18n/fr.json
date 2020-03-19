@@ -8,7 +8,7 @@
             }
           },
           "HOME-LINK": "Home",
-          "ABOUT-LINK": "About",
+          "ABOUT-LINK": "A propos",
           "SIGNUP-LINK": "S'abonner",
           "BLOG-LINK": "Blog"
       },
@@ -20,24 +20,24 @@
               }
           },
           "COLUMN1":{
-            "TITLE": "Company",
+            "TITLE": "Gazouyi",
             "ITEM1":{
-              "NAME": "About us"
+              "NAME": "A Propos"
             },
             "ITEM2":{
-              "NAME": "Contact us"
+              "NAME": "Contact"
             }
           },
           "COLUMN2":{
-            "TITLE": "Further info",
+            "TITLE": "Mentions Légales",
             "ITEM1":{
-              "NAME": "Terms & Conditions"
+              "NAME": "CGU"
             },
             "ITEM2":{
-              "NAME": "Privacy Policy"
+              "NAME": "Confidentialité"
             }
           },
-          "MEDIA-TITLE": "Follow us",
+          "MEDIA-TITLE": "Suivez-nous",
           "SOCIALS": [
             {
                 "IMG": {
@@ -107,7 +107,7 @@
   },
   "HOME" : {
       "INTRO": {
-          "CATCHPHRASE": "Le compagnon <i>\"intelligent\"</i> pour vous accompagner dans les moments importants de votre bébé.",
+          "CATCHPHRASE": "Le compagnon <i>\"intelligent\"</i> pour accompagner les familles dans les moments forts de bébé",
           "BTN": "S'abonner",
           "IMG": {
             "SRC": "assets/images/illus/home01.png",
@@ -216,7 +216,7 @@
           ]
       },
       "PARENTS": {
-        "INTRODUCTION": "Durant les premières années de leurs vies, les bébés se développent à un rythme accéléré au niveau moteur mais aussi bien aux niveaux cognitif et émotionnel. Faceà ces rapides changements, les parents sont parfois déconcertés et se demandent comment assurer l'épanouissement de leur enfant.",
+        "INTRODUCTION": "Durant les premières années de leurs vies, les bébés se développent à un rythme accéléré au niveau moteur mais aussi bien aux niveaux cognitif et émotionnel. Face à ces rapides changements, les parents sont parfois déconcertés et se demandent comment assurer l'épanouissement de leur enfant.",
         "TITLE": "La vision de Gazouyi",
         "DESCRIPTION" : "Gazouyi est une application mobile destinée aux parents. Elle est conçue pour vous aider à créer des liens positifs avec vos enfants. Pour atteindre cet objectif, Gazouyi a développé un ensemble d'activités et d'informations personnalisées pour le développement de votre enfant.",
         "PARENT1": {
@@ -226,10 +226,10 @@
           }
         },
         "SPEECH-LEFT-TOP":{
-          "TEXT": "I'm tired of sifting through all the information on the Internet trying to find something legitimate."
+          "TEXT": "Internet regorge d'informations mais c'est assez difficile de trier parmi tout ce flux pour en sortir les informations pertinentes."
         },
         "SPEECH-LEFT-BOTTOM":{
-          "TEXT" : "I know I'm supposed to bond with my kid but I don't understand how when she can't communicate back with me."
+          "TEXT" : "Je sais que je devrais interagir davantage avec mon enfant mais c'est parfois frustrant car elle n'est pas encore en âge de communiquer avec moi."
         },
         "PARENT2": {
           "IMG":{
@@ -238,16 +238,16 @@
           }
         },
         "SPEECH-RIGHT-TOP":{
-          "TEXT" : "I bought the supplies to make a babybook but I just never have the time to put it together!"
+          "TEXT" : "J'ai acheté tout le nécessaire pour faire l'album de naissance mais je ne trouve jamais le temps pour le terminer!"
         },
         "SPEECH-RIGHT-BOTTOM":{
-          "TEXT" : "It's frustrating for my son when we work on activities that are age appropriate but not developmentally appropriate."
+          "TEXT" : "C'est frustrant de faire des activités avec mon fils qui sont censées correspondre à son âge mais en réalité, elles n'ont pas été conçues avec l'optique que chaque enfant se développe à son propre rythme."
         }
       },
       "NEWS": {
         "TITLE": "Blog",
         "SUBTITLE": "Voici nos dernières publications",
-        "BTN-MORE": "View Blog",
+        "BTN-MORE": "Accéder au blog",
         "BTN-LINK": "https://gazouyi.home.blog/",
         "ARTICLES": [
           {
@@ -294,20 +294,20 @@
           },
           "HREF": "https://mailchi.mp/dc7cbb1125dc/gazouyi",
           "BTN-SEND": "S'abonner",
-          "DISCLAIMER": "Votre adresse e-mail est uniquement utilisée pour vous tenir informé de l'avancement du projet Gazouyi. Nous vous invitons à consulter les conditions d'utilisation du site pour plus d'informations sur vos droits d'utilisateur."
+          "DISCLAIMER": "Votre adresse e-mail est uniquement utilisée pour vous tenir informé.e de l'avancement du projet Gazouyi. Nous vous invitons à consulter les conditions d'utilisation du site pour plus d'informations sur vos droits d'utilisateur."
       }
   },
   "PAGES" : {
     "MORE-ABOUT-US": {
-      "TITLE": "Qui sommes-nous",
-      "INTRODUCTION": "The idea for Gazouyi was born out of the research of the Laboratoire de Sciences Cognitives et Psycholinguistique at the Ecole Normale Superieure, with the intention to develop brain-inspired machine learning algorithms to understand how infants learn languages. Xuan Nga, a researcher at the lab and also a mother, foresaw the extraordinary educational potential of these language learning algorithms to help families with young children. Having experienced first-hand the overwhelming uncertainty but also the immense joys of parenthood, she wanted to provide new parents with a research-backed, professionally-guided tool that would help give them the means to create a brighter future for their children. The project evolved to include research from other areas of development but the goal remained the same. This is our humble attempt at making the research available to all families without being restricted by the expensive costs associated with similar services.",
+      "TITLE": "Qui sommes-nous?",
+      "INTRODUCTION": "Le projet de Gazouyi est issu des recherches du Laboratoire de Sciences Cognitives et Psycholinguistique de l&#39;Ecole Normale Supérieure, un laboratoire renommé pour ses études sur le développement du bébé. Xuan Nga, ingénieure recherche au laboratoire et également mère, a voulu créer ce lien entre la recherche scientifique et les besoins des parents désireux de trouver la bonne information au bon moment pour le développement de leur enfant. En effet, les parents se posent beaucoup de questions sur ce sujet et ayant elle-même connu ces incertitudes, Xuan-Nga a voulu fournir aux familles un outil basé sur la recherche scientifique pour les guider dans la tâche délicate, mais gratifiante, de parents. Gazouyi est notre modeste tentative de mettre à la disposition de toutes les familles une application peu coûteuse qui leur permettra de comprendre et de partager les moments importants de la vie de leur enfant.",
       "PERSON1":{
         "IMG":{
           "SRC": "assets/images/profiles/victor_Dherbemont.png",
           "ALT": "victor d'herbemont, ceo of Gazouyi"
         },
         "NAME": "Victor D'herbemont",
-        "POSITION": "CEO and Co-fondateur de Gazouyi",
+        "POSITION": "CEO et Co-fondateur de Gazouyi",
         "DESCRIPTION": "Victor est diplômé de Centrale-Supélec. Il était co-fondateur de <a href=\"https://www.deepnews.ai\">DeepNews</a> une start-up utilisant du Machine Learning pour évaluer les articles de presse. Le projet était financé par le Google DNI Fund et Stanford University. A Deepnews, Victor était en charge de l'innovation et d'implémenter les algorithmes."
       },
       "PERSON2":{
@@ -317,7 +317,7 @@
         },
         "NAME": "Xuan-Nga Cao",
         "POSITION": "COO et Co-fondatrice de Gazouyi",
-        "DESCRIPTION": "Xuan-Nga est docteur en linguistique à City University of New York et est ingénieure de recherche dans l'équipe <a href=\"http://www.syntheticlearner.net\">CoML</a>. Elle est co-fondatrice de <a href=\"http://www.langinnov.com\">LangInnov</a>, a start-up basé à New York, qui développe des évaluations pour les étudiants bilingues."
+        "DESCRIPTION": "Xuan-Nga est docteur en linguistique à City University of New York et est ingénieure de recherche dans l'équipe <a href=\"http://www.syntheticlearner.net\">CoML</a>. Elle est co-fondatrice de <a href=\"http://www.langinnov.com\">LangInnov</a>, une start-up basée à New York, qui développe des évaluations pour les étudiants bilingues."
       },
       "TEAM" : "Nos conseillers scientifiques",
       "ADVISOR1":{
@@ -344,7 +344,7 @@
           "ALT": "Christina Bergmann"
         },
         "NAME": "Christina Bergmann",
-        "POSITION": "Chercheur Post Doctorat, Institut Max Planck",
+        "POSITION": "Chercheuse Post-Doctorale, Institut Max Planck",
         "DESCRIPTION": "Développement du Langage, Neurosciences"
       },
       "ADVISOR4":{
@@ -354,7 +354,7 @@
         },
         "NAME": "Abdellah Fourtassi",
         "POSITION": "Maître de Conférences, Aix-Marseille Université",
-        "DESCRIPTION": "Développement de la petite enfance, NLP, Traitement de la parole"
+        "DESCRIPTION": "Développement du Langage, TAL, Traitement de la parole"
       }
     },
     "CONTACT": {
