@@ -1,6 +1,8 @@
 @import 'constants';
 
 #about-intro {
+  width: 100vw;
+  overflow-x: hidden;
   .row {
     // padding-top: 10vh;
     min-height: 50vh;

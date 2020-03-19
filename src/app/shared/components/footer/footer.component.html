@@ -81,17 +81,20 @@
   </div>
 
 <ng-template #mobile>
-  <div class="pt-4 row footer">
-    <div class="col-11 mx-auto d-flex align-items-center justify-content-between">
-    <div class="logo float-left">
-      <img src="{{ 'SHARED.FOOTER.CONTACT.IMG.SRC' | translate }}" alt="{{ 'SHARED.FOOTER.CONTACT.IMG.ALT' | translate }}">
-      <div class="copyright">
-          <p><span><small>{{ 'SHARED.FOOTER.FOOTNOTE' | translate }}</small></span></p>
-        </div>
+  <div class="container-fluid footer">
+    <div class="pt-4 row">
+      <div class="col-12 mx-0 mx-sm-auto d-flex align-items-center justify-content-between">
+      <div class="logo float-left">
+        <img src="{{ 'SHARED.FOOTER.CONTACT.IMG.SRC' | translate }}" alt="{{ 'SHARED.FOOTER.CONTACT.IMG.ALT' | translate }}">
+        <div class="copyright">
+            <p><span><small>{{ 'SHARED.FOOTER.FOOTNOTE' | translate }}</small></span></p>
+          </div>
+      </div>
+      <div class="social-icons d-flex float-right">
+        <div class="social-icon mr-3" *ngFor="let social of socials"><a href="{{ social.HREF }}"><img src="{{ social.IMG.SRC }}" alt="{{ social.IMG.ALT }}"></a></div>
+      </div>
     </div>
-    <div class="social-icons d-flex float-right">
-      <div class="social-icon mr-3" *ngFor="let social of socials"><a href="{{ social.HREF }}"><img src="{{ social.IMG.SRC }}" alt="{{ social.IMG.ALT }}"></a></div>
     </div>
-  </div>
+    
   </div>
 </ng-template>
