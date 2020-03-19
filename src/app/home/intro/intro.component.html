@@ -7,9 +7,9 @@
       <div class="col-11 col-md-6 mx-auto mt-n5 mt-md-0 mb-5 mb-md-0">
         <h1 [innerHTML]="'HOME.INTRO.CATCHPHRASE' | translate"></h1>
         
-        <div class="home-buttons">
+        <div class="home-buttons" *ngIf="!bMobile">
             <button mat-flat-button color="accent" class="m2" [routerLink]="'/home'" href="#newsletter"
-            [pageScrollOffset]="80" pageScroll pageScrollDuration="0" *ngIf="!bMobile">{{ 'HOME.INTRO.BTN' | translate }}</button>
+            [pageScrollOffset]="80" pageScroll pageScrollDuration="0">{{ 'HOME.INTRO.BTN' | translate }}</button>
         </div>
       </div>
     </div>
