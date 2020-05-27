@@ -8001,10 +8001,10 @@ Zone.__load_patch('ZoneAwarePromise', function (global, Zone, api) {
                 reject = rej;
             });
             function onResolve(value) {
-                promise && (promise =  false || resolve(value));
+                promise && (promise = null || resolve(value));
             }
             function onReject(error) {
-                promise && (promise =  false || reject(error));
+                promise && (promise = null || reject(error));
             }
             try {
                 for (var values_1 = __values(values), values_1_1 = values_1.next(); !values_1_1.done; values_1_1 = values_1.next()) {
