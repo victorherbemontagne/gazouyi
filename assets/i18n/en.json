@@ -91,8 +91,8 @@
                   "SRC": "assets/images/icon/family.png",
                   "ALT": ""
                 },
-                "TITLE": "Family",
-                "TEXT": "Family engagement is essential to the successful/positive development of a child. We encourage you and your whole family to take part during this exciting time."
+                "TITLE": "Playful moments",
+                "TEXT": "The key to Gazouyi is reuniting the child and parent around a unique moment each day. That's why our challenge is not only to offer a scientifically validated application, but also to build entertaining features that support families."
               },
               "VALUE3": {
                 "IMG": {
@@ -107,7 +107,7 @@
     },
     "HOME" : {
         "INTRO": {
-            "CATCHPHRASE": "Your <i>smart</i> companion in supporting your child from first chirp to first flight",
+            "CATCHPHRASE": "A parenting assistant focused on child development",
             "BTN": "Subscribe",
             "IMG": {
               "SRC": "assets/images/illus/home01.png",
@@ -115,8 +115,8 @@
             }
         },
         "ABOUT-REVERSE": {
-            "TITLE": "[gæzuˈji:]",
-            "DESCRIPTION": "Gazouillis is a french word that means babbling or chirping. These are the baby's first attempts at communicating with their environment.",
+            "TITLE": "Gazouyi moments",
+            "DESCRIPTION": "Spend a few minutes a day with your child to see everyday life in a different way. Gazouyi offers simple and fun activities created by experts and personalized to the child's development. Screen reader support enabled.",
             "IMG": {
               "SRC": "assets/images/illus/bird_family.png",
               "ALT": "Three yellow Gazouyi birds. One large parent and two small children."
@@ -154,29 +154,29 @@
               "SRC": "assets/images/illus/phone-gather-and-share.png",
               "ALT": "Gazouyi App Screenshot of Baby Book timeline"
             },
-            "TITLE": "Gather & Share",
-            "DESCRIPTION": "You loved ones can also be involved in the success of your child! The steps are simple:<ol><li>Create an account</li><li>Add loved ones</li><li>Do activities</li><li>Add them to the babybook to keep for the long term!</li></ol>"
+            "TITLE": "A clear promise",
+            "DESCRIPTION": "Gazouyi is a simple tool with a simple promise: help parents day after day to better understand their child and to encourage their development."
           },
           "ABOUT2":{
             "IMG": {
               "SRC": "assets/images/illus/phone-understand.png",
               "ALT": "Gazouyi App Screenshot of Playground"
             },
-            "TITLE": "Understand",
-            "DESCRIPTION":  "Most parents are aware that there are a few big milestones in a child's development, for example, learning how to walk or talk, but we'll show how you that there are many more incredible moments of celebration to come." 
+            "TITLE": "Science in everyday life",
+            "DESCRIPTION":  "Based on science and active learning, the activities proposed by Gazouyi benefit the child's development while supporting parents everyday in their confidence and parenting skills." 
           },
           "ABOUT1":{
             "IMG": {
               "SRC": "assets/images/illus/phone-bond.png",
               "ALT": "Gazouyi App Screenshot of an exercise to see if your child can achieve a development milestones"
             },
-            "TITLE": "Bond",
-            "DESCRIPTION": "The most important influence on positive development is a positive relationship between a child and their caregiver. Gazouyi helps you bond with your child with developmentally appropriate games and activities. There's nothing better than watching your little grow and achieve !?"
+            "TITLE": "A tool for everyone",
+            "DESCRIPTION": "Gazouyi encourages the involvement of all the grownups in a child's life. The application helps share and celebrate the child's life with family, friends and early childhood professionals in a private and secure space."
           }
         },
         "PARTNERS": {
-            "TITLE": "We ♥ our team!",
-            "DESCRIPTION": "Gazouyi is made up of an incredible team of scientists, linguists, AI specialists, engineers, and educators from some of the most prestigious higher education institutions in France. The project is supported by major scientific institutions, CNRS and INRIA. Check out our scientific advisory group and more specific information about who we are.",
+            "TITLE": "A lot of ♥ for this team",
+            "DESCRIPTION": "Gazouyi draws its energy and creativity from a team of linguists, engineers and speech therapists, all of whom are passionate about early childhood issues. The project is supported by renowned scientific institutions such as INRIA and CNRS. Subscribe for more information about who we are and the researchers who guide us in this inspiring project.",
             "BTN": "More about us",
             "IMG":{
               "SRC": "assets/images/profiles/team.png",
@@ -191,12 +191,6 @@
                 },
                 {
                     "IMG": {
-                        "SRC": "assets/images/logos/ehess_color.png",
-                        "ALT": "logo école des hautes études en sciences sociales"
-                    }
-                },
-                {
-                    "IMG": {
                         "SRC": "assets/images/logos/inria_color.png",
                         "ALT": "logo Institut national de recherche en informatique et en automatique"
                     }
@@ -206,19 +200,13 @@
                         "SRC": "assets/images/logos/psl_color.png",
                         "ALT": "logo université de recherche Paris-Sciences-et-Lettres"
                     }
-                },
-                {
-                    "IMG": {
-                        "SRC": "assets/images/logos/ens_color.png",
-                        "ALT": "logo école normale supérieure"
-                    }
                 }
             ]
         },
         "PARENTS": {
-          "INTRODUCTION": "During their first years of life, infants develop physically, emotionally and cognitively at an amazing speed. Parents often wonder what they should do to establish the successful development of their child.",
-          "TITLE": "Our Mission",
-          "DESCRIPTION" : "Gazouyi is a mobile application for caregivers, designed to help you engage in positive interactions with your children. We help you achieve this by giving you a personalized bundle of activities and information, tailored to your child’s development.",
+          "INTRODUCTION": "During their first years of life, infants develop physically, emotionally and cognitively at an amazing speed. Faced with these rapid changes, parents also experience an intense transformation.",
+          "TITLE": "Gazouyi's vision",
+          "DESCRIPTION" : "Gazouyi's job is to build educational tools that allow everyone to better understand child development.",
           "PARENT1": {
             "IMG":{
               "SRC": "assets/images/illus/parent-papa-maddie.png",
@@ -229,7 +217,7 @@
             "TEXT": "I'm tired of sifting through all the information on the Internet trying to find something legitimate."
           },
           "SPEECH-LEFT-BOTTOM":{
-            "TEXT" : "I know I'm supposed to bond with my kid but I don't understand how when she can't communicate back with me."
+            "TEXT" : "How can I bond with my child when I can't understand them...?"
           },
           "PARENT2": {
             "IMG":{
@@ -238,10 +226,10 @@
             }
           },
           "SPEECH-RIGHT-TOP":{
-            "TEXT" : "I bought the supplies to make a babybook but I just never have the time to put it together!"
+            "TEXT" : "I would like to have a place to celebrate the milestones of this special time for my family."
           },
           "SPEECH-RIGHT-BOTTOM":{
-            "TEXT" : "It's frustrating for my son when we work on activities that are age appropriate but not developmentally appropriate."
+            "TEXT" : "I don't have the time or inspiration to create activities that are truly adapted to my child."
           }
         },
         "NEWS": {
@@ -286,8 +274,8 @@
           ]
         },
         "NEWSLETTER": {
-            "CATCHPHRASE": "Join us!",
-            "DESCRIPTION": "If you'd like to get involved or try Gazouyi out, register for our newsletter and keep an eye out for our beta test via this link. If you have any questions, recommendations or just want to chat feel free to send us an email at <a href=\"mailto:contact@gazouyi.com\">contact@gazouyi.com</a>",
+            "CATCHPHRASE": "Stay in touch!",
+            "DESCRIPTION": "If you want to know more about Gazouyi, sign up for the latest news of our aventure and follow us on social media. Don't hesitate to write to us if you have any questions, suggestions or just want to stay in touch: <a href=\"mailto:contact@gazouyi.com\">contact@gazouyi.com</a>",
             "IMG": {
               "SRC": "assets/images/illus/mail.png",
               "ALT": "Girl in dress with letter jumping in the air"
@@ -300,15 +288,16 @@
     "PAGES" : {
       "MORE-ABOUT-US": {
         "TITLE": "More About Us",
-        "INTRODUCTION": "The idea for Gazouyi was born out of the research of the Laboratoire de Sciences Cognitives et Psycholinguistique at the Ecole Normale Superieure, with the intention to develop brain-inspired machine learning algorithms to understand how infants learn languages. Xuan Nga, a researcher at the lab and also a mother, foresaw the extraordinary educational potential of these language learning algorithms to help families with young children. Having experienced first-hand the overwhelming uncertainty but also the immense joys of parenthood, she wanted to provide new parents with a research-backed, professionally-guided tool that would help give them the means to create a brighter future for their children. The project evolved to include research from other areas of development but the goal remained the same. This is our humble attempt at making the research available to all families without being restricted by the expensive costs associated with similar services.",
+        "INTRODUCTION1": "Gazouillis is a french word that means babbling or chirping. These are the baby's first attempts at communicating with their environment.",
+        "INTRODUCTION2": "The idea for Gazouyi was born out of the research of the Laboratoire de Sciences Cognitives et Psycholinguistique at the Ecole Normale Superieure, with the intention to develop brain-inspired machine learning algorithms to understand how infants learn languages. Xuan Nga, a researcher at the lab and also a mother, foresaw the extraordinary educational potential of these language learning algorithms to help families with young children. Having experienced first-hand the overwhelming uncertainty but also the immense joys of parenthood, she wanted to provide new parents with a research-backed, professionally-guided tool that would help give them the means to create a brighter future for their children. The project evolved to include research from other areas of development but the goal remained the same. This is our humble attempt at making the research available to all families without being restricted by the expensive costs associated with similar services.",
         "PERSON1":{
           "IMG":{
             "SRC": "assets/images/profiles/victor_Dherbemont.png",
             "ALT": "victor d'herbemont, ceo of Gazouyi"
           },
           "NAME": "Victor D'herbemont",
-          "POSITION": "CEO and Co-founder of  Gazouyi",
-          "DESCRIPTION": "Victor graduated from Centrale-Supélec, one of the top French engineering schools. He was a co-founder of <a href=\"https://www.deepnews.ai\">DeepNews</a> a start-up specialized in the use IA to score news stories. The project was funded by the Google DNI Fund and Stanford University. During his time at deepnews, Victor implemented the algorithms and set up the product technology."
+          "POSITION": "CEO and Co-founder of Gazouyi",
+          "DESCRIPTION": "Victor graduated from CentraleSupélec with a masters in computer science, specializing in automated learning. Prior to joining LSCP (Laboratoire de Sciences Cognitives et Psycholinguistique) as a pre-doctoral student and starting his adventure with Gazouyi, Victor helped launched DeepNews. DeepNews uses Machine Learning to evaluate the quality of news articles issued by Stanford University."
         },
         "PERSON2":{
           "IMG":{
@@ -317,7 +306,7 @@
           },
           "NAME": "Xuan-Nga Cao",
           "POSITION": "COO and Co-founder of Gazouyi",
-          "DESCRIPTION": "Xuan-Nga received her pHD in linguistics at City University of New York and worked as a research engineer in the <a href=\"http://www.syntheticlearner.net\">CoML</a> team. She is a co-founder of <a href=\"http://www.langinnov.com\">LangInnov</a>, a company whose mission is to develop assessment materials for the bilingual population in the US. She has an extensive experience in project management and product development working in various start-ups."
+          "DESCRIPTION": "Xuan-Nga received her PhD in linguistics at City University of New York and worked as a research engineer in the CoML team. (Cognitive Machine Learning). She is a co-founder of LangInnov, a company whose mission is to develop assessment materials for the bilingual population in the US, funded by the National Science Foundation."
         },
         "TEAM" : "Scientific Advisors",
         "ADVISOR1":{
