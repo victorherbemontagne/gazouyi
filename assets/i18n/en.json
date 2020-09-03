@@ -172,6 +172,12 @@
             },
             "TITLE": "A tool for everyone",
             "DESCRIPTION": "Gazouyi encourages the involvement of all the grownups in a child's life. The application helps share and celebrate the child's life with family, friends and early childhood professionals in a private and secure space."
+          },
+          "MOBILE":{
+            "IMG": {
+              "SRC": "assets/images/illus/phone-mobile.png",
+              "ALT": "3 Phones with Screenshots of Gazouyi's App"
+            }
           }
         },
         "PARTNERS": {

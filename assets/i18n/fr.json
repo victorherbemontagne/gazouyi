@@ -172,7 +172,13 @@
           },
           "TITLE": "Un outil pour tous",
           "DESCRIPTION": "Gazouyi encourage l'engagement de toutes les personnes importantes dans la vie du bébé. L'application permet de partager et célébrer la vie de l'enfant avec les proches (famille, amis, professionnels de la petite enfance) dans un espace privé et protégé."
-        }
+        },
+          "MOBILE":{
+            "IMG": {
+              "SRC": "assets/images/illus/phone-mobile.png",
+              "ALT": "3 téléphones avec captures d'écran de l'application Gazouyi"
+            }
+          }
       },
       "PARTNERS": {
           "TITLE": "Beaucoup d'♥ pour cette équipe",
