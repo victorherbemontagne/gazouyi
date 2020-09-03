@@ -25,7 +25,7 @@ export class FooterComponent implements OnInit {
   }];
 
   constructor(breakpointObserver: BreakpointObserver, public translate: TranslateService) {
-    breakpointObserver.observe('(max-width: 720px)').subscribe(result => {
+    breakpointObserver.observe('(max-width: 767px)').subscribe(result => {
       this.bMobile = result.matches;
     });
   }

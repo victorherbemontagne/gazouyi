@@ -2,11 +2,11 @@
 
 .about-reverse {
     .row {
-        min-height: 50vh;
+        min-height: 25vh;
         max-width: 100vw;
     }
     .phonetics{
-      font-size: 6em;
+      font-size: 3em;
     }
 }
 
@@ -17,8 +17,8 @@
 
 @media(min-width: 992px){
   .about-reverse {
-  padding-top: 20vh;
-  padding-bottom: 20vh;
+  padding-top: 15vh;
+  padding-bottom: 25vh;
   }
 }
 
@@ -37,7 +37,7 @@
   .about-reverse{
       padding-bottom: 150px;
     .phonetics{
-      font-size: 4em;
+      font-size: 3em;
     }
   }
 }
@@ -45,7 +45,7 @@
 @media(max-width: 575px){
   .about-reverse{
     .phonetics{
-      font-size: 3em;
+      font-size: 2em;
     }
   }
 }

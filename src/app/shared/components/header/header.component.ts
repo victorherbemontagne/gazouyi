@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit {
   public darkHeader = false;
   public shouldShow = false;
 
-  defaultValue = 'en';
+  defaultValue = 'fr';
   languages: Language[] = [
     {value: 'en', viewValue: '🇬🇧 en'},
     {value: 'fr', viewValue: '🇫🇷 fr'}

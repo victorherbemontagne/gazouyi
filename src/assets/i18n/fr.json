@@ -91,8 +91,8 @@
                 "SRC": "assets/images/icon/family.png",
                 "ALT": ""
               },
-              "TITLE": "La famille",
-              "TEXT": "Des relations familiales fortes sont bénéfiques à l'épanouissement d'un enfant. Notre objectif est de pouvoir rassembler l'écosystème familial de l'enfant durant cette période enrichissantes."
+              "TITLE": "Des moment ludiques",
+              "TEXT": "L'important pour Gazouyi est de réunir l'enfant et le parent autour d'un moment unique chaque jour. C'est pourquoi notre enjeu n'est pas seulement de proposer une application validée scientifiquement mais également de construire des fonctionnalités divertissantes pour accompagner les familles."
             },
             "VALUE3": {
               "IMG": {
@@ -100,14 +100,14 @@
                 "ALT": ""
               },
               "TITLE": "La recherche scientifique",
-              "TEXT": "Notre projet allie les dernières avancées dans les domaines du développement de l'enfant et de l'apprentissage automatique. Notre priorité est de vous transmettre cette connaissance scientifique de manière claire et compréhensible."
+              "TEXT": "Notre projet regroupe les dernières avancées dans les domaines du développement de l'enfant et de l'apprentissage automatique. Notre priorité est de vous transmettre cette connaissance scientifique de manière utile et compréhensible."
             }
           }
       }
   },
   "HOME" : {
       "INTRO": {
-          "CATCHPHRASE": "Le compagnon <i>\"intelligent\"</i> pour accompagner les familles dans les moments forts de bébé",
+          "CATCHPHRASE": "L’assistant à la parentalité, centré sur le développement de l'enfant",
           "BTN": "S'abonner",
           "IMG": {
             "SRC": "assets/images/illus/home01.png",
@@ -115,8 +115,8 @@
           }
       },
       "ABOUT-REVERSE": {
-          "TITLE": "[gæzuˈji:]",
-          "DESCRIPTION" : "\"Gazouillis\" désigne les vocalisations spontanées du nourrisson. Ce sont les premières tentatives de communication des bébés avec leur environnement.",
+          "TITLE": "Les Moments Gazouyi",
+          "DESCRIPTION" : "Quelques minutes par jour avec son enfant pour voir le quotidien autrement. Gazouyi propose des activités simples et ludiques créées par des experts et personnalisées en fonction du développement de l'enfant.",
           "IMG": {
             "SRC": "assets/images/illus/bird_family.png",
             "ALT": "Three yellow Gazouyi birds. One large parent and two small children."
@@ -154,29 +154,35 @@
             "SRC": "assets/images/illus/phone-gather-and-share.png",
             "ALT": "Gazouyi App Screenshot of Baby Book timeline"
           },
-          "TITLE": "Rasssembler et partager",
-          "DESCRIPTION": "Vos proches peuvent aussi voir et participer au développement de votre enfant! Pour cela, il vous suffira de:<ol><li>Créer un compte</li><li>Ajouter vos proches</li><li>Faire les activités</li><li>Les ajouter au babybook afin de les conserver à long terme!</li></ol>"
+          "TITLE": "Une promesse claire",
+          "DESCRIPTION": "Gazouyi c'est un outil simple avec une promesse simple. Aider les parents jour après jour à mieux comprendre leur enfant et à l'encourager dans son éveil."
         },
         "ABOUT2":{
           "IMG": {
             "SRC": "assets/images/illus/phone-understand.png",
             "ALT": "Gazouyi App Screenshot of Playground"
           },
-          "TITLE": "Comprendre",
-          "DESCRIPTION": "La plupart des parents connaissent les quelques jalons essentiels pour le développement d'un enfant, comme apprendre à marcher ou parler, mais nous vous montrerons qu'il y a bien d'autres étapes toutes aussi intéressantes à observer et à célébrer!"
+          "TITLE": "La science au quotidien",
+          "DESCRIPTION": "Basées sur la science et la pédagogie active, les activités proposées par Gazouyi bénéficient à l'épanouissement de l'enfant tout en accompagnant les parents au quotidien dans leur confiance et compétence parentale."
         },
         "ABOUT1":{
           "IMG": {
             "SRC": "assets/images/illus/phone-bond.png",
             "ALT": "Gazouyi App Screenshot of an exercise to see if your child can achieve a development milestones"
           },
-          "TITLE": "Unir",
-          "DESCRIPTION": "Etablir une relation forte entre un parent et son enfant est bénéfique pour le développement de ce dernier. Gazouyi vous aide à créer des liens avec votre enfant par le biais de jeux et d'activités adaptés à son développement. Il n'y a rien de plus gratifiant que de regarder votre enfant s'épanouir!"
-        }
+          "TITLE": "Un outil pour tous",
+          "DESCRIPTION": "Gazouyi encourage l'engagement de toutes les personnes importantes dans la vie du bébé. L'application permet de partager et célébrer la vie de l'enfant avec les proches (famille, amis, professionnels de la petite enfance) dans un espace privé et protégé."
+        },
+          "MOBILE":{
+            "IMG": {
+              "SRC": "assets/images/illus/phone-mobile.png",
+              "ALT": "3 téléphones avec captures d'écran de l'application Gazouyi"
+            }
+          }
       },
       "PARTNERS": {
           "TITLE": "Beaucoup d'♥ pour cette équipe",
-          "DESCRIPTION": "Gazouyi puise son énergie et créativité dans une jeune équipe formée de linguistes, d'ingénieurs en intelligence artificielle, de programmeurs et d'orthophonistes. Le projet est soutenu par les institutions scientifiques renommées telles que le CNRS et l'INRIA. Pour plus d'informations sur qui nous sommes et les chercheurs qui nous guident dans ce projet inspirant.",
+          "DESCRIPTION": "Gazouyi puise son énergie et sa créativité dans une équipe formée de linguistes, d'ingénieurs et d'orthophonistes, tous passionées par les enjeux liés à la petite enfance. Le projet est soutenu par des institutions scientifiques renommées telles que l'INRIA et le CNRS. Pour plus d'informations sur qui nous sommes et les chercheurs qui nous guident dans ce projet inspirant.",
           "BTN": "Qui sommes-nous",
           "IMG":{
             "SRC": "assets/images/profiles/team.png",
@@ -191,12 +197,6 @@
               },
               {
                   "IMG": {
-                      "SRC": "assets/images/logos/ehess_color.png",
-                      "ALT": "logo école des hautes études en sciences sociales"
-                  }
-              },
-              {
-                  "IMG": {
                       "SRC": "assets/images/logos/inria_color.png",
                       "ALT": "logo Institut national de recherche en informatique et en automatique"
                   }
@@ -206,19 +206,13 @@
                       "SRC": "assets/images/logos/psl_color.png",
                       "ALT": "logo université de recherche Paris-Sciences-et-Lettres"
                   }
-              },
-              {
-                  "IMG": {
-                      "SRC": "assets/images/logos/ens_color.png",
-                      "ALT": "logo école normale supérieure"
-                  }
               }
           ]
       },
       "PARENTS": {
-        "INTRODUCTION": "Durant les premières années de leurs vies, les bébés se développent à un rythme accéléré au niveau moteur mais aussi bien aux niveaux cognitif et émotionnel. Face à ces rapides changements, les parents sont parfois déconcertés et se demandent comment assurer l'épanouissement de leur enfant.",
+        "INTRODUCTION": "Durant les cinq premières années de vie, les bébés se développent à un rythme accéléré aux niveaux moteur, cognitif et émotionnel. Face à ces rapides changements, les parents vivent aussi une transformation intense.",
         "TITLE": "La vision de Gazouyi",
-        "DESCRIPTION" : "Gazouyi est une application mobile destinée aux parents. Elle est conçue pour vous aider à créer des liens positifs avec vos enfants. Pour atteindre cet objectif, Gazouyi a développé un ensemble d'activités et d'informations personnalisées pour le développement de votre enfant.",
+        "DESCRIPTION" : "Le métier de Gazouyi est de construire des outils pédagogiques qui permettent à tous de mieux comprendre le développement des enfants.",
         "PARENT1": {
           "IMG":{
             "SRC": "assets/images/illus/parent-papa-maddie.png",
@@ -226,10 +220,10 @@
           }
         },
         "SPEECH-LEFT-TOP":{
-          "TEXT": "Internet regorge d'informations mais c'est assez difficile de trier parmi tout ce flux pour en sortir les informations pertinentes."
+          "TEXT": "Internet regorge d'informations mais c'est difficile de trouver l'information pertinente."
         },
         "SPEECH-LEFT-BOTTOM":{
-          "TEXT" : "Je sais que je devrais interagir davantage avec mon enfant mais c'est parfois frustrant car elle n'est pas encore en âge de communiquer avec moi."
+          "TEXT" : "Comment faire pour être présent dans la vie de mon enfant quand je n'arrive pas à le comprendre...?"
         },
         "PARENT2": {
           "IMG":{
@@ -238,10 +232,10 @@
           }
         },
         "SPEECH-RIGHT-TOP":{
-          "TEXT" : "J'ai acheté tout le nécessaire pour faire l'album de naissance mais je ne trouve jamais le temps pour le terminer!"
+          "TEXT" : "J'ai envie d'avoir un espace pour célébrer les étapes de cette période centrale pour ma famille."
         },
         "SPEECH-RIGHT-BOTTOM":{
-          "TEXT" : "C'est frustrant de faire des activités avec mon fils qui sont censées correspondre à son âge mais en réalité, elles n'ont pas été conçues avec l'optique que chaque enfant se développe à son propre rythme."
+          "TEXT" : "Je manque de temps et d’inspiration pour faire des activités qui sont réellement adaptées à mon enfant."
         }
       },
       "NEWS": {
@@ -286,8 +280,8 @@
         ]
       },
       "NEWSLETTER": {
-          "CATCHPHRASE": "Abonnez-vous à notre newsletter!",
-          "DESCRIPTION": "Si vous voulez en savoir plus sur Gazouyi ou tester l'application, abonnez-vous à notre newsletter mensuelle. Vous recevrez ainsi les dernières nouvelles de notre aventure. N'hésitez pas à nous écrire si vous avez des questions, suggestions ou juste faire connaissance: <a href=\"mailto:contact@gazouyi.com\">contact@gazouyi.com</a>",
+          "CATCHPHRASE": "Restez en contact!",
+          "DESCRIPTION": "Si vous voulez en savoir plus sur Gazouyi, inscrivez-vous pour les dernières nouvelles de l'aventure et suivez-nous sur les réseaux. N'hésitez pas à nous écrire si vous avez des questions, suggestions ou juste faire connaissance: <a href=\"mailto:contact@gazouyi.com\">contact@gazouyi.com</a>",
           "IMG": {
             "SRC": "assets/images/illus/mail.png",
             "ALT": "Girl in dress with letter jumping in the air"
@@ -300,7 +294,8 @@
   "PAGES" : {
     "MORE-ABOUT-US": {
       "TITLE": "Qui sommes-nous?",
-      "INTRODUCTION": "Le projet de Gazouyi est issu des recherches du Laboratoire de Sciences Cognitives et Psycholinguistique de l&#39;Ecole Normale Supérieure, un laboratoire renommé pour ses études sur le développement du bébé. Xuan Nga, ingénieure recherche au laboratoire et également mère, a voulu créer ce lien entre la recherche scientifique et les besoins des parents désireux de trouver la bonne information au bon moment pour le développement de leur enfant. En effet, les parents se posent beaucoup de questions sur ce sujet et ayant elle-même connu ces incertitudes, Xuan-Nga a voulu fournir aux familles un outil basé sur la recherche scientifique pour les guider dans la tâche délicate, mais gratifiante, de parents. Gazouyi est notre modeste tentative de mettre à la disposition de toutes les familles une application peu coûteuse qui leur permettra de comprendre et de partager les moments importants de la vie de leur enfant.",
+      "INTRODUCTION1": "\"Gazouillis\" désigne les vocalisations spontanées du nourrisson. Ce sont les premières tentatives de communication des bébés avec leur environnement",
+      "INTRODUCTION2": "Le projet de Gazouyi est issu des recherches du Laboratoire de Sciences Cognitives et Psycholinguistique de l'Ecole Normale Supérieure, un laboratoire renommé pour ses études sur le développement du bébé. Xuan Nga, ingénieure recherche au laboratoire et également mère, a voulu créer ce lien entre la recherche scientifique et les besoins des parents désireux de trouver la bonne information au bon moment pour le développement de leur enfant. En effet, les parents se posent beaucoup de questions sur ce sujet et ayant elle-même connu ces incertitudes, Xuan-Nga a voulu fournir aux familles un outil basé sur la recherche scientifique pour les guider dans la tâche délicate, mais gratifiante, de parents. Gazouyi est notre modeste tentative de mettre à la disposition de toutes les familles une application peu coûteuse qui leur permettra de comprendre et de partager les moments importants de la vie de leur enfant.",
       "PERSON1":{
         "IMG":{
           "SRC": "assets/images/profiles/victor_Dherbemont.png",
@@ -308,7 +303,7 @@
         },
         "NAME": "Victor D'herbemont",
         "POSITION": "CEO et Co-fondateur de Gazouyi",
-        "DESCRIPTION": "Victor est diplômé de Centrale-Supélec. Il était co-fondateur de <a href=\"https://www.deepnews.ai\">DeepNews</a> une start-up utilisant du Machine Learning pour évaluer les articles de presse. Le projet était financé par le Google DNI Fund et Stanford University. A Deepnews, Victor était en charge de l'innovation et d'implémenter les algorithmes."
+        "DESCRIPTION": "Victor est ingénieur diplômé de CentraleSupélec et spécialisé en  apprentissage Automatique. Avant de rejoindre le LSCP en tant que pré-doctorant, puis l'aventure Gazouyi, Victor a lancé DeepNews une start-up utilisant le Machine Learning pour évaluer la qualité des articles de presse issu de l'Université Stanford."
       },
       "PERSON2":{
         "IMG":{
@@ -317,7 +312,7 @@
         },
         "NAME": "Xuan-Nga Cao",
         "POSITION": "COO et Co-fondatrice de Gazouyi",
-        "DESCRIPTION": "Xuan-Nga est docteur en linguistique à City University of New York et est ingénieure de recherche dans l'équipe <a href=\"http://www.syntheticlearner.net\">CoML</a>. Elle est co-fondatrice de <a href=\"http://www.langinnov.com\">LangInnov</a>, une start-up basée à New York, qui développe des évaluations pour les étudiants bilingues."
+        "DESCRIPTION": "Xuan-Nga est docteur en linguistique à City University of New York et est ingénieure de recherche dans l'équipe CoML (Cognitive Machine Learning). Elle est co-fondatrice de LangInnov, une start-up basée à New York, qui développe des évaluations pour les étudiants bilingues, financée par la National Science Foundation."
       },
       "TEAM" : "Nos conseillers scientifiques",
       "ADVISOR1":{

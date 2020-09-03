@@ -12,19 +12,23 @@ import { Ci18nParagraph } from 'src/app/shared/models/ci18n-paragraph';
 })
 export class AboutIntroComponent implements OnInit {
   public bError = false;
+  public bMobile = false;
   public bMedium = false;
 
 
 
   constructor(breakpointObserver: BreakpointObserver, public translate: TranslateService) {
-    breakpointObserver.observe('(max-width: 768px)').subscribe(result => {
+    breakpointObserver.observe('(max-width: 991px)').subscribe(result => {
       this.bMedium = result.matches;
     });
+    breakpointObserver.observe('(max-width: 767px)').subscribe(result => {
+      this.bMobile = result.matches;
+    });
     translate.addLangs(['en','fr']);
-    translate.setDefaultLang('en');
+    translate.setDefaultLang('fr');
 
     const browserLang = translate.getBrowserLang()
-    translate.use(browserLang.match('/en|/fr') ? browserLang : 'en')
+    translate.use(browserLang.match('/en|/fr') ? browserLang : 'fr')
   }
 
   ngOnInit() {

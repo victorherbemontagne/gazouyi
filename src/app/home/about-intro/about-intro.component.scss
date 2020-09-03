@@ -2,7 +2,10 @@
 
 #about-intro {
   width: 100vw;
-  // overflow-x: hidden;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  background: #ffffff var(--background-parents);
+  overflow-x: hidden;
   .row {
     // padding-top: 10vh;
     min-height: 50vh;
@@ -14,6 +17,16 @@
       max-height: 40vw;
       width: auto;
       transform: rotate(-4deg);
+    }
+  }
+  .intro-img2{
+    img{
+      transform: rotate(4deg);
+    }
+  }
+  .mobile-image{
+    img{
+      width: 100%;
     }
   }
 }
@@ -46,4 +59,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+@media(max-width: 991px){
+  #about-intro{
+      background: #ffffff;
+      padding-bottom: 0vh;
+      .row{
+        min-height: initial;
+      }
+  }
 }
