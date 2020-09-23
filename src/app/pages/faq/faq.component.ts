@@ -35,7 +35,7 @@ message: string
   }
 
   sendMessage(){
-  const route = environment.server_url + '';
+  const route = environment.server_url + '/admin/contact';
   const formData = new FormData();
   formData.append('email', this.email);
   formData.append('message', this.message);
