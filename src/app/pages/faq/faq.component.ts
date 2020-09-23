@@ -43,7 +43,7 @@ message: string
 
   this.httpClient.post(route, formData).toPromise()
       .then((data) =>{
-        if(data==true)
+        if(data['res'].toString() == 'true')
           {
             console.log('message envoyé avec succes')
             alert('Message envoyé!')
