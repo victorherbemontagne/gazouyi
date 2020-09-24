@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  server_url: 'https://dev-api.babycloudlab.com',
+  // server_url: 'https://dev-api.babycloudlab.com',
+  server_url: 'https://xn-dev.gazouyi.com',
   production: false,
   under_construction: true,
   key: '123',
