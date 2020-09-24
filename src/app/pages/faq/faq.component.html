@@ -32,17 +32,15 @@
                     </table>
                 </div>
                 <div class="col-sm-6">
-                    <form [formGroup]="userMessage">
-                        <div class="form-group">
-                            <input formControlName="email" id="email" placeholder="E-mail" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <textarea name="message" id="message" placeholder="Inserez votre message!" onfocus="this.value=''" rows="5" cols="33" class="form-control"></textarea>
-                        </div>
-                        <div class="form-group text-center">
-                            <button (click)="submit()" class="btn btn-dark"> Send message</button>
-                        </div>
-                    </form>
+                    <div class="form-group">
+                        <input [(ngModel)]="email" id="email" placeholder="E-mail" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <textarea [(ngModel)]="message" name="message" id="message" placeholder="Inserez votre message!" onfocus="this.value=''" rows="5" cols="33" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group text-center">
+                        <button (click)="submit()" class="btn btn-dark">Envoyer</button>
+                    </div>
                 </div>
             </div>
 

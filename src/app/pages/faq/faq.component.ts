@@ -13,25 +13,22 @@ userMessage: FormGroup;
 email: string;
 message: string
   constructor(public formBuilder: FormBuilder,
-              public httpClient: HttpClient) {
+			  public httpClient: HttpClient) {
   }
 
   ngOnInit() {
-    this.userMessage=this.formBuilder.group({
-          email : new FormControl('', Validators.required),
-          message : new FormControl('', Validators.required),
+	this.userMessage=this.formBuilder.group({
+		  email : new FormControl('', Validators.required),
+		  message : new FormControl('', Validators.required),
 
-        }
-    );
+		}
+	);
   }
 
   submit(){
-    this.email= (<HTMLInputElement>document.getElementById('email')).value;
-    this.message= (<HTMLInputElement>document.getElementById('message')).value;
-
-    if(!(this.email== null || this.message== null || this.email== "" || this.message== "" )){
-      this.sendMessage();
-    }
+	if(!(this.email == null || this.message == null || this.email == "" || this.message == "" )){
+	  this.sendMessage();
+	}
   }
 
   sendMessage(){
@@ -42,23 +39,22 @@ message: string
   //const headers = {}
 
   this.httpClient.post(route, formData).toPromise()
-      .then((data) =>{
-        if(data['res'].toString() == 'true')
-          {
-            console.log('message envoyé avec succes')
-            alert('Message envoyé!')
-          }else{
-            console.log('message non envoyé')
-            alert('Message non envoyé. Veuillez réessayez!')
-           }
-      })
-      .catch(
-        (error) =>{
-        console.log('ERROR :');
-        console.log(error);
-        alert('Problem on our side. Please try again later! ')
-      }
-    );
+	  .then((data) =>{
+		if(data['res'].toString() == 'true')
+		  {
+			this.email = null;
+			this.message = null;
+			alert('Message envoyé!')
+		  }
+		  else{
+			  alert('Message non envoyé. Veuillez réessayez!')
+			}
+	  })
+	  .catch(
+		(error) =>{
+		alert('Problem on our side. Please try again later! ')
+	  }
+	);
   }
 
 }
