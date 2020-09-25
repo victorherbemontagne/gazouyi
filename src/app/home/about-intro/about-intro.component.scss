@@ -1,0 +1,73 @@
+@import 'constants';
+
+#about-intro {
+  width: 100vw;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  background: #ffffff var(--background-parents);
+  overflow-x: hidden;
+  .row {
+    // padding-top: 10vh;
+    min-height: 50vh;
+    margin-bottom: -5vh;
+  }
+  .intro-img{
+    img{
+      height: 60vh;
+      max-height: 40vw;
+      width: auto;
+      transform: rotate(-4deg);
+    }
+  }
+  .intro-img2{
+    img{
+      transform: rotate(4deg);
+    }
+  }
+  .mobile-image{
+    img{
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .intro-img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.sticky-wrapper {
+  height: 200vh;
+  width: 100vw !important;
+  margin-bottom: -100vh;
+  // i think this last child is causing the issue!!!
+  &:last-child{
+    height: 100vh;
+    margin-bottom: 0;
+  }
+}
+
+.sticky-sticky {
+  position: sticky !important;
+  position: -webkit-sticky !important;
+  background: white;
+  width: 100%;
+  height: 100vh;
+  top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media(max-width: 991px){
+  #about-intro{
+      background: #ffffff;
+      padding-bottom: 0vh;
+      .row{
+        min-height: initial;
+      }
+  }
+}

@@ -1,0 +1,42 @@
+<section id="partners" class="partners">
+  <div class="container-fluid pt-5 pb-5">
+    <div class="col-12 col-md-9 pt-5 pb-5 mx-auto">
+      <div class="row align-items-center">
+
+        <div class="col-11 col-md-4 mx-auto best-ribbon">
+          <img src="{{ 'HOME.PARTNERS.IMG.SRC' | translate }}" alt="{{ 'HOME.PARTNERS.IMG.ALT' | translate }}">
+        </div>
+
+        <div class="col-12 col-md-8 mx-auto">
+          <h2 class="title text-center text-md-left md-margin-top">{{ 'HOME.PARTNERS.TITLE' | translate }}</h2>
+          <p class="text-center text-md-left newsletter-description">{{ 'HOME.PARTNERS.DESCRIPTION' | translate }}</p>
+
+          <div class="text-center text-md-left">
+            <a [routerLink]="'/pages/about-us'">
+              <button mat-flat-button color="accent">{{ 'HOME.PARTNERS.BTN' | translate }}</button>
+            </a>
+          </div>
+      </div>
+
+
+
+        <div class="col-12 mx-auto mt-5 pt-lg-4">
+          <div class="d-flex justify-content-around align-items-center flex-wrap"
+            *ngIf="(supports$ | async) as supports; else loading">
+            <div class="partner-item" *ngFor="let support of supports">
+              <img src="{{ support.IMG.SRC }}" alt="{{ support.IMG.ALT}}">
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<ng-template #loading>
+  <p>Loading...</p>
+</ng-template>
