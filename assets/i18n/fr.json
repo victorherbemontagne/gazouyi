@@ -191,12 +191,6 @@
           "SUPPORTS": [
               {
                   "IMG": {
-                      "SRC": "assets/images/logos/cnrs_color.png",
-                      "ALT": "logo centre national de la recherche scientifique"
-                  }
-              },
-              {
-                  "IMG": {
                       "SRC": "assets/images/logos/inria_color.png",
                       "ALT": "logo Institut national de recherche en informatique et en automatique"
                   }
@@ -289,6 +283,36 @@
           "HREF": "https://mailchi.mp/dc7cbb1125dc/gazouyi",
           "BTN-SEND": "S'abonner",
           "DISCLAIMER": "Votre adresse e-mail est uniquement utilisée pour vous tenir informé.e de l'avancement du projet Gazouyi. Nous vous invitons à consulter les conditions d'utilisation du site pour plus d'informations sur vos droits d'utilisateur."
+      },
+      "TESTIMONIAL": {
+        "TITLE": "Ils nous font confiance",
+        "TESTIMONY1": {
+              "IMG": {
+                  "SRC": "assets/images/avtar/parent1.jpg",
+                  "ALT": ""
+              },
+              "CITATION": "Je suis ravie de pouvoir partager avec ma famille et nos amis quelques petits moments que je passe avec mon bébé d’1 an et demi, notamment les grand-parents. On a rarement beaucoup de temps avec un petit en bas-âge d’aller voir tout le monde tous les week-end !",
+              "NAME": "Aurélie",
+              "LOCATION": ""
+          },
+          "TESTIMONY2": {
+              "IMG": {
+                  "SRC": "assets/images/avtar/parent6.jpg",
+                  "ALT": ""
+              },
+              "CITATION": "Fan de l’appli !! J’ai 2 enfants dont 1 en bas-âge et j’ai découvert Gazouyi à l’arrivée de mon 2ème. Ça me donne pleins d’idées d’activités que j’adapte parfois au rush du quotidien mais qui me permettent de passer des petits moments avec eux.",
+              "NAME": "Octave",
+              "LOCATION": ""
+          },
+          "TESTIMONY3": {
+              "IMG": {
+                  "SRC": "assets/images/avtar/parent5.jpg",
+                  "ALT": ""
+              },
+              "CITATION": "Coup de coeur pour cet outil qui me permet de suivre le développement de mon nouveau né. En tant que jeune maman, les petits conseils et les activités sont les bienvenues en ce moment :)",
+              "NAME": "Nadia",
+              "LOCATION": ""
+          }
       }
   },
   "PAGES" : {

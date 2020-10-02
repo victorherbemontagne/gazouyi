@@ -191,12 +191,6 @@
             "SUPPORTS": [
                 {
                     "IMG": {
-                        "SRC": "assets/images/logos/cnrs_color.png",
-                        "ALT": "logo centre national de la recherche scientifique"
-                    }
-                },
-                {
-                    "IMG": {
                         "SRC": "assets/images/logos/inria_color.png",
                         "ALT": "logo Institut national de recherche en informatique et en automatique"
                     }
@@ -289,6 +283,36 @@
             "HREF": "https://mailchi.mp/dc7cbb1125dc/gazouyi",
             "BTN-SEND": "Subscribe",
             "DISCLAIMER": "Your email address is only used to keep you informed on the progress of the Gazouyi project. We invite you to consult the site's terms of use for more information on the user’s rights."
+        },
+        "TESTIMONIAL": {
+          "TITLE": "They trust us",
+          "TESTIMONY1":{
+                "IMG": {
+                    "SRC": "assets/images/avtar/parent2.jpg",
+                    "ALT": ""
+                },
+                "CITATION": "As a new father, it’s really helpful to have support for how to interact with my son and to also be able to keep in touch with friends and family through the app! Makes me feel more confident in what I am doing. Love it.",
+                "NAME": "Noah",
+                "LOCATION": ""
+            },
+            "TESTIMONY2": {
+                "IMG": {
+                    "SRC": "assets/images/avtar/parent4.jpg",
+                    "ALT": ""
+                },
+                "CITATION": "Very useful and simple to understand. Love sharing memories of my baby with my parents when I can’t see them very often!",
+                "NAME": "Marie-Jane",
+                "LOCATION": ""
+            },
+            "TESTIMONY3": {
+                "IMG": {
+                    "SRC": "assets/images/avtar/parent3.jpg",
+                    "ALT": ""
+                },
+                "CITATION": "Highly recommend for any new mums! My baby really enjoys all the activities. Weekly activities are great and easy to do.",
+                "NAME": "Piper",
+                "LOCATION": ""
+            }
         }
     },
     "PAGES" : {
