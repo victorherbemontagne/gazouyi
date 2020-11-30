@@ -9,7 +9,7 @@
           },
           "HOME-LINK": "Home",
           "ABOUT-LINK": "A propos",
-          "SIGNUP-LINK": "S'abonner",
+          "SIGNUP-LINK": "Nos offres \uD83D\uDC25",
           "BLOG-LINK": "Blog"
       },
       "FOOTER": {
@@ -108,7 +108,7 @@
   "HOME" : {
       "INTRO": {
           "CATCHPHRASE": "L’assistant à la parentalité, centré sur le développement de l'enfant",
-          "BTN": "S'abonner",
+          "BTN": "Je m'abonne à Gazouyi \uD83D\uDC25",
           "IMG": {
             "SRC": "assets/images/illus/home01.png",
             "ALT": "two babies sitting on circles."
@@ -189,6 +189,12 @@
             "ALT": "red prize ribbon"
           },
           "SUPPORTS": [
+              {
+                  "IMG": {
+                      "SRC": "assets/images/logos/cnrs_color.png",
+                      "ALT": "logo centre national de la recherche scientifique"
+                  }
+              },
               {
                   "IMG": {
                       "SRC": "assets/images/logos/inria_color.png",
@@ -283,36 +289,6 @@
           "HREF": "https://mailchi.mp/dc7cbb1125dc/gazouyi",
           "BTN-SEND": "S'abonner",
           "DISCLAIMER": "Votre adresse e-mail est uniquement utilisée pour vous tenir informé.e de l'avancement du projet Gazouyi. Nous vous invitons à consulter les conditions d'utilisation du site pour plus d'informations sur vos droits d'utilisateur."
-      },
-      "TESTIMONIAL": {
-        "TITLE": "Ils nous font confiance",
-        "TESTIMONY1": {
-              "IMG": {
-                  "SRC": "assets/images/avtar/parent1.jpg",
-                  "ALT": ""
-              },
-              "CITATION": "Je suis ravie de pouvoir partager avec ma famille et nos amis quelques petits moments que je passe avec mon bébé d’1 an et demi, notamment les grand-parents. On a rarement beaucoup de temps avec un petit en bas-âge d’aller voir tout le monde tous les week-end !",
-              "NAME": "Aurélie",
-              "LOCATION": ""
-          },
-          "TESTIMONY2": {
-              "IMG": {
-                  "SRC": "assets/images/avtar/parent6.jpg",
-                  "ALT": ""
-              },
-              "CITATION": "Fan de l’appli !! J’ai 2 enfants dont 1 en bas-âge et j’ai découvert Gazouyi à l’arrivée de mon 2ème. Ça me donne pleins d’idées d’activités que j’adapte parfois au rush du quotidien mais qui me permettent de passer des petits moments avec eux.",
-              "NAME": "Octave",
-              "LOCATION": ""
-          },
-          "TESTIMONY3": {
-              "IMG": {
-                  "SRC": "assets/images/avtar/parent5.jpg",
-                  "ALT": ""
-              },
-              "CITATION": "Coup de coeur pour cet outil qui me permet de suivre le développement de mon nouveau né. En tant que jeune maman, les petits conseils et les activités sont les bienvenues en ce moment :)",
-              "NAME": "Nadia",
-              "LOCATION": ""
-          }
       }
   },
   "PAGES" : {
@@ -405,6 +381,96 @@
           "ADDRESS1": "2 Rue Simone Iff",
           "ADDRESS2": "75012 Paris, France"
         }
+    }
+  },
+  "CHECKOUT": {
+    "INTRO": {
+      "CATCHPHRASE": "Pour Noël, offrez un cadeau qui change.. vraiment !",
+      "BTN": "Découvrez le Journal Gazouyi !",
+      "IMG": {
+        "SRC": "assets/images/checkout/babies.png",
+        "ALT": "two babies sitting on circles."
+      }
+    },
+    "PRICE": {},
+    "FAQ": {
+      "TITLE": "Foire aux questions",
+      "STEPS": [
+        {
+          "IMG": {
+            "SRC":"assets/images/checkout/birds.svg",
+            "ALT": "une belle image"
+          },
+          "NAME": "Les activités sont destinées aux enfants de quel âge ?",
+          "DESCRIPTION": "Les activités du Journal Gazouyi sont destinées aux enfants entre 0 et 3 ans."
+        },
+        {
+          "IMG": {
+            "SRC":"assets/images/checkout/birds.svg",
+            "ALT": "une belle image"
+          },
+          "NAME": "Par qui les activités sont-elles créées ?",
+          "DESCRIPTION": "Les activités sont uniques et sont créées par des professionnels de la petite enfance comme des pédiatres, orthophonistes, linguistes (et bien d'autres encore)."
+        },
+        {
+          "IMG": {
+            "SRC":"assets/images/checkout/birds.svg",
+            "ALT": "une belle image"
+          },
+          "NAME": "A quelle fréquence recevons-nous le journal Gazouyi ?",
+          "DESCRIPTION": "Le Journal Gazouyi est envoyé tous les vendredis pour pouvoir en profiter en famille tout le week-end."
+        },
+        {
+          "IMG": {
+            "SRC":"assets/images/checkout/birds.svg",
+            "ALT": "une belle image"
+          },
+          "NAME": "Avez-vous d'autres services que le journal Gazouyi ?",
+          "DESCRIPTION": "Oui ! Nous avons une surprise en cours de développement, avec encore plus d'outils à vous proposer et surtout utilisable par tous les proches de votre bébé. Plus d'information pour début 2021 :)"
+        },
+        {
+          "IMG": {
+            "SRC":"assets/images/checkout/birds.svg",
+            "ALT": "une belle image"
+          },
+          "NAME": "Que contient le carnet de parentalité ? ",
+          "DESCRIPTION": "Vous retrouvez à l'intérieur de votre carnet de parentalité 2 activités et également du contenu pédagogique écrits par des professionnels de la petite enfance travaillant avec nous. "
+        },
+        {
+          "IMG": {
+            "SRC":"assets/images/checkout/birds.svg",
+            "ALT": "une belle image"
+          },
+          "NAME": "Comment offrir l’abonnement si je choisir le carton digital ?",
+          "DESCRIPTION": "Vous recevrez le carton par mail et vous pouvez l’imprimer et fabriquer vous même un petit paquet cadeau."
+        }
+      ]
+    },
+    "BENEFITS": {
+      "TITLE": "",
+      "BENEFIT": [
+        {
+          "IMG": {
+            "SRC": "assets/images/checkout/calendar.svg",
+            "ALT": "Illustration for Gather and Share"
+          },
+          "DESCRIPTION": "Recevez tous les vendredis pendant 3 mois, le journal par mail"
+        },
+        {
+          "IMG": {
+            "SRC": "assets/images/checkout/parents.svg",
+            "ALT": "Illustration for Bond"
+          },
+          "DESCRIPTION": "Profitez des activités ludiques à faire le week avec vos tout petits"
+        },
+        {
+          "IMG": {
+            "SRC": "assets/images/checkout/chloe.svg",
+            "ALT": "Illustration for Understand"
+          },
+          "DESCRIPTION": "Accéder à du contenu pédagogique écrit par des professionnels"
+        }
+      ]
     }
   }
 }
