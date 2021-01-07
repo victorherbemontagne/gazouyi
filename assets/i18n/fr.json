@@ -42,35 +42,35 @@
             {
                 "IMG": {
                     "SRC": "assets/images/icon/facebook.svg",
-                    "ALT": "button to Gazyoui's facebook page. icon by freepik"
+                    "ALT": "button to Gazouyi's facebook page. icon by freepik"
                 },
                 "HREF": "https://www.facebook.com/gazouyiapp"
             },
             {
                 "IMG": {
                     "SRC": "assets/images/icon/instagram.svg",
-                    "ALT": "button to Gazyoui's instagram page. icon by freepik"
+                    "ALT": "button to Gazouyi's instagram page. icon by freepik"
                 },
                 "HREF": "https://www.instagram.com/gazouyiapp/"
             },
             {
                 "IMG": {
                     "SRC": "assets/images/icon/twitter.svg",
-                    "ALT": "button to Gazyoui's twitter page. icon by freepik"
+                    "ALT": "button to Gazouyi's twitter page. icon by freepik"
                 },
                 "HREF": "https://twitter.com/GazouyiApp"
             },
             {
                 "IMG": {
                     "SRC": "assets/images/icon/linkedin.svg",
-                    "ALT": "button to Gazyoui's linkedin page. icon by freepik"
+                    "ALT": "button to Gazouyi's linkedin page. icon by freepik"
                 },
                 "HREF": "https://www.linkedin.com/company/gazouyi/"
             },
             {
                 "IMG": {
                     "SRC": "assets/images/icon/wordpress.svg",
-                    "ALT": "button to Gazyoui's wordpress blog. icon by freepik"
+                    "ALT": "button to Gazouyi's wordpress blog. icon by freepik"
                 },
                 "HREF": "https://gazouyi.home.blog/"
             }
@@ -107,7 +107,7 @@
   },
   "HOME" : {
       "INTRO": {
-          "CATCHPHRASE": "Les meilleurs activités pour créer du lien avec son enfant de 0 à 5 ans",
+          "CATCHPHRASE": "Jouer, grandir et partager avec son enfant de 0 à 5 ans",
           "BTN": "Je m'abonne à Gazouyi \uD83D\uDC25",
           "IMG": {
             "SRC": "assets/images/illus/home01.png",
@@ -123,7 +123,7 @@
           }
       },
       "BENEFITS": {
-        "TITLE": "Partager des moments en famille",
+        "TITLE": "La promesse de Gazouyi, créer du lien en famille",
         "UNDER_TITLE":"Gazouyi propose des activités simples et ludiques, basées sur la science, construites par des professionnels et adaptées au rythme de l'enfant entre 0 et 5 ans",
         "BENEFIT": [
             {
@@ -156,7 +156,7 @@
             "ALT": "Gazouyi App Screenshot of Baby Book timeline" 
           },
           "TITLE": "Jouer & Comprendre",
-          "DESCRIPTION": "Poser toutes ses questions à des professionels dans un espace sécurisé"
+          "DESCRIPTION": "Poser toutes ses questions à des professionnels dans un espace sécurisé"
         },
         "ABOUT2":{
           "IMG": {
@@ -366,7 +366,7 @@
           "ALT": "victor d'herbemont, ceo of Gazouyi"
         },
         "NAME": "Victor D'herbemont",
-        "POSITION": "CEO et Co-fondateur de Gazouyi",
+        "POSITION": "Co-fondateur de Gazouyi et Directeur Général",
         "DESCRIPTION": "Victor est ingénieur diplômé de CentraleSupélec et spécialisé en  apprentissage Automatique. Avant de rejoindre le LSCP en tant que pré-doctorant, puis l'aventure Gazouyi, Victor a participé au lancement de DeepNews.ai une start-up utilisant le Machine Learning pour évaluer la qualité des articles de presse issu de l'Université Stanford."
       },
       "PERSON2":{
@@ -375,7 +375,7 @@
           "ALT": "Xuan Nga, coo of Gazouyi"
         },
         "NAME": "Xuan-Nga Cao",
-        "POSITION": "COO et Co-fondatrice de Gazouyi",
+        "POSITION": "Co-fondatrice de Gazouyi et Directrice Contenu",
         "DESCRIPTION": "Xuan-Nga est docteur en linguistique à City University of New York et est ingénieure de recherche dans l'équipe CoML (Cognitive Machine Learning). Elle est co-fondatrice de LangInnov, une start-up basée à New York, qui développe des évaluations pour les étudiants bilingues, financée par la National Science Foundation (NSF)."
       },
       "PERSON3":{
@@ -384,7 +384,7 @@
           "ALT": "Salomé, coo of Gazouyi"
         },
         "NAME": "Salomé Banon",
-        "POSITION": "CPO et Co-fondatrice de Gazouyi",
+        "POSITION": "Co-fondatrice de Gazouyi et Directrice Opérationnelle",
         "DESCRIPTION": "Salomé est diplômée de l’Université Paris Dauphine. Après avoir co-fondé La Petite Ourse, entreprise d'animation d'anniversaire d'enfants, elle intègre un cabinet de conseil en stratégie et innovation spécialisé dans la création de corp-up pour les grands groupes."
       },
       "PERSON4":{

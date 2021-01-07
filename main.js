@@ -13274,7 +13274,7 @@ var PriceHomeComponent = /** @class */ (function () {
                 name: 'parents',
                 image: 'assets/images/home/payment_parents2.svg',
                 imageAlt: 'at sign',
-                feature: this._sanitizer.bypassSecurityTrustHtml('<li>Gazouyi vous permet d\'accompagner l\'éveil de votre enfant au quotidien</li><li>Vous y trouverez des activités à faire dans l’espace de vie de l\'enfant, avec peu voir aucun matériel ainsi qu\'un suivi personnalisé</li>'),
+                feature: this._sanitizer.bypassSecurityTrustHtml('<li>Gazouyi vous permet d\'accompagner l\'éveil de votre enfant au quotidien</li><li>Vous y trouverez des activités à faire dans l’espace de vie de l\'enfant, avec peu voire aucun matériel ainsi qu\'un suivi personnalisé</li>'),
                 button: 'télécharger l\'app',
                 link: '',
             }, {
