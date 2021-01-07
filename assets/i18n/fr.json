@@ -7,10 +7,10 @@
               "ALT": "Blue Gazouyi logo with bird on letter i"
             }
           },
-          "HOME-LINK": "Home",
-          "ABOUT-LINK": "A propos",
+          "HOME-LINK": "Accueil",
+          "ABOUT-LINK": "Qui sommes-nous?",
           "SIGNUP-LINK": "Nos offres \uD83D\uDC25",
-          "BLOG-LINK": "Blog"
+          "CONTACT-LINK": "Nous contacter"
       },
       "FOOTER": {
           "CONTACT": {
@@ -107,7 +107,7 @@
   },
   "HOME" : {
       "INTRO": {
-          "CATCHPHRASE": "L’assistant à la parentalité, centré sur le développement de l'enfant",
+          "CATCHPHRASE": "Les meilleurs activités pour créer du lien avec son enfant de 0 à 5 ans",
           "BTN": "Je m'abonne à Gazouyi \uD83D\uDC25",
           "IMG": {
             "SRC": "assets/images/illus/home01.png",
@@ -123,7 +123,8 @@
           }
       },
       "BENEFITS": {
-        "TITLE": "",
+        "TITLE": "Partager des moments en famille",
+        "UNDER_TITLE":"Gazouyi propose des activités simples et ludiques, basées sur la science, construites par des professionnels et adaptées au rythme de l'enfant entre 0 et 5 ans",
         "BENEFIT": [
             {
                 "IMG": {
@@ -152,26 +153,26 @@
         "ABOUT3":{
           "IMG": {
             "SRC": "assets/images/illus/phone-gather-and-share.png",
-            "ALT": "Gazouyi App Screenshot of Baby Book timeline"
+            "ALT": "Gazouyi App Screenshot of Baby Book timeline" 
           },
-          "TITLE": "Une promesse claire",
-          "DESCRIPTION": "Gazouyi c'est un outil simple avec une promesse simple. Aider les parents jour après jour à mieux comprendre leur enfant et à l'encourager dans son éveil."
+          "TITLE": "Jouer & Comprendre",
+          "DESCRIPTION": "Poser toutes ses questions à des professionels dans un espace sécurisé"
         },
         "ABOUT2":{
           "IMG": {
             "SRC": "assets/images/illus/phone-understand.png",
             "ALT": "Gazouyi App Screenshot of Playground"
           },
-          "TITLE": "La science au quotidien",
-          "DESCRIPTION": "Basées sur la science et la pédagogie active, les activités proposées par Gazouyi bénéficient à l'épanouissement de l'enfant tout en accompagnant les parents au quotidien dans leur confiance et compétence parentale."
+          "TITLE": "Réunir & Rassurer",
+          "DESCRIPTION": "Passer du temps loin des écrans avec des activités adaptées à l'enfant "
         },
         "ABOUT1":{
           "IMG": {
             "SRC": "assets/images/illus/phone-bond.png",
             "ALT": "Gazouyi App Screenshot of an exercise to see if your child can achieve a development milestones"
           },
-          "TITLE": "Un outil pour tous",
-          "DESCRIPTION": "Gazouyi encourage l'engagement de toutes les personnes importantes dans la vie du bébé. L'application permet de partager et célébrer la vie de l'enfant avec les proches (famille, amis, professionnels de la petite enfance) dans un espace privé et protégé."
+          "TITLE": "Grandir",
+          "DESCRIPTION": "Réunir les proches et construire votre premier journal de famille"
         },
           "MOBILE":{
             "IMG": {
@@ -181,7 +182,7 @@
           }
       },
       "PARTNERS": {
-          "TITLE": "Beaucoup d'♥ pour cette équipe",
+          "TITLE": "Ils nous font confiance",
           "DESCRIPTION": "Gazouyi puise son énergie et sa créativité dans une équipe formée de linguistes, d'ingénieurs et d'orthophonistes, tous passionées par les enjeux liés à la petite enfance. Le projet est soutenu par des institutions scientifiques renommées telles que l'INRIA et le CNRS. Pour plus d'informations sur qui nous sommes et les chercheurs qui nous guident dans ce projet inspirant.",
           "BTN": "Qui sommes-nous",
           "IMG":{
@@ -191,22 +192,53 @@
           "SUPPORTS": [
               {
                   "IMG": {
-                      "SRC": "assets/images/logos/cnrs_color.png",
+                      "SRC": "assets/images/logos/CNRS_inno.jfif",
                       "ALT": "logo centre national de la recherche scientifique"
-                  }
+                  },
+                  "TXT": ""
               },
               {
                   "IMG": {
                       "SRC": "assets/images/logos/inria_color.png",
                       "ALT": "logo Institut national de recherche en informatique et en automatique"
-                  }
+                  },
+                  "TXT": ""
+              },
+              {
+                "IMG": {
+                    "SRC": "assets/images/logos/logo mpedia.png",
+                    "ALT": "logo mpedia"
+                },
+                "TXT": ""
+              },
+              {
+                "IMG": {
+                    "SRC": "assets/images/logos/logo babadins.jpeg",
+                    "ALT": "logo Les Petits Babadins"
+                },
+                "TXT": ""
               },
               {
                   "IMG": {
-                      "SRC": "assets/images/logos/psl_color.png",
-                      "ALT": "logo université de recherche Paris-Sciences-et-Lettres"
-                  }
-              }
+                      "SRC": "assets/images/logos/logo mylittlecoaching.png",
+                      "ALT": "logo MyLittleCoaching"
+                  },
+                  "TXT": ""
+              },
+              {
+                "IMG": {
+                    "SRC": "assets/images/logos/reseau_des_parents.png",
+                    "ALT": "logo reseaux des parents"
+                },
+                "TXT": ""
+            },
+            {
+              "IMG": {
+                  "SRC": "assets/images/logos/crechendo.png",
+                  "ALT": "logo reseaux des parents"
+              },
+              "TXT": ""
+          }
           ]
       },
       "PARENTS": {
@@ -246,34 +278,34 @@
         "ARTICLES": [
           {
             "IMG": {
-              "SRC": "assets/images/news/article-1.jpg",
+              "SRC": "assets/images/home/blog-baby.jpg",
               "ALT": ""
             },
-            "HEADLINE": "Minimal Spending, Maximum Fun: Mothering with Intent, Adventure and Love",
-            "PUBLISHER": "by Michaelagh Broadbent",
-            "HREF": "https://gazouyi.home.blog/2020/02/28/minimal-spend-maximum-fun-mothering-with-intent-adventure-and-love-2/",
+            "HEADLINE": "Pourquoi est-il essentiel de disposer de services de garde d’enfant de qualité ?",
+            "PUBLISHER": "by The Gazouyi Team",
+            "HREF": "https://gazouyi.home.blog/2020/10/19/pourquoi-est-il-essentiel-de-disposer-de-services-de-garde-denfant-de-qualite/",
             "FILTER": "",
             "LANGUAGE": ""
           },
           {
             "IMG": {
-              "SRC": "assets/images/news/article-2.jpg",
+              "SRC": "assets/images/home/blog-podcast.jpg",
               "ALT": ""
             },
-            "HEADLINE": "Maybe there is nothing to fear but fear itself",
-            "PUBLISHER": "by The Gazouyi Team",
-            "HREF": "https://gazouyi.home.blog/2020/02/26/minimal-spend-maximum-fun-mothering-with-intent-adventure-and-love/",
+            "HEADLINE": "Notre Premier Podcast",
+            "PUBLISHER": "avec Chloé Hardouin",
+            "HREF": "https://gazouyi.home.blog/2020/10/02/notre-premier-podcast/",
             "FILTER": "",
             "LANGUAGE": ""
           },
           {
             "IMG": {
-              "SRC": "assets/images/news/article-3.jpg",
+              "SRC": "assets/images/home/blog-parents.jpg",
               "ALT": ""
             },
-            "HEADLINE": "How does bilingualism affect your baby?",
+            "HEADLINE": "Mettre la Science au service du bien-être des jeunes enfants et de leurs familles.",
             "PUBLISHER": "by The Gazouyi Team",
-            "HREF": "https://gazouyi.home.blog/2020/01/31/how-does-bilingualism-affect-your-baby/",
+            "HREF": "https://gazouyi.home.blog/2020/11/13/mettre-la-science-au-service-du-bien-etre-des-jeunes-enfants-et-de-leurs-familles/",
             "FILTER": "",
             "LANGUAGE": ""
           }
@@ -286,9 +318,41 @@
             "SRC": "assets/images/illus/mail.png",
             "ALT": "Girl in dress with letter jumping in the air"
           },
-          "HREF": "https://mailchi.mp/dc7cbb1125dc/gazouyi",
+          "HREF": "https://share.gazouyi.com/public/landing/global",
           "BTN-SEND": "S'abonner",
           "DISCLAIMER": "Votre adresse e-mail est uniquement utilisée pour vous tenir informé.e de l'avancement du projet Gazouyi. Nous vous invitons à consulter les conditions d'utilisation du site pour plus d'informations sur vos droits d'utilisateur."
+      },
+      "TESTIMONIALS": {
+        "TITLE": "Quelques retours de nos utilisateurs",
+        "TESTIMONIES":[
+          {
+            "IMG":{
+              "ALT":"Usager Aurélie",
+              "SRC":"assets/images/testimonials/Aurélie.jpeg"
+            },
+            "CITATION":"Je suis ravie de pouvoir partager avec ma famille et nos amis quelques petits moments que je passe avec mon bébé d’1 an et demi, notamment les grand-parents. On a rarement beaucoup de temps avec un petit en bas-âge d’aller voir tout le monde tous les week-end !",
+            "LOCATION":"Paris",
+            "NAME":"Aurélie"
+          },
+          {
+            "IMG":{
+              "ALT":"Usager Julien"
+              ,"SRC":"assets/images/testimonials/Julien.jpeg"
+            },
+            "CITATION":"fan de l’appli !! J’ai 2 enfants dont 1 en bas-âge et j’ai découvert Gazouyi à l’arrivée de mon 2ème par mon entreprise. Ça me donne pleins d’idées d’activités que j’adapte parfois au rush du quotidien mais qui me permettent de passer des petits moments avec eux. ",
+            "LOCATION":"Paris",
+            "NAME":"Julien"
+          },
+          {
+            "IMG":{
+              "ALT":"Usager Constance",
+              "SRC":"assets/images/testimonials/Constance.jpeg"
+            },
+            "CITATION":"Coup de coeur pour cet outil qui me permet de suivre le développement de mon nouveau né (en tant que jeune maman je suis très stressée). Les petits conseils et les activités sont les bienvenues en ce moment :)",
+            "LOCATION":"Lyon",
+            "NAME":"Constance"
+          }
+        ]
       }
   },
   "PAGES" : {
@@ -298,21 +362,48 @@
       "INTRODUCTION2": "Le projet de Gazouyi est issu des recherches du Laboratoire de Sciences Cognitives et Psycholinguistique de l'Ecole Normale Supérieure, un laboratoire renommé pour ses études sur le développement du bébé. Xuan Nga, ingénieure recherche au laboratoire et également mère, a voulu créer ce lien entre la recherche scientifique et les besoins des parents désireux de trouver la bonne information au bon moment pour le développement de leur enfant. En effet, les parents se posent beaucoup de questions sur ce sujet et ayant elle-même connu ces incertitudes, Xuan-Nga a voulu fournir aux familles un outil basé sur la recherche scientifique pour les guider dans la tâche délicate, mais gratifiante, de parents. Gazouyi est notre modeste tentative de mettre à la disposition de toutes les familles une application peu coûteuse qui leur permettra de comprendre et de partager les moments importants de la vie de leur enfant.",
       "PERSON1":{
         "IMG":{
-          "SRC": "assets/images/profiles/victor_Dherbemont.png",
+          "SRC": "assets/images/profiles/victor_Dherbemont.jpeg",
           "ALT": "victor d'herbemont, ceo of Gazouyi"
         },
         "NAME": "Victor D'herbemont",
         "POSITION": "CEO et Co-fondateur de Gazouyi",
-        "DESCRIPTION": "Victor est ingénieur diplômé de CentraleSupélec et spécialisé en  apprentissage Automatique. Avant de rejoindre le LSCP en tant que pré-doctorant, puis l'aventure Gazouyi, Victor a lancé DeepNews une start-up utilisant le Machine Learning pour évaluer la qualité des articles de presse issu de l'Université Stanford."
+        "DESCRIPTION": "Victor est ingénieur diplômé de CentraleSupélec et spécialisé en  apprentissage Automatique. Avant de rejoindre le LSCP en tant que pré-doctorant, puis l'aventure Gazouyi, Victor a participé au lancement de DeepNews.ai une start-up utilisant le Machine Learning pour évaluer la qualité des articles de presse issu de l'Université Stanford."
       },
       "PERSON2":{
         "IMG":{
-          "SRC": "assets/images/profiles/xuan-nga_cao.png",
+          "SRC": "assets/images/profiles/xuan-nga_cao.jpeg",
           "ALT": "Xuan Nga, coo of Gazouyi"
         },
         "NAME": "Xuan-Nga Cao",
         "POSITION": "COO et Co-fondatrice de Gazouyi",
-        "DESCRIPTION": "Xuan-Nga est docteur en linguistique à City University of New York et est ingénieure de recherche dans l'équipe CoML (Cognitive Machine Learning). Elle est co-fondatrice de LangInnov, une start-up basée à New York, qui développe des évaluations pour les étudiants bilingues, financée par la National Science Foundation."
+        "DESCRIPTION": "Xuan-Nga est docteur en linguistique à City University of New York et est ingénieure de recherche dans l'équipe CoML (Cognitive Machine Learning). Elle est co-fondatrice de LangInnov, une start-up basée à New York, qui développe des évaluations pour les étudiants bilingues, financée par la National Science Foundation (NSF)."
+      },
+      "PERSON3":{
+        "IMG":{
+          "SRC": "assets/images/profiles/salome_banon.jpeg",
+          "ALT": "Salomé, coo of Gazouyi"
+        },
+        "NAME": "Salomé Banon",
+        "POSITION": "CPO et Co-fondatrice de Gazouyi",
+        "DESCRIPTION": "Salomé est diplômée de l’Université Paris Dauphine. Après avoir co-fondé La Petite Ourse, entreprise d'animation d'anniversaire d'enfants, elle intègre un cabinet de conseil en stratégie et innovation spécialisé dans la création de corp-up pour les grands groupes."
+      },
+      "PERSON4":{
+        "IMG":{
+          "SRC": "assets/images/profiles/krisbaby.jpg",
+          "ALT": "Kris, designer of Gazouyi"
+        },
+        "NAME": "Kris Madden",
+        "POSITION": "Designeuse",
+        "DESCRIPTION": "Kris s'occupe du design de Gazouyi. Elle est diplômée de l'Université Napier d'Édimbourg avec un diplôme en conception de médias interactifs. Elle a également obtenu une maîtrise en design et technologie à la Parsons School of Design. Elle possède une vaste expérience créative en conception et s'intéresse beaucoup au code et à l'expérience utilisateur."
+      },
+      "PERSON5":{
+        "IMG":{
+          "SRC": "assets/images/profiles/stanley_serbin.jfif",
+          "ALT": "Stanley, dev of Gazouyi"
+        },
+        "NAME": "Stanley Serbin",
+        "POSITION": "Développeur",
+        "DESCRIPTION": "Stanley est un développeur passionné qui écrira ses premières lignes de code à l’âge de 12 ans. Son penchant pour l’innovation l'incite à concevoir notamment les plateformes Spation, PESL, ou encore Spicty avant de rejoindre l’école 42 en tant qu’étudiant puis Gazouyi en 2020."
       },
       "TEAM" : "Nos conseillers scientifiques",
       "ADVISOR1":{
@@ -447,7 +538,8 @@
       ]
     },
     "BENEFITS": {
-      "TITLE": "",
+      "TITLE": "Bonjour le titre",
+      "UNDER_TITLE":"Bonjour voici  le sous titre qui  du coup va être beaucoup plus long si possible. A voir comment ça peut se négocier suivant le  design du site.",
       "BENEFIT": [
         {
           "IMG": {
