@@ -9,7 +9,7 @@
           },
           "HOME-LINK": "Accueil",
           "ABOUT-LINK": "Qui sommes-nous?",
-          "SIGNUP-LINK": "Nos offres \uD83D\uDC25",
+          "SIGNUP-LINK": "Nos offres",
           "CONTACT-LINK": "Nous contacter"
       },
       "FOOTER": {
@@ -112,6 +112,14 @@
           "IMG": {
             "SRC": "assets/images/illus/home01.png",
             "ALT": "two babies sitting on circles."
+          },
+          "APPLE-BTN": {
+            "SRC": "assets/images/logos/app_store_fr.svg",
+            "ALT": "télécharger sur l'app store"
+          },
+          "GOOGLE-BTN": {
+            "SRC": "assets/images/logos/google_play_fr.svg",
+            "ALT": "télécharger sur le Play Store"
           }
       },
       "ABOUT-REVERSE": {

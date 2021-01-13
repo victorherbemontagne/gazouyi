@@ -112,6 +112,14 @@
             "IMG": {
               "SRC": "assets/images/illus/home01.png",
               "ALT": "two babies sitting on circles."
+            },
+            "APPLE-BTN": {
+              "SRC": "assets/images/logos/app_store_en.svg",
+              "ALT": "app store logo."
+            },
+            "GOOGLE-BTN": {
+              "SRC": "assets/images/logos/google_play_en.svg",
+              "ALT": "google play store logo."
             }
         },
         "ABOUT-REVERSE": {
