@@ -10,7 +10,8 @@
             "HOME-LINK": "Home",
             "ABOUT-LINK": "About",
             "SIGNUP-LINK": "Our offers \uD83D\uDC25",
-            "CONTACT-LINK": "Contact us"
+            "CONTACT-LINK": "Contact us",
+            "BLOG-LINK": "Blog"
         },
         "FOOTER": {
             "CONTACT": {
@@ -200,37 +201,66 @@
               {
                   "IMG": {
                       "SRC": "assets/images/logos/cnrs_color.png",
-                      "ALT": "logo centre national de la recherche scientifique"
+                      "ALT": "logo centre national de la recherche scientifique",
+                      "LINK": "https://www.cnrsinnovation.com/"
                   },
                   "TXT": ""
               },
               {
                   "IMG": {
                       "SRC": "assets/images/logos/inria_color.png",
-                      "ALT": "logo Institut national de recherche en informatique et en automatique"
+                      "ALT": "logo Institut national de recherche en informatique et en automatique",
+                      "LINK": "https://www.inria.fr/fr"
                   },
                   "TXT": ""
               },
               {
                 "IMG": {
                     "SRC": "assets/images/logos/logo mpedia.png",
-                    "ALT": "logo mpedia"
+                    "ALT": "logo mpedia",
+                    "LINK": "https://www.mpedia.fr/"
                 },
                 "TXT": ""
               },
               {
                 "IMG": {
                     "SRC": "assets/images/logos/logo babadins.jpeg",
-                    "ALT": "logo Les Petits Babadins"
+                    "ALT": "logo Les Petits Babadins",
+                    "LINK": "https://www.lesptitsbabadins.com/"
                 },
                 "TXT": ""
               },
               {
                   "IMG": {
                       "SRC": "assets/images/logos/logo mylittlecoaching.png",
-                      "ALT": "logo MyLittleCoaching"
+                      "ALT": "logo MyLittleCoaching",
+                      "LINK": "https://www.mylittlecoaching.fr/"
                   },
                   "TXT": ""
+              },
+              {
+                "IMG": {
+                    "SRC": "assets/images/logos/reseau_des_parents.png",
+                    "ALT": "logo reseaux des parents",
+                    "LINK": "https://reseaudesparents.org/"
+                },
+                "TXT": ""
+            },
+            {
+              "IMG": {
+                  "SRC": "assets/images/logos/crechendo.png",
+                  "ALT": "logo crechendo",
+                  "LINK": "https://www.crechendo-creches.com/"
+              },
+              "TXT": ""
+            },
+              {
+                "IMG": {
+                    "SRC": "assets/images/logos/atelier_du_futur_papa.png",
+                    "ALT": "logo atelier du futur papa",
+                    "LINK": "https://www.atelierdufuturpapa.com/"
+                },
+                "TXT": ""
               }
           ]
         },

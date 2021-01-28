@@ -10,7 +10,8 @@
           "HOME-LINK": "Accueil",
           "ABOUT-LINK": "Qui sommes-nous?",
           "SIGNUP-LINK": "Nos offres",
-          "CONTACT-LINK": "Nous contacter"
+          "CONTACT-LINK": "Nous contacter",
+          "BLOG-LINK": "Blog"
       },
       "FOOTER": {
           "CONTACT": {
@@ -26,6 +27,9 @@
             },
             "ITEM2":{
               "NAME": "Contact"
+            },
+            "ITEM3":{
+              "NAME": "FAQ"
             }
           },
           "COLUMN2":{
@@ -189,6 +193,205 @@
             }
           }
       },
+
+      "FAQ": {
+        "TITLE": "Foire aux questions",
+        "STEPS": [
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Gazouyi, qu'est ce que c'est ?",
+            "RESPONSE": "Gazouyi est une application pour les jeunes parents de la naissance à 5 ans. Gazouyi vous propose dans un espace privé des activités pédagogiques construites par des pros, adaptées au rythme individuel  de l'enfant et partageable avec tous ses proches. L'ambition de Gazouyi est de vous accompagner au quotidien dans l'éveil de votre enfant."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Quels sont les services disponibles sur l'application ?",
+            "RESPONSE": "Gazouyi vous propose: <br>Des activités simples et ludiques, créées par des professionnels de santé. <br>Un album de naissance pour recueillir et partager des moments inoubliables avec votre enfant et ses proches. <br>Des quizz et d'autres outils pour comprendre et rassembler les informations importantes du développement de l'enfant."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Qui peut être membre de mon compte bébé ?",
+            "RESPONSE": "Tous les membres proches de votre famille / amis / nounou peuvent être ajoutés suite à une demande de votre part et le téléchargement de l'application."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Comment inviter quelqu'un sur mon compte ?",
+            "RESPONSE": "Pour inviter quelqu'un sur votre compte, vous devez vous rendre dans l'espace dédié aux membres situé sur la page d'accueil de votre application. Ensuite, vous accéderez à une page dans laquelle vous pouvez remplir les informations relatives à l'ajout d'un membre et envoyer votre invitation à la personne de votre choix. L'ajout est également faisable à partir des paramètres du bébé."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Quel est le nombre maximum de bébés et de membres invités ?",
+            "RESPONSE": "Lorque vous disposez d'un abonnement gratuit, seul un bébé est disponible sur votre application. Pour pouvoir en ajouter à votre guise, passez à l'abonnement premium pour découvrir toutes les nouvelles fonctionnalités!"
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Combien coûte l'abonnement ?",
+            "RESPONSE": "L'abonnement est à 4,99€ par mois pour avoir accès à toutes les fonctionnalités de l'application."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Quelles sont les fonctionnalités gratuites/payantes dans l'application ?",
+            "RESPONSE": "Les fonctionnalités payantes de l'application sont: <br>La possibilité d'ajouter plusieurs bébés à votre compte. <br>L'accès au baby book pour partager vos souvenirs. <br>La possibilité de poser votre propre question de façon anonyme à un professionnel ou un expert de la petite enfance. <br>Une multitude d'activités proposées en fonction de l'âge de votre enfant."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Comment s'effectue le paiement ?",
+            "RESPONSE": "Le paiement s'effectue par carte bancaire sur notre site, sur votre espace personnel ou sur l'application directement."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "J'ai 2 enfants, dois-je prendre deux abonnements ?",
+            "RESPONSE": "Non, vous pouvez prendre un abonnement pour l'un de vos enfants et créer un autre compte bébé sur ce même compte."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Puis-je annuler mon abonnement ?",
+            "RESPONSE": "Vous pouvez résilier votre abonnement à tout moment dans votre espace personnel."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Y-a-t-il une durée d'engagement ? ",
+            "RESPONSE": "Aucune ! Vous n'êtes pas engagé sur une durée, vous êtes prélevés chaque mois selon votre abonnement et vous pouvez le résilier quand vous le souhaitez."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "J'ai acheté l'application pour mon iPhone, ai-je besoin d'acheter à nouveau l'application pour mon iPad?",
+            "RESPONSE": "Si votre compte Apple store de votre téléphone est le même que celui de votre Ipad alors, non. vous n'avez pas à acheter l'application de nouveau."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Par qui sont écrites les activités ?",
+            "RESPONSE": "Les activités sont construites par des professionnels de la petite enfance (orthophonistes, linguistes, psychomotriciens, coach parentaux)."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Pourquoi parfois, les activités ne sont pas adaptées à mon enfant ?",
+            "RESPONSE": "Au début , il est normal que le contenu proposé ne soit pas entièrement adapté au rythme de votre enfant. Le moteur de recommendation devient de plus en plus intelligent lors de l'utilisation du contenu. Donc, plus vous utilisez l'application, plus vos activités seront adaptées à votre enfant."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Est ce que je peux avoir accès aux activités déjà réalisées ?",
+            "RESPONSE": "Oui, bien sûr que vous avez accès à vos activités déjà réalisées. Il suffit de vous rendre dans l'onglet \"Activités\" et cliquez en bas de la page sur le logo \"Archive\"."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Où est-ce que je peux suivre la réalisation des activités ?",
+            "RESPONSE": "Une fois une activité accomplie, elle apparaît dans le Baby Book à la date où elle a été réalisée."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Qui sont les professionnels(les) qui répondent à mes questions sur Gazouyi ?",
+            "RESPONSE": "Cela dépend du thème abordé ! L'équipe Gazouyi est composée d'orthophonistes, linguistes, psychomotriciens, pédiatres, coach parentaux..."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "En combien de temps je peux avoir une réponse du chat with Chloé ?",
+            "RESPONSE": "Vous recevrez une réponse du chat with Chloé dans les 24 heures après l'envoi de votre question."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Mes données personnelles sont-elles en sécurité ?",
+            "RESPONSE": "Nous utilisons les normes de cybersécurité les plus fiables à l'heure actuelle. La protection de vos données personnelles est notre priorité. Nous les protègerons et nous ne les vendrons jamais à aucune autre société, que ce soit pour faire de la publicité ou bien du marketing.  Vous pouvez à tout moment les récuperer, les supprimer ou bien les modifier."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Qui peut accéder à mes données ?",
+            "RESPONSE": "Les données que vous partagez dans l'application sont privées et uniquement accessibles par les membres du compte bébé. A aucun moment ces données ne sont partagées ou vendues à des tierces (ni publicité, ni marketing). Lorsque vous partagez une photo ou bien une activité dans l'application, seuls les membres du compte privé et sécurisé auront accès au contenu."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Qui peut accéder à mes photos sur le Baby Book ?",
+            "RESPONSE": "Les photos publiées dans le Baby Book sont uniquement accessibles dans l'application et uniquement par les membres d'un même compte bébé. <br>Si vous souhaitez partager la photo ou bien l'activité en dehors de l'application vous le pouvez. Nous vous donnons alors un lien crypté que vous pouvez ensuite partager avec votre famille ou vos amis sur vos réseaux sociaux préférés."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Comment je peux modifier mes données personnelles ?",
+            "RESPONSE": "Vous pouvez modifier vos données personelles depuis l'application directement dans le menu ou bien en vous connectant à votre espace personnel sur le site web de Gazouyi. <br>Vous pouvez aussi supprimer votre compte et/ou vous désabonner depuis votre espace personnel sur le site."
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Comment je peux réinitialiser mon mot de passe ?",
+            "RESPONSE": "Si vous avez oublié votre mot de passe vous trouverez un bouton \"mot de passe oublié\" lors de votre connexion qui permettra de le réinitialiser que ce soit sur l'application ou sur le site web de Gazouyi. "
+          },
+          {
+            "IMG": {
+              "SRC":"assets/images/checkout/birds.svg",
+              "ALT": "une belle image"
+            },
+            "QUESTION": "Je n'arrive pas à accéder à mon compte/ Je ne retrouve pas mes identifiants ni mon mot de passe.",
+            "RESPONSE": "Pour vous connecter à votre compte, il vous faut l'adresse mail que vous avez utilisée lors de la souscription ainsi que le mot de passe de votre compte. <br>Si vous avez oublié votre mot de passe, pas de panique, il vous suffit de cliquer le lien \"mot de passe oublié\" dans cette même page."
+          }
+
+        ]
+      },      
       "PARTNERS": {
           "TITLE": "Ils nous font confiance",
           "DESCRIPTION": "Gazouyi puise son énergie et sa créativité dans une équipe formée de linguistes, d'ingénieurs et d'orthophonistes, tous passionées par les enjeux liés à la petite enfance. Le projet est soutenu par des institutions scientifiques renommées telles que l'INRIA et le CNRS. Pour plus d'informations sur qui nous sommes et les chercheurs qui nous guident dans ce projet inspirant.",
@@ -201,52 +404,67 @@
               {
                   "IMG": {
                       "SRC": "assets/images/logos/CNRS_inno.jfif",
-                      "ALT": "logo centre national de la recherche scientifique"
+                      "ALT": "logo centre national de la recherche scientifique",
+                      "LINK": "https://www.cnrsinnovation.com/"
                   },
                   "TXT": ""
               },
               {
                   "IMG": {
                       "SRC": "assets/images/logos/inria_color.png",
-                      "ALT": "logo Institut national de recherche en informatique et en automatique"
+                      "ALT": "logo Institut national de recherche en informatique et en automatique",
+                      "LINK": "https://www.inria.fr/fr"
                   },
                   "TXT": ""
               },
               {
                 "IMG": {
                     "SRC": "assets/images/logos/logo mpedia.png",
-                    "ALT": "logo mpedia"
+                    "ALT": "logo mpedia",
+                    "LINK": "https://www.mpedia.fr/"
                 },
                 "TXT": ""
               },
               {
                 "IMG": {
                     "SRC": "assets/images/logos/logo babadins.jpeg",
-                    "ALT": "logo Les Petits Babadins"
+                    "ALT": "logo Les Petits Babadins",
+                    "LINK": "https://www.lesptitsbabadins.com/"
                 },
                 "TXT": ""
               },
               {
                   "IMG": {
                       "SRC": "assets/images/logos/logo mylittlecoaching.png",
-                      "ALT": "logo MyLittleCoaching"
+                      "ALT": "logo MyLittleCoaching",
+                      "LINK": "https://www.mylittlecoaching.fr/"
                   },
                   "TXT": ""
               },
               {
                 "IMG": {
                     "SRC": "assets/images/logos/reseau_des_parents.png",
-                    "ALT": "logo reseaux des parents"
+                    "ALT": "logo reseaux des parents",
+                    "LINK": "https://reseaudesparents.org/"
                 },
                 "TXT": ""
             },
             {
               "IMG": {
                   "SRC": "assets/images/logos/crechendo.png",
-                  "ALT": "logo reseaux des parents"
+                  "ALT": "logo crechendo",
+                  "LINK": "https://www.crechendo-creches.com/"
               },
               "TXT": ""
-          }
+            },
+            {
+              "IMG": {
+                  "SRC": "assets/images/logos/atelier_du_futur_papa.png",
+                  "ALT": "logo atelier du futur papa",
+                  "LINK": "https://www.atelierdufuturpapa.com/"
+              },
+              "TXT": ""
+            }
           ]
       },
       "PARENTS": {
