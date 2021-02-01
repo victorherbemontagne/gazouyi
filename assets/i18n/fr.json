@@ -8,7 +8,9 @@
             }
           },
           "HOME-LINK": "Accueil",
-          "ABOUT-LINK": "Qui sommes-nous?",
+    		  "ABOUT-LINK": "Qui sommes-nous?",
+    		  "SUBSCRIBE-LINK": "S'inscrire",
+          "LOGIN-LINK": "Se connecter",
           "SIGNUP-LINK": "Nos offres",
           "CONTACT-LINK": "Nous contacter",
           "BLOG-LINK": "Blog"
@@ -39,6 +41,19 @@
             },
             "ITEM2":{
               "NAME": "Confidentialité"
+            }
+          },
+          "COLUMN3":{
+            "TITLE": "Téléchargez l'app",
+            "APPLE-BTN": {
+              "HREF" : "https://apps.apple.com/us/app/gazouyi-grandir-ensemble/id1540746807#?platform=iphone",
+              "SRC": "assets/images/logos/app_store_fr.svg",
+              "ALT": "télécharger sur l'app store"
+            },
+            "GOOGLE-BTN": {
+              "HREF" : "https://play.google.com/store/apps/details?id=gazouyi.growing.together",
+              "SRC": "assets/images/logos/google_play_fr.svg",
+              "ALT": "télécharger sur le Play Store"
             }
           },
           "MEDIA-TITLE": "Suivez-nous",
@@ -452,19 +467,35 @@
             {
               "IMG": {
                   "SRC": "assets/images/logos/crechendo.png",
-                  "ALT": "logo crechendo",
+                  "ALT": "logo réseau crèche'n'do",
                   "LINK": "https://www.crechendo-creches.com/"
               },
               "TXT": ""
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/logos/logo_baboune.jpg",
+                "ALT": "logo réseau Baboune",
+                "LINK": "https://baboune.fr/"
             },
-            {
-              "IMG": {
-                  "SRC": "assets/images/logos/atelier_du_futur_papa.png",
-                  "ALT": "logo atelier du futur papa",
-                  "LINK": "https://www.atelierdufuturpapa.com/"
-              },
-              "TXT": ""
-            }
+            "TXT": ""
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/logos/logo-orange.png",
+                "ALT": "logo Orange",
+                "LINK": "https://startup.orange.com/fr/"
+            },
+            "TXT": ""
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/logos/logo-pedia.jfif",
+                "ALT": "logo Association Pédia",
+                "LINK": "https://www.ped-a.fr/"
+            },
+            "TXT": ""
+          }
           ]
       },
       "PARENTS": {
@@ -610,7 +641,7 @@
           "ALT": "Salomé, coo of Gazouyi"
         },
         "NAME": "Salomé Banon",
-        "POSITION": "Co-fondatrice de Gazouyi et Directrice Opérationnelle",
+        "POSITION": "Co-fondatrice de Gazouyi et Directrice des Opérations",
         "DESCRIPTION": "Salomé est diplômée de l’Université Paris Dauphine. Après avoir co-fondé La Petite Ourse, entreprise d'animation d'anniversaire d'enfants, elle intègre un cabinet de conseil en stratégie et innovation spécialisé dans la création de corp-up pour les grands groupes."
       },
       "PERSON4":{

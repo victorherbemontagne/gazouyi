@@ -8,7 +8,9 @@
               }
             },
             "HOME-LINK": "Home",
-            "ABOUT-LINK": "About",
+			"ABOUT-LINK": "About",
+			"SUBSCRIBE-LINK": "Signup",
+			"LOGIN-LINK": "Login",
             "SIGNUP-LINK": "Our offers \uD83D\uDC25",
             "CONTACT-LINK": "Contact us",
             "BLOG-LINK": "Blog"
@@ -27,7 +29,10 @@
               },
               "ITEM2":{
                 "NAME": "Contact us"
-              }
+			  },
+			  "ITEM3":{
+                "NAME": "Contact us"
+			  }
             },
             "COLUMN2":{
               "TITLE": "Further info",
