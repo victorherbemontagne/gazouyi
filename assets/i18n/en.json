@@ -48,28 +48,28 @@
               {
                   "IMG": {
                       "SRC": "assets/images/icon/facebook.svg",
-                      "ALT": "button to Gazyoui's facebook page. icon by freepik"
+                      "ALT": "button to Gazyoui's facebook page"
                   },
                   "HREF": "https://www.facebook.com/gazouyiapp"
               },
               {
                   "IMG": {
                       "SRC": "assets/images/icon/instagram.svg",
-                      "ALT": "button to Gazyoui's instagram page. icon by freepik"
+                      "ALT": "button to Gazyoui's instagram page"
                   },
-                  "HREF": "https://www.instagram.com/gazouyiapp/"
+                  "HREF": "https://www.instagram.com/gazouy_iapp/"
               },
               {
                   "IMG": {
                       "SRC": "assets/images/icon/twitter.svg",
-                      "ALT": "button to Gazyoui's twitter page. icon by freepik"
+                      "ALT": "button to Gazyoui's twitter page"
                   },
-                  "HREF": "https://twitter.com/GazouyiApp"
+                  "HREF": "https://twitter.com/Gazouyi_App"
               },
               {
                   "IMG": {
                       "SRC": "assets/images/icon/linkedin.svg",
-                      "ALT": "button to Gazyoui's linkedin page. icon by freepik"
+                      "ALT": "button to Gazyoui's linkedin page"
                   },
                   "HREF": "https://www.linkedin.com/company/gazouyi/"
               },

@@ -61,35 +61,35 @@
             {
                 "IMG": {
                     "SRC": "assets/images/icon/facebook.svg",
-                    "ALT": "button to Gazouyi's facebook page. icon by freepik"
+                    "ALT": "button to Gazouyi's facebook page."
                 },
                 "HREF": "https://www.facebook.com/gazouyiapp"
             },
             {
                 "IMG": {
                     "SRC": "assets/images/icon/instagram.svg",
-                    "ALT": "button to Gazouyi's instagram page. icon by freepik"
+                    "ALT": "button to Gazouyi's instagram page."
                 },
-                "HREF": "https://www.instagram.com/gazouyiapp/"
+                "HREF": "https://www.instagram.com/gazouyi_app/"
             },
             {
                 "IMG": {
                     "SRC": "assets/images/icon/twitter.svg",
-                    "ALT": "button to Gazouyi's twitter page. icon by freepik"
+                    "ALT": "button to Gazouyi's twitter page."
                 },
-                "HREF": "https://twitter.com/GazouyiApp"
+                "HREF": "https://twitter.com/Gazouyi_App"
             },
             {
                 "IMG": {
                     "SRC": "assets/images/icon/linkedin.svg",
-                    "ALT": "button to Gazouyi's linkedin page. icon by freepik"
+                    "ALT": "button to Gazouyi's linkedin page."
                 },
                 "HREF": "https://www.linkedin.com/company/gazouyi/"
             },
             {
                 "IMG": {
                     "SRC": "assets/images/icon/wordpress.svg",
-                    "ALT": "button to Gazouyi's wordpress blog. icon by freepik"
+                    "ALT": "button to Gazouyi's wordpress blog."
                 },
                 "HREF": "https://gazouyi.home.blog/"
             }
