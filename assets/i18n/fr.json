@@ -214,7 +214,7 @@
         "STEPS": [
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Gazouyi, qu'est ce que c'est ?",
@@ -222,7 +222,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Quels sont les services disponibles sur l'application ?",
@@ -230,7 +230,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Qui peut être membre de mon compte bébé ?",
@@ -238,7 +238,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Comment inviter quelqu'un sur mon compte ?",
@@ -246,7 +246,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Quel est le nombre maximum de bébés et de membres invités ?",
@@ -254,7 +254,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Combien coûte l'abonnement ?",
@@ -262,7 +262,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Quelles sont les fonctionnalités gratuites/payantes dans l'application ?",
@@ -270,7 +270,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Comment s'effectue le paiement ?",
@@ -278,7 +278,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "J'ai 2 enfants, dois-je prendre deux abonnements ?",
@@ -286,7 +286,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Puis-je annuler mon abonnement ?",
@@ -294,7 +294,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Y-a-t-il une durée d'engagement ? ",
@@ -302,7 +302,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "J'ai acheté l'application pour mon iPhone, ai-je besoin d'acheter à nouveau l'application pour mon iPad?",
@@ -310,7 +310,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Par qui sont écrites les activités ?",
@@ -318,7 +318,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Pourquoi parfois, les activités ne sont pas adaptées à mon enfant ?",
@@ -326,7 +326,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Est ce que je peux avoir accès aux activités déjà réalisées ?",
@@ -334,7 +334,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Où est-ce que je peux suivre la réalisation des activités ?",
@@ -342,7 +342,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Qui sont les professionnels(les) qui répondent à mes questions sur Gazouyi ?",
@@ -350,7 +350,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "En combien de temps je peux avoir une réponse du chat with Chloé ?",
@@ -358,7 +358,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Mes données personnelles sont-elles en sécurité ?",
@@ -366,7 +366,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Qui peut accéder à mes données ?",
@@ -374,7 +374,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Qui peut accéder à mes photos sur le Baby Book ?",
@@ -382,7 +382,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Comment je peux modifier mes données personnelles ?",
@@ -390,7 +390,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Comment je peux réinitialiser mon mot de passe ?",
@@ -398,7 +398,7 @@
           },
           {
             "IMG": {
-              "SRC":"assets/images/checkout/birds.svg",
+              "SRC":"assets/images/illus/birds.svg",
               "ALT": "une belle image"
             },
             "QUESTION": "Je n'arrive pas à accéder à mon compte/ Je ne retrouve pas mes identifiants ni mon mot de passe.",
@@ -572,7 +572,7 @@
           "CATCHPHRASE": "Restez en contact!",
           "DESCRIPTION": "Si vous voulez en savoir plus sur Gazouyi, inscrivez-vous pour les dernières nouvelles de l'aventure et suivez-nous sur les réseaux. N'hésitez pas à nous écrire si vous avez des questions, suggestions ou juste faire connaissance: <a href=\"mailto:contact@gazouyi.com\">contact@gazouyi.com</a>",
           "IMG": {
-            "SRC": "assets/images/illus/mail.png",
+            "SRC": "assets/images/illus/contact.png",
             "ALT": "Girl in dress with letter jumping in the air"
           },
           "HREF": "https://share.gazouyi.com/public/landing/global",
