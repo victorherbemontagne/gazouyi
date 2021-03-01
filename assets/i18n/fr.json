@@ -482,6 +482,14 @@
           },
           {
             "IMG": {
+                "SRC": "assets/images/logos/bpifrance.jpg",
+                "ALT": "logo BPI France",
+                "LINK": "https://www.bpifrance.fr/"
+            },
+            "TXT": ""
+          },
+          {
+            "IMG": {
                 "SRC": "assets/images/logos/logo-orange.png",
                 "ALT": "logo Orange",
                 "LINK": "https://startup.orange.com/fr/"
