@@ -474,14 +474,6 @@
           },
           {
             "IMG": {
-                "SRC": "assets/images/logos/logo_baboune.jpg",
-                "ALT": "logo réseau Baboune",
-                "LINK": "https://baboune.fr/"
-            },
-            "TXT": ""
-          },
-          {
-            "IMG": {
                 "SRC": "assets/images/logos/bpifrance.jpg",
                 "ALT": "logo BPI France",
                 "LINK": "https://www.bpifrance.fr/"
