@@ -495,6 +495,14 @@
                 "LINK": "https://www.ped-a.fr/"
             },
             "TXT": ""
+          },
+          {
+            "IMG": {
+                "SRC": "assets/images/logos/blombini.jpg",
+                "ALT": "logo Blombini",
+                "LINK": "https://bloombini.com/"
+            },
+            "TXT": ""
           }
           ]
       },
