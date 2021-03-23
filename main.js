@@ -12098,7 +12098,7 @@ var PartnersComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Price Section start-->\r\n<section id=\"price\" class=\"price\">\r\n  <div class=\"container\">\r\n    <div class=\"row\" >\r\n      <ng-container *ngFor=\"let prices of price\">\r\n          <div class=\"gallery-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12\">\r\n            <mat-card class=\"gallery-card d-flex flex-column\">\r\n              <div class=\"jesuisTitle text-center d-flex align-items-center justify-content-center\">\r\n                <h4 [innerHTML]=\"prices.type\"></h4>\r\n              </div>\r\n              <div class=\"jesuisImage\">\r\n                <img [src]=\"prices.image\" [alt]=\"prices.imageAlt\">\r\n              </div>\r\n              <ul class=\"price-feature flex-grow-1\">\r\n                <li><p [innerHTML]=\"prices.feature\"></p></li>\r\n              </ul>\r\n\r\n              <div class=\"buttons text-center mt-auto\">\r\n                <div class=\"download-buttons row\" *ngIf=\"prices.name == 'parents'\">\r\n                  <div class=\"col-12 text-center\">\r\n                    <a href=\"https://apps.apple.com/us/app/gazouyi-grandir-ensemble/id1540746807#?platform=iphone\">\r\n                      <img class=\"apple mb-2\" src=\"assets/images/logos/app_store.png\" alt=\"télécharger sur l'app store\">\r\n                    </a>\r\n                  </div>\r\n                  <div class=\"col-12 text-center\">\r\n                    <a href=\"https://play.google.com/store/apps/details?id=gazouyi.growing.together\">\r\n                      <img class=\"google\" src=\"assets/images/logos/google_play.png\" alt=\"télécharger sur le Play Store\">\r\n                    </a>\r\n                  </div>\r\n                </div>\r\n                <button *ngIf=\"prices.name == 'creche'\" class=\"mx-auto\" mat-flat-button><a href={{prices.link}}>{{prices.button}}</a></button>\r\n                <button *ngIf=\"prices.name == 'entreprise'\" class=\"mx-auto\" mat-flat-button><a href={{prices.link}}>{{prices.button}}</a></button>\r\n              </div>\r\n            </mat-card>\r\n          </div>\r\n      </ng-container>\r\n    </div>\r\n\r\n\r\n\r\n\r\n\r\n  </div>\r\n</section>\r\n<!-- Price Section End -->"
+module.exports = "<!-- Price Section start-->\r\n<section id=\"price\" class=\"price\">\r\n  <div class=\"container\">\r\n    <div class=\"row\" >\r\n      <ng-container *ngFor=\"let prices of price\">\r\n          <div class=\"gallery-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12\">\r\n            <mat-card class=\"gallery-card d-flex flex-column\">\r\n              <div class=\"jesuisTitle text-center d-flex align-items-center justify-content-center\">\r\n                <h4 [innerHTML]=\"prices.type\"></h4>\r\n              </div>\r\n              <div class=\"jesuisImage\">\r\n                <img [src]=\"prices.image\" [alt]=\"prices.imageAlt\">\r\n              </div>\r\n              <ul class=\"price-feature flex-grow-1\">\r\n                <li><p [innerHTML]=\"prices.feature\"></p></li>\r\n              </ul>\r\n\r\n              <div class=\"buttons text-center mt-auto\">\r\n                <button *ngIf=\"prices.name == 'parents'\" class=\"mx-auto\" mat-flat-button><a href={{prices.link}}>{{prices.button}}</a></button>\r\n                <button *ngIf=\"prices.name == 'creche'\" class=\"mx-auto\" mat-flat-button><a href={{prices.link}}>{{prices.button}}</a></button>\r\n                <button *ngIf=\"prices.name == 'entreprise'\" class=\"mx-auto\" mat-flat-button><a href={{prices.link}}>{{prices.button}}</a></button>\r\n              </div>\r\n            </mat-card>\r\n          </div>\r\n      </ng-container>\r\n    </div>\r\n\r\n\r\n\r\n\r\n\r\n  </div>\r\n</section>\r\n<!-- Price Section End -->"
 
 /***/ }),
 
@@ -12149,8 +12149,8 @@ var PriceHomeComponent = /** @class */ (function () {
                 image: 'assets/images/home/payment_parents2.svg',
                 imageAlt: 'at sign',
                 feature: this._sanitizer.bypassSecurityTrustHtml('<li>Gazouyi vous permet d\'accompagner l\'éveil de votre enfant au quotidien</li><li>Vous y trouverez des activités à faire dans l’espace de vie de l\'enfant, avec peu voire aucun matériel ainsi qu\'un suivi personnalisé</li>'),
-                button: 'télécharger l\'app',
-                link: '',
+                button: 'En savoir plus',
+                link: 'https://gazouyiparents.carrd.co/',
             }, {
                 type: 'Je suis<br>une crèche',
                 name: 'creche',
@@ -12158,7 +12158,7 @@ var PriceHomeComponent = /** @class */ (function () {
                 imageAlt: 'envelope with greeting card',
                 feature: this._sanitizer.bypassSecurityTrustHtml('<li>Gazouyi propose aux crèches un outil pour la famille afin de garantir une continuité pédagogique entre la crèche et la maison.</li><li>Le contenu peut aussi être utilisé par les professionnels pour de nouvelles idées d\'activités à réaliser au quotidien.</li>'),
                 button: 'En savoir plus',
-                link: 'https://share.gazouyi.com/public/landing/creches',
+                link: 'https://gazouyicreches.carrd.co/',
             }, {
                 type: 'Je suis<br>une entreprise',
                 name: 'entreprise',
@@ -12166,7 +12166,7 @@ var PriceHomeComponent = /** @class */ (function () {
                 imageAlt: 'at sign',
                 feature: this._sanitizer.bypassSecurityTrustHtml('<li>Gazouyi vous accompagne en tant qu\'employeur dans la mise en place de vos projets parentalité pour répondre à des problématiques de QVT et de RH.</li><li>Proposez à vos parents-salariés un outil éducatif innovant à moindre coût.</li>'),
                 button: 'En savoir plus',
-                link: 'https://share.gazouyi.com/public/landing/entreprises',
+                link: 'https://gazouyientreprise.carrd.co/',
             }];
         // Pricing Carousel Options
         this.pricingCarousel = {

@@ -536,41 +536,41 @@
         }
       },
       "NEWS": {
-        "TITLE": "Blog",
-        "SUBTITLE": "Voici nos dernières publications",
+        "TITLE": "Ils  parlent de nous",
+        "SUBTITLE": "",
         "BTN-MORE": "Accéder au blog",
         "BTN-LINK": "https://gazouyi.home.blog/",
         "ARTICLES": [
           {
             "IMG": {
-              "SRC": "assets/images/home/blog-baby.jpg",
-              "ALT": ""
+              "SRC": "assets/images/logos/logo_echos.png",
+              "ALT": "logos Les Echos"
             },
-            "HEADLINE": "Pourquoi est-il essentiel de disposer de services de garde d’enfant de qualité ?",
-            "PUBLISHER": "by The Gazouyi Team",
-            "HREF": "https://gazouyi.home.blog/2020/10/19/pourquoi-est-il-essentiel-de-disposer-de-services-de-garde-denfant-de-qualite/",
+            "HEADLINE": "A l'écoute du développement de l'enfant",
+            "PUBLISHER": "Les Echos",
+            "HREF": "https://www.lesechos.fr/idees-debats/sciences-prospective/a-lecoute-du-developpement-de-lenfant-1298654",
             "FILTER": "",
             "LANGUAGE": ""
           },
           {
             "IMG": {
-              "SRC": "assets/images/home/blog-podcast.jpg",
-              "ALT": ""
+              "SRC": "assets/images/logos/logo_cnrs.png",
+              "ALT": "logo CNRS"
             },
-            "HEADLINE": "Notre Premier Podcast",
-            "PUBLISHER": "avec Chloé Hardouin",
-            "HREF": "https://gazouyi.home.blog/2020/10/02/notre-premier-podcast/",
+            "HEADLINE": "Une application pour accompagner le développement des jeunes enfants",
+            "PUBLISHER": "CNRS",
+            "HREF": "https://www.cnrs.fr/lettre-innovation/actus.php?numero=716",
             "FILTER": "",
             "LANGUAGE": ""
           },
           {
             "IMG": {
-              "SRC": "assets/images/home/blog-parents.jpg",
-              "ALT": ""
+              "SRC": "assets/images/logos/logo_inria.png",
+              "ALT": "Logo INRIA"
             },
-            "HEADLINE": "Mettre la Science au service du bien-être des jeunes enfants et de leurs familles.",
-            "PUBLISHER": "by The Gazouyi Team",
-            "HREF": "https://gazouyi.home.blog/2020/11/13/mettre-la-science-au-service-du-bien-etre-des-jeunes-enfants-et-de-leurs-familles/",
+            "HEADLINE": "Intelligence artificielle et linguistique pour accompagner les parents dans l'éveil des enfants",
+            "PUBLISHER": "INRIA",
+            "HREF": "https://www.inria.fr/fr/gazouyi-intelligence-artificielle-eveil-enfant",
             "FILTER": "",
             "LANGUAGE": ""
           }
